@@ -1,6 +1,8 @@
 html,
 body {
     height: 100%;
+    font-family: 'Trirong', serif;
+    background-color:#e8f2fc
 }
 
 .wrap {
@@ -8,9 +10,70 @@ body {
     height: auto;
     margin: 0 auto -60px;
     padding: 0 0 60px;
+    font-family: 'Trirong', serif;
+    font-size:1.3vw; 
+}
+
+#w2{  
+    background-color:white;
+    font-size:1.3vw;
+}
+
+.navbar {
+    background-color: #2780e3;
+    border-color: #1967be;
+    font-family: 'Trirong', serif;
+    color:white;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+/* เวลาย่อหน้าจอ--------------------------------*/
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #1967be;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {         /* สีของเส้นกั้นระหว่างnavbarกับพื้นหลัง เมื่อกดเปิด navbar*/
+    border-color: #1967be;
+}
+/*---------------------------------------------*/
+
+.navbar .navbar-brand{
+    font-size:1.5vw;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+/*---- navbar กระพริบสี-----------------------------*/
+.navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
+    color: white !important;
+    background-color: #1967be !important;
+}
+
+/*------dropdown hi-light -------------------------*/
+.navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
+    background-color: #2780e3 !important;
+}
+
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+    }
+}
+/*เมื่อเปิด navbar dropdown จะเปลี่ยนสี---------------------------------------------*/
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #1967be;
+}
+/*------ก่อนกระพริบ-----------------------------------------------*/
+.navbar-inverse .navbar-nav > li > a {
+    color: white;  
 }
 
 .wrap > .container {
+    
     padding: 70px 15px 20px;
 }
 

@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAsset;
+use web_sdsu\assets\AppAsset;
 use common\widgets\Alert;
 
 AppAsset::register($this);
@@ -19,6 +19,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -29,30 +30,35 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        'brandLabel' => 'หน่วยงานพัฒนาและบริการสังคม',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
+            //'style' => 'background-color:red'
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'หน้าแรก', 'url' => ['/site/index']],
+        [
+            'label' => 'เกี่ยวกับ',
+            'items' => [
+                 ['label' => 'เกี่ยวกับ', 'url' => ['/site/about']],
+                 ['label' => 'ประวัติความเป็นมา', 'url' => '/dev-social/frontend/web/index.php?r=site%2Fhistory'],
+                 ['label' => 'โครงสร้างองค์กร', 'url' => '/site/construct'],
+                 ['label' => 'คำขวัญ', 'url' => '/site/poem'],
+                 ['label' => 'วิสัยทัศน์', 'url' => 'index.php?r=thistory/tus'],
+                 ['label' => 'ข้อพระคัมภีร์ประจำหน่วยงาน', 'url' => 'index.php?r=thistory/bible'],
+                 ['label' => 'ความหมายตราสัญลักษณ์', 'url' => 'index.php?r=thistory/sign'],
+            ],
+        ],
+        ['label' => 'พันธกิจ', 'url' => ['/site/pan']],
+        ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
+        ['label' => 'ข่าวสาร', 'url' => ['/site/news']],
+        ['label' => 'วารสาร', 'url' => ['/site/article']],
+        ['label' => 'แบบฟอร์ม', 'url' => ['/document/download']],
+        ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/vcontact']],
+        
     ];
-    if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-    } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
-            . '</li>';
-    }
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
