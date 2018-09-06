@@ -14,6 +14,14 @@ body {
     font-size:1.3vw; 
 }
 
+/* .breadcrumb li a{
+    color:red;
+}
+
+.breadcrumb > .active {
+    color:black;
+} */
+
 #w2{  
     background-color:white;
     font-size:1.3vw;
@@ -28,6 +36,8 @@ body {
 
 .navbar .navbar-brand {
     color: white;
+    font-size:1.5vw;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 /* เวลาย่อหน้าจอ--------------------------------*/
 .navbar-inverse .navbar-toggle {
@@ -40,12 +50,7 @@ body {
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {         /* สีของเส้นกั้นระหว่างnavbarกับพื้นหลัง เมื่อกดเปิด navbar*/
     border-color: #1967be;
 }
-/*---------------------------------------------*/
 
-.navbar .navbar-brand{
-    font-size:1.5vw;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
 /*---- navbar กระพริบสี-----------------------------*/
 .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
     color: white !important;
@@ -59,7 +64,16 @@ body {
 
 @media (max-width: 767px){
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: black;
+        color: white;
+        
+    }
+    #w2{  
+        background-color:#2780e3;
+        
+    }
+
+    .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
+        background-color: #1967be !important;
     }
 }
 /*เมื่อเปิด navbar dropdown จะเปลี่ยนสี---------------------------------------------*/
@@ -70,6 +84,7 @@ body {
 /*------ก่อนกระพริบ-----------------------------------------------*/
 .navbar-inverse .navbar-nav > li > a {
     color: white;  
+   
 }
 
 .wrap > .container {
@@ -180,4 +195,67 @@ a.desc:after {
 
 .nav > li > form > button.logout:focus {
     outline: none;
+}
+
+/* index-news----------------------------------------*/
+.img-news{
+    width:18vw; 
+    
+}
+
+#panel-index-news{
+    border: 1px solid #80b5ef;
+    font-family: 'Trirong', serif;
+}
+
+#panel-head-index-news{
+    background-color: #80b5ef;
+    
+}
+
+#panel-title-index-news{
+    color:#082442;
+    font-size:1.4vw; 
+    text-shadow: white 0.1em 0.1em 0.2em; 
+    font-family: 'Trirong', serif; 
+    padding-left:10px;
+}
+
+.panel-body-index-news{
+  
+    background-color: #eaeaea;
+    color:black; 
+    font-size:1.4vw; 
+    font-family: 'Trirong', serif;
+}
+
+.padnews{
+    margin:1vw;
+}
+
+.box-news{
+    background-color: #e8f2fc;
+    
+}
+
+.in-box-news{
+    font-family: 'Trirong', serif;
+    font-size:1.2vw;
+}
+
+.h-box-news{
+    font-family: 'Trirong', serif;
+    font-size:1.2vw;
+    color:#155ca9;
+}
+
+.button-news{
+    border-radius: 10px;
+    background-color: #80b5ef; 
+    border: 1px solid#80b5ef;
+    color:black;
+}
+
+.button-news-pr{
+    border-radius: 10px;
 }
