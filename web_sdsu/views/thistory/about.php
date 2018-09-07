@@ -28,7 +28,7 @@ $this->title = 'เกี่ยวกับเรา';
 
         <div id="panel-body-index-calendar" class="panel-body panel-body-about"> 
             <div style="padding-right:1.8vw; ">
-                <img src="image/p.jpg" class="about-img img-thumbnail img-responsive pull-left" />
+                <img src="image/k11.png" class="about-img img-responsive pull-left" />
             </div>
         
             <p class="normaltext">

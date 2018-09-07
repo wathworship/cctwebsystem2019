@@ -33,10 +33,10 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="image/p.jpg" class="img-responsive pull-left" width="40" height="35"/>'.' '.'<div style="margin:15px" class="pull-right">'.Yii::$app->name.'</div>',
+        'brandLabel' => '<img src="image/pet.png" class="img-responsive pull-left" width="40" height="35"/>'.' '.'<div style="margin:15px" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'navbar-inverse navbar-fixed-top meenny',
             //'style' => 'background-color:red'
         ],
     ]);
