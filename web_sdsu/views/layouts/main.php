@@ -59,8 +59,8 @@ AppAsset::register($this);
         ],
         ['label' => 'ปฏิทินกิจกรรม', 'url' => ['#']],
         ['label' => 'ข่าวสาร', 'url' => ['#']],
-        ['label' => 'วารสาร', 'url' => ['#']],
-        ['label' => 'แบบฟอร์ม', 'url' => ['#']],
+        ['label' => 'วารสาร', 'url' => ['tjournal/article']],
+        ['label' => 'แบบฟอร์ม', 'url' => ['/tdocument/document']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
         
     ];
