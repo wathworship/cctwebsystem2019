@@ -4,6 +4,7 @@ namespace web_sdsu\controllers;
 
 use Yii;
 use web_sdsu\models\Thistory;
+use web_sdsu\models\Dhistoryy;
 use web_sdsu\models\ThistorySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -127,46 +128,44 @@ class ThistoryController extends Controller
 
     public function actionAbout()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=1')->one();
-        $objective = Thistory::find()->where('history_type=8')->andWhere('d_history=7')->one();
+        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=1')->orderBy('id DESC')->one();
+      
+        
 
         return $this->render('about', [
             'model' => $model,
-            'objective' => $objective,
+           
 
-        ]);
-    }
-
-
-    public function actionGoal()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=6')->one();
-        return $this->render('goal', [
-            'model' => $model,
         ]);
     }
 
     public function actionTus()
     {
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=4')->one();
+        $objective = Thistory::find()->where('history_type=8')->andWhere('d_history=5')->one();
+        $goal = Thistory::find()->where('history_type=8')->andWhere('d_history=6')->one();
+     
+
         return $this->render('tus', [
             'model' => $model,
+            'objective' => $objective,
+            'goal' => $goal,
+           
         ]);
     }
 
     public function actionBible()
     {
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=7')->one();
+      
+
+
         return $this->render('bible', [
             'model' => $model,
+           
         ]);
     }
 
-    public function actionSign()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=8')->one();
-        return $this->render('sign', [
-            'model' => $model,
-        ]);
-    }
+   
+
 }

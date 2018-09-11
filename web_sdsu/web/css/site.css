@@ -398,40 +398,36 @@ a.desc:after {
 }
 /* About-----------------------------------------------*/
 
-.normaltext{
-	margin-top:8px;
+.box-about{
+    background-color: #f1f1f1;
+    border-top: 6px solid #375a7f;
 }
 
-#panel-title-about{
-    color:white;
-    font-size:1.5vw; 
-    /*text-shadow: black 0.1em 0.1em 0.2em; */
-    font-family: 'Trirong', serif; 
-    padding-left:10px;
-}
-
-#about1{
-    border-color:#4778aa;
-}
-
-#head-about1{
-    background-color:#4778aa;
-}
-
-.about-img{
-	margin-top:1vw; 
-	margin-bottom:1.2vw; 
-	margin-left:0.5vw; 
-	margin-right:2vw; 
-	width:14vw;
-}
-
-.panel-body-about{
-    background-color: #e7eef5;
-    color:black; 
-    font-size:1.3vw; 
+.h-box-about{
     font-family: 'Trirong', serif;
+    font-size:1.5vw;
+    color:#1f3348;
 }
+
+.in-box-about{
+    font-family: 'Trirong', serif;
+    font-size:1.3vw;
+    color:#1f3348;
+}
+
+.link-about{
+    color:#1f3348;
+    text-decoration:none; 
+}
+
+.link-h-about{
+    color:#1f3348;
+    font-size:1.5vw;
+}
+a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
 /* contact---------------------------------------------------*/
 
 #panel-head-contact{

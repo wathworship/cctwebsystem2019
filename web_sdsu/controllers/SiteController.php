@@ -13,6 +13,7 @@ use web_sdsu\models\ResetPasswordForm;
 use web_sdsu\models\SignupForm;
 use web_sdsu\models\ContactForm;
 use web_sdsu\models\Tcontact;
+use web_sdsu\models\Tjournal;
 use web_sdsu\models\Uploads;
 
 /**
@@ -76,9 +77,11 @@ class SiteController extends Controller
     {
         $map = Tcontact::find()->where('id_type=8')->one();
         $banner = Uploads::find()->where('type=8')->one();
+        $article = Tjournal::find()->where('unit=8')->orderBy('id DESC')->limit(4)->all();
         return $this->render('index',[
             'map' => $map,
             'banner' => $banner,
+            'article' => $article,
         ]);
     }
 
