@@ -396,11 +396,17 @@ a.desc:after {
     font-size:1.3vw; 
     font-family: 'Trirong', serif;
 }
+/*- --Project-------------------------------------------*/
+#project a {
+    color: #1f3348;
+    line-height: 33px;
+    text-decoration: none
+    }
 /* About-----------------------------------------------*/
 
 .box-about{
     background-color: #f1f1f1;
-    border-top: 6px solid #375a7f;
+    border-top: 5px solid #375a7f;
 }
 
 .h-box-about{
