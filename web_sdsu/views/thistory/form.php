@@ -31,11 +31,11 @@ use web_sdsu\models\Thistory;
                
             </tr>
             <tr>
-                <td><a class="link-about" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> ประวัติความเป็นมา</a></td>
+                <td><a class="link-about" href="index.php?r=thistory/history"><i class="fa fa-chevron-right" aria-hidden="true"></i> ประวัติความเป็นมา</a></td>
                
             </tr>
             <tr>
-                <td><a class="link-about" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงสร้างองค์กร</a></td>
+                <td><a class="link-about" href="index.php?r=thistory/struct"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงสร้างองค์กร</a></td>
                
             </tr>
             </tbody>
