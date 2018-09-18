@@ -58,13 +58,15 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
             <?php } ?>               
             
         </div>  
+           
+    </div>
 
-          <?php 
+      <?php 
           
           echo LinkPager::widget([
                 'pagination' => $pagination,
 
-            ]);  ?>   
-    </div>
+         ]);  
+      ?>
 
 </div>
