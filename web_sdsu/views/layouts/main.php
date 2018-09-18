@@ -10,6 +10,7 @@ use yii\widgets\Breadcrumbs;
 use web_sdsu\assets\AppAsset;
 use common\widgets\Alert;
 use web_sdsu\models\Tcontact;
+use web_sdsu\models\Tnew;
 
 AppAsset::register($this);
 ?>

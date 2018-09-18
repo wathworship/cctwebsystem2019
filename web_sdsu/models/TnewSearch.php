@@ -47,7 +47,7 @@ class TnewSearch extends Tnew
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
-            'pagination' => ['pageSize'=> 3],
+            //'pagination' => ['pageSize'=> 3],
         ]);
 
         $this->load($params);

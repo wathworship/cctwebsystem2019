@@ -60,7 +60,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
         </div>  
 
           <?php 
-          $pagination->setPageSize(3);
+          
           echo LinkPager::widget([
                 'pagination' => $pagination,
 
