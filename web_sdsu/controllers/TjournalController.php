@@ -8,6 +8,7 @@ use web_sdsu\models\TjournalSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\data\Pagination;
 
 /**
  * TjournalController implements the CRUD actions for Tjournal model.
@@ -127,9 +128,25 @@ class TjournalController extends Controller
 
     public function actionArticle() 
    {   
-       $model = Tjournal::find()->where('unit=8')->orderBy('id DESC')->all(); 
+       //$model = Tjournal::find()->where('unit=8')->orderBy('id DESC')->all(); 
+
+       $query = Tjournal::find()->where('unit=8')->orderBy('id DESC');
+
+        // get the total number of articles (but do not fetch the article data yet)
+        $count = $query->count();
+
+        // create a pagination object with the total count
+        $pagination = new Pagination(['totalCount' => $count]);
+        $pagination->setPageSize(3);
+
+        // limit the query using the pagination and retrieve the articles
+        $models = $query->offset($pagination->offset)
+            ->limit($pagination->limit)
+            ->all();
+
        return $this->render('article', [ 
-           'model' => $model, 
+           'models' => $models, 
+           'pagination' => $pagination,
        ]); 
    } 
 }

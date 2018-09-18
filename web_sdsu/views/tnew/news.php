@@ -5,7 +5,7 @@ use yii\widgets\LinkPager;
 use yii\helpers\Html;
 use web_sdsu\models\Tnew;
 use web_sdsu\models\Uploads;
-use yii\data\Pagination;
+
 
 $this->title = 'ข่าวสารหน่วยงานพัฒนาและบริการสังคม';
 //$this->params['breadcrumbs'][] = $this->title;
