@@ -10,9 +10,11 @@ use Yii;
  * @property int $id รหัส
  * @property string $contactname_th รายการ
  * @property string $contactname_en รายการ(en)
+ * @property string $contactname_cn รายการ(cn)
  * @property string $map แผนที่
  * @property string $contactdetail_th รายละเอียดติดต่อ
  * @property string $contactdetail_en รายละเอียดติดต่อ(en)
+ * @property string $contactdetail_cn รายละเอียดติดต่อ(cn)
  * @property string $reply ข้อเสนอแนะ/ตอบกลับ
  * @property int $id_type สังกัด
  * @property int $id_user ผู้บันทึก
@@ -38,10 +40,10 @@ class Tcontact extends \yii\db\ActiveRecord
     {
         return [
             [['contactname_th', 'id_type', 'id_user'], 'required'],
-            [['map', 'contactdetail_th', 'contactdetail_en', 'reply'], 'string'],
+            [['map', 'contactdetail_th', 'contactdetail_en', 'contactdetail_cn', 'reply'], 'string'],
             [['id_type', 'id_user'], 'integer'],
             [['date_add'], 'safe'],
-            [['contactname_th', 'contactname_en'], 'string', 'max' => 225],
+            [['contactname_th', 'contactname_en', 'contactname_cn'], 'string', 'max' => 225],
             [['id_type'], 'exist', 'skipOnError' => true, 'targetClass' => DType::className(), 'targetAttribute' => ['id_type' => 'id']],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],
         ];
@@ -56,9 +58,11 @@ class Tcontact extends \yii\db\ActiveRecord
             'id' => 'รหัส',
             'contactname_th' => 'รายการ',
             'contactname_en' => 'รายการ(en)',
+            'contactname_cn' => 'รายการ(cn)',
             'map' => 'แผนที่',
             'contactdetail_th' => 'รายละเอียดติดต่อ',
             'contactdetail_en' => 'รายละเอียดติดต่อ(en)',
+            'contactdetail_cn' => 'รายละเอียดติดต่อ(cn)',
             'reply' => 'ข้อเสนอแนะ/ตอบกลับ',
             'id_type' => 'สังกัด',
             'id_user' => 'ผู้บันทึก',

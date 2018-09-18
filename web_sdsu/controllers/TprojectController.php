@@ -33,7 +33,7 @@ class TprojectController extends Controller
      * Lists all Tproject models.
      * @return mixed
      */
-    public function actionIndex()
+    /*public function actionIndex()
     {
         $searchModel = new TprojectSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -42,7 +42,7 @@ class TprojectController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
-    }
+    }*/
 
     /**
      * Displays a single Tproject model.
@@ -50,19 +50,19 @@ class TprojectController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
+    /*public function actionView($id)
     {
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
-    }
+    }*/
 
     /**
      * Creates a new Tproject model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    /*public function actionCreate()
     {
         $model = new Tproject();
 
@@ -73,7 +73,7 @@ class TprojectController extends Controller
         return $this->render('create', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Updates an existing Tproject model.
@@ -82,7 +82,7 @@ class TprojectController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
+    /*public function actionUpdate($id)
     {
         $model = $this->findModel($id);
 
@@ -93,7 +93,7 @@ class TprojectController extends Controller
         return $this->render('update', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Deletes an existing Tproject model.
@@ -102,12 +102,12 @@ class TprojectController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
+    /*public function actionDelete($id)
     {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
-    }
+    }*/
 
     /**
      * Finds the Tproject model based on its primary key value.
@@ -125,7 +125,7 @@ class TprojectController extends Controller
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
-    public function actionProject()
+        public function actionProject()
     {
         $year = date("Y");
         $model = Tproject::find()->where('type_id=8')->andWhere(['year'=> $year])->all();

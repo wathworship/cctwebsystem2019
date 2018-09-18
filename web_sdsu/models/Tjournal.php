@@ -8,10 +8,13 @@ use Yii;
  * This is the model class for table "t_journal".
  *
  * @property int $id
- * @property string $name_th
- * @property string $name_en
+ * @property string $name_th ชื่อวารสารไทย
+ * @property string $name_en ชื่อวารสารอังกฤษ
+ * @property string $name_cn ชื่อวารสารจีน
  * @property int $d_journal
- * @property string $issue
+ * @property string $issue ฉบับที่(th)
+ * @property string $issue_en ฉบับที่(en)
+ * @property string $issue_cn ฉบับที่(cn)
  * @property string $journal_file
  * @property string $cover
  * @property string $date_add
@@ -43,7 +46,7 @@ class Tjournal extends \yii\db\ActiveRecord
             [['d_journal', 'user_id', 'unit'], 'integer'],
             [['journal_file', 'cover'], 'string'],
             [['date_add', 'date_edit'], 'safe'],
-            [['name_th', 'name_en', 'issue'], 'string', 'max' => 225],
+            [['name_th', 'name_en', 'name_cn', 'issue', 'issue_en', 'issue_cn'], 'string', 'max' => 225],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
             [['unit'], 'exist', 'skipOnError' => true, 'targetClass' => DType::className(), 'targetAttribute' => ['unit' => 'id']],
             [['d_journal'], 'exist', 'skipOnError' => true, 'targetClass' => DJournal::className(), 'targetAttribute' => ['d_journal' => 'id']],
@@ -57,10 +60,13 @@ class Tjournal extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'name_th' => 'Name Th',
-            'name_en' => 'Name En',
+            'name_th' => 'ชื่อวารสารไทย',
+            'name_en' => 'ชื่อวารสารอังกฤษ',
+            'name_cn' => 'ชื่อวารสารจีน',
             'd_journal' => 'D Journal',
-            'issue' => 'Issue',
+            'issue' => 'ฉบับที่(th)',
+            'issue_en' => 'ฉบับที่(en)',
+            'issue_cn' => 'ฉบับที่(cn)',
             'journal_file' => 'Journal File',
             'cover' => 'Cover',
             'date_add' => 'Date Add',

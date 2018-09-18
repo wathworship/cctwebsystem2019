@@ -19,7 +19,7 @@ class TprojectSearch extends Tproject
     {
         return [
             [['id', 'type_id', 'user_id'], 'integer'],
-            [['projectname_th', 'projectname_en', 'projectdetail', 'docs', 'year', 'date_add'], 'safe'],
+            [['projectname_th', 'projectname_en', 'projectname_cn', 'projectdetail', 'projectdetail_en', 'projectdetail_cn', 'docs', 'year', 'date_add'], 'safe'],
         ];
     }
 
@@ -67,7 +67,10 @@ class TprojectSearch extends Tproject
 
         $query->andFilterWhere(['like', 'projectname_th', $this->projectname_th])
             ->andFilterWhere(['like', 'projectname_en', $this->projectname_en])
+            ->andFilterWhere(['like', 'projectname_cn', $this->projectname_cn])
             ->andFilterWhere(['like', 'projectdetail', $this->projectdetail])
+            ->andFilterWhere(['like', 'projectdetail_en', $this->projectdetail_en])
+            ->andFilterWhere(['like', 'projectdetail_cn', $this->projectdetail_cn])
             ->andFilterWhere(['like', 'docs', $this->docs])
             ->andFilterWhere(['like', 'year', $this->year]);
 

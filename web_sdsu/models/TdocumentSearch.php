@@ -19,7 +19,7 @@ class TdocumentSearch extends Tdocument
     {
         return [
             [['id', 'doc_type', 'type_id', 'user_id'], 'integer'],
-            [['name_th', 'name_en', 'detail_th', 'detail_en', 'link_doc', 'date_add', 'date_update'], 'safe'],
+            [['name_th', 'name_en', 'name_cn', 'detail_th', 'detail_en', 'detail_cn', 'link_doc', 'date_add', 'date_update'], 'safe'],
         ];
     }
 
@@ -69,8 +69,10 @@ class TdocumentSearch extends Tdocument
 
         $query->andFilterWhere(['like', 'name_th', $this->name_th])
             ->andFilterWhere(['like', 'name_en', $this->name_en])
+            ->andFilterWhere(['like', 'name_cn', $this->name_cn])
             ->andFilterWhere(['like', 'detail_th', $this->detail_th])
             ->andFilterWhere(['like', 'detail_en', $this->detail_en])
+            ->andFilterWhere(['like', 'detail_cn', $this->detail_cn])
             ->andFilterWhere(['like', 'link_doc', $this->link_doc]);
 
         return $dataProvider;

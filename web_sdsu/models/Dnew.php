@@ -10,6 +10,7 @@ use Yii;
  * @property int $id รหัส
  * @property string $new_th หมวดหมู่ข่าว(ไทย)
  * @property string $new_en หมวดหมู่ข่าว(en)
+ * @property string $new_cn หมวดหมู่ข่าว(cn)
  * @property string $dateadd วันที่เพิ่ม
  *
  * @property TNew[] $tNews
@@ -30,9 +31,9 @@ class Dnew extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['new_th', 'new_en'], 'required'],
+            [['new_th'], 'required'],
             [['dateadd'], 'safe'],
-            [['new_th', 'new_en'], 'string', 'max' => 225],
+            [['new_th', 'new_en', 'new_cn'], 'string', 'max' => 225],
         ];
     }
 
@@ -45,6 +46,7 @@ class Dnew extends \yii\db\ActiveRecord
             'id' => 'รหัส',
             'new_th' => 'หมวดหมู่ข่าว(ไทย)',
             'new_en' => 'หมวดหมู่ข่าว(en)',
+            'new_cn' => 'หมวดหมู่ข่าว(cn)',
             'dateadd' => 'วันที่เพิ่ม',
         ];
     }

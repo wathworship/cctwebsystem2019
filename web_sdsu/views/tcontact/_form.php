@@ -16,11 +16,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'contactname_en')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'contactname_cn')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'map')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'contactdetail_th')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'contactdetail_en')->textarea(['rows' => 6]) ?>
+
+    <?= $form->field($model, 'contactdetail_cn')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'reply')->textarea(['rows' => 6]) ?>
 

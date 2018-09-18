@@ -9,7 +9,8 @@ use Yii;
  *
  * @property int $id_his รหัสประเภทของhistory
  * @property string $d_history_th ประเภทของhistory
- * @property string $d_history_en ประเภทภาษาอังกฤษ
+ * @property string $d_history_en ประเภทของhistoryภาษาอังกฤษ
+ * @property string $d_history_cn ประเภทของhistoryภาษาจีน
  * @property string $dateadd เพิ่มเมื่อ
  *
  * @property THistory[] $tHistories
@@ -32,7 +33,7 @@ class Dhistoryy extends \yii\db\ActiveRecord
         return [
             [['d_history_th'], 'required'],
             [['dateadd'], 'safe'],
-            [['d_history_th', 'd_history_en'], 'string', 'max' => 225],
+            [['d_history_th', 'd_history_en', 'd_history_cn'], 'string', 'max' => 225],
         ];
     }
 
@@ -44,7 +45,8 @@ class Dhistoryy extends \yii\db\ActiveRecord
         return [
             'id_his' => 'รหัสประเภทของhistory',
             'd_history_th' => 'ประเภทของhistory',
-            'd_history_en' => 'ประเภทภาษาอังกฤษ',
+            'd_history_en' => 'ประเภทของhistoryภาษาอังกฤษ',
+            'd_history_cn' => 'ประเภทของhistoryภาษาจีน',
             'dateadd' => 'เพิ่มเมื่อ',
         ];
     }

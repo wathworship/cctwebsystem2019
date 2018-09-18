@@ -21,9 +21,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name_en') ?>
 
+    <?= $form->field($model, 'name_cn') ?>
+
     <?= $form->field($model, 'd_journal') ?>
 
-    <?= $form->field($model, 'issue') ?>
+    <?php // echo $form->field($model, 'issue') ?>
+
+    <?php // echo $form->field($model, 'issue_en') ?>
+
+    <?php // echo $form->field($model, 'issue_cn') ?>
 
     <?php // echo $form->field($model, 'journal_file') ?>
 

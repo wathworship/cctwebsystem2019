@@ -24,6 +24,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'newdetail_cn')->textarea(['rows' => 6]) ?>
 
+    <?= $form->field($model, 'date_news')->textInput() ?>
+
     <?= $form->field($model, 'ref')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'docs')->textarea(['rows' => 6]) ?>

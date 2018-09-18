@@ -1,10 +1,11 @@
 <?php
 
 /* @var $this yii\web\View */
-
+use yii\widgets\LinkPager;
 use yii\helpers\Html;
 use web_sdsu\models\Tnew;
 use web_sdsu\models\Uploads;
+use yii\data\Pagination;
 
 $this->title = 'ข่าวสารหน่วยงานพัฒนาและบริการสังคม';
 //$this->params['breadcrumbs'][] = $this->title;
@@ -24,7 +25,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
 
         <div class="panel-body panel-body-index-news"> 
             
-            <?php foreach($model as $news) {
+            <?php foreach($models as $news) {
                 $newref = $news->ref;
             ?>
                 <div class="panel panel-default">
@@ -40,9 +41,15 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                         </div>
                         <div class="pad-news in-box-news" style="margin-left:20vw;">
                             <b><p class="h-box-news"><?php echo $news->newname_th?></p></b>
-                            <p>วันที่ <?php echo $news->date_add ?></p>
+                            <?php
+                            $d = strtotime("$news->date_add");
+                            ?>                       
+                            <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
                             <p><?php echo $news->newtype->new_th ?></p>
-                            <!--<p><?php echo $news->newdetail_th ?><p>-->
+                            <?php 
+                            $detail1 = mb_substr($news->newdetail_th, 0, 200,"UTF-8");
+                            ?>
+                            <p><?php echo $detail1.'...'?><p>
                             <a href="index.php?r=tnew/detail&id=<?php echo $news->id ?>" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
                         </div>
                         
@@ -50,8 +57,14 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                 </div>
             <?php } ?>               
             
-        </div>       
-    </div>
+        </div>  
 
+          <?php 
+          $pagination->setPageSize(3);
+          echo LinkPager::widget([
+                'pagination' => $pagination,
+
+            ]);  ?>   
+    </div>
 
 </div>

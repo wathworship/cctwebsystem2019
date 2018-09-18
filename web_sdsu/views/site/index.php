@@ -108,9 +108,12 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                         <img src="<?php echo $pic->real_filename?>" class="img-responsive"/>
                         <div class="in-box-news" style="padding:1vw">
                         <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
-                        <p>วันที่ <?php echo $new->date_add ?></p>
+                        <?php
+                            $d = strtotime("$new->date_add");
+                        ?>
+                        <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
                         <p><?php echo $new->newtype->new_th ?></p>
-                        <a href="#" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
+                        <a href="index.php?r=tnew/detail&id=<?php echo $new->id ?>" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
                         </div>
                         
                     </div>

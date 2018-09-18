@@ -14,6 +14,7 @@ use Yii;
  * @property string $newdetail_th รายละเอียดข่าว
  * @property string $newdetail_en รายละเอียดข่าว(en)
  * @property string $newdetail_cn รายละเอียดข่าว(จีน)
+ * @property string $date_news วันที่ของข่าว
  * @property string $ref รูปภาพ
  * @property string $docs เอกสาร
  * @property int $newtype_id ประเภทข่าว
@@ -43,10 +44,10 @@ class Tnew extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-        [['newname_th', 'newdetail_th', 'newtype_id', 'type_id', 'user_id', 'status'], 'required'],
+            [['newname_th', 'newdetail_th', 'date_news', 'newtype_id', 'type_id', 'user_id', 'status'], 'required'],
             [['newdetail_th', 'newdetail_en', 'newdetail_cn', 'docs'], 'string'],
+            [['date_news', 'date_add'], 'safe'],
             [['newtype_id', 'type_id', 'user_id', 'status'], 'integer'],
-            [['date_add'], 'safe'],
             [['newname_th', 'newname_en', 'newname_cn', 'ref', 'newproject'], 'string', 'max' => 225],
             [['newtype_id'], 'exist', 'skipOnError' => true, 'targetClass' => DNew::className(), 'targetAttribute' => ['newtype_id' => 'id']],
             [['type_id'], 'exist', 'skipOnError' => true, 'targetClass' => DType::className(), 'targetAttribute' => ['type_id' => 'id']],
@@ -67,6 +68,7 @@ class Tnew extends \yii\db\ActiveRecord
             'newdetail_th' => 'รายละเอียดข่าว',
             'newdetail_en' => 'รายละเอียดข่าว(en)',
             'newdetail_cn' => 'รายละเอียดข่าว(จีน)',
+            'date_news' => 'วันที่ของข่าว',
             'ref' => 'รูปภาพ',
             'docs' => 'เอกสาร',
             'newtype_id' => 'ประเภทข่าว',
@@ -100,10 +102,5 @@ class Tnew extends \yii\db\ActiveRecord
     public function getUser()
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
-    }
-
-    public function getPic()
-    {
-        return $this->hasMany(Uploads::className(), ['ref' => 'ref']);
     }
 }

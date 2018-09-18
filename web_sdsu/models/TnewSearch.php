@@ -19,7 +19,7 @@ class TnewSearch extends Tnew
     {
         return [
             [['id', 'newtype_id', 'type_id', 'user_id', 'status'], 'integer'],
-            [['newname_th', 'newname_en', 'newname_cn', 'newdetail_th', 'newdetail_en', 'newdetail_cn', 'ref', 'docs', 'date_add', 'newproject'], 'safe'],
+            [['newname_th', 'newname_en', 'newname_cn', 'newdetail_th', 'newdetail_en', 'newdetail_cn', 'date_news', 'ref', 'docs', 'date_add', 'newproject'], 'safe'],
         ];
     }
 
@@ -41,12 +41,13 @@ class TnewSearch extends Tnew
      */
     public function search($params)
     {
-        $query = Tnew::find();
+        $query = Tnew::find()->where(['newtype_id' => 9])->orderBy('id DESC');
 
         // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'pagination' => ['pageSize'=> 3],
         ]);
 
         $this->load($params);
@@ -60,6 +61,7 @@ class TnewSearch extends Tnew
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
+            'date_news' => $this->date_news,
             'newtype_id' => $this->newtype_id,
             'type_id' => $this->type_id,
             'user_id' => $this->user_id,

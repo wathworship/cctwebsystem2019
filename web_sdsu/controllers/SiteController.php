@@ -151,10 +151,10 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionAbout()
+    /*public function actionAbout()
     {
         return $this->render('about');
-    }
+    }*/
 
     /**
      * Signs user up.
@@ -229,5 +229,10 @@ class SiteController extends Controller
     public function actionCalendar()
     {
         return $this->render('calendar');
+    }
+
+    public function actionDonate()
+    {
+        return $this->render('donate');
     }
 }

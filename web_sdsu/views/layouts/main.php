@@ -20,7 +20,9 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
     <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <?= Html::csrfMetaTags() ?>
@@ -55,9 +57,10 @@ AppAsset::register($this);
             'items' => [
                 ['label' => 'พันธกิจ', 'url' => 'index.php?r=thistory/pan'],
                 ['label' => 'โครงการ', 'url' => 'index.php?r=tproject/project'],
+                ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]
         ],
-        ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
+        ['label' => 'ร่วมสนับสนุน', 'url' => ['/site/donate']],
         ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
         ['label' => 'วารสาร', 'url' => ['tjournal/article']],
         ['label' => 'แบบฟอร์ม', 'url' => ['/tdocument/document']],

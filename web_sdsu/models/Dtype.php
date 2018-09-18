@@ -10,6 +10,7 @@ use Yii;
  * @property int $id รหัส
  * @property string $type_th ชื่อประเภทไทย
  * @property string $type_en ชื่อประเภทอังกฤษ
+ * @property string $type_cn ชื่อประเภทจีน
  * @property string $dateadd วันเพิ่มข้อมูล
  *
  * @property TContact[] $tContacts
@@ -38,7 +39,7 @@ class Dtype extends \yii\db\ActiveRecord
             [['id', 'type_th', 'type_en'], 'required'],
             [['id'], 'integer'],
             [['dateadd'], 'safe'],
-            [['type_th', 'type_en'], 'string', 'max' => 225],
+            [['type_th', 'type_en', 'type_cn'], 'string', 'max' => 225],
             [['id'], 'unique'],
         ];
     }
@@ -52,6 +53,7 @@ class Dtype extends \yii\db\ActiveRecord
             'id' => 'รหัส',
             'type_th' => 'ชื่อประเภทไทย',
             'type_en' => 'ชื่อประเภทอังกฤษ',
+            'type_cn' => 'ชื่อประเภทจีน',
             'dateadd' => 'วันเพิ่มข้อมูล',
         ];
     }
