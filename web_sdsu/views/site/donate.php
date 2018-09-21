@@ -13,8 +13,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <div id="panel-index-calendar" class="panel panel-default">
-        <div id="panel-head-index-calendar" class="panel-heading">
+        <div id="panel-index-article" class="panel panel-default">
+        <div id="panel-head-contact" class="panel-heading">
             <h2 id="donate-title" align="center" class="panel-title"><b><?= Html::encode($this->title) ?></b> </h2>
         </div>
         <div id="panel-body-index-calendar" class="panel-body" align="center">

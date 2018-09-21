@@ -32,7 +32,7 @@ $this->title = 'ดาวน์โหลดแบบฟอร์ม';
                 <div class="in-box-article">
                         <?php foreach($model as $doc){ ?>
                         <!--<b><p class="h-box-article">แบบฟอร์มเสียภาษีเงินได้มูลนิธิหรือสมาคม (ภ.ง.ด. 55) ประจำปี</p></b>-->
-                        <a id="form" href="#"><i class="fa fa-download" aria-hidden="true"></i> <?php echo $doc->name_th?></a><br>
+                        <a id="form" href="/cctwebsystem2019/document/form_download/<?php $doc->link_doc?>"><i class="fa fa-download" aria-hidden="true"></i> <?php echo $doc->name_th?></a><br>
                         
                         <?php }?>
                 </div>

@@ -288,6 +288,29 @@ a.desc:after {
     color:black;
     font-family: 'Trirong', serif;
 }
+/* detail-news---------------------------------------*/
+.h-box-details{
+    font-family: 'Trirong', serif;
+    font-size:1.4vw;
+    color:#1a5389;
+}
+#date-details{
+    font-family: 'Trirong', serif;
+    font-size:1.24vw;
+    color: #464646;
+    
+}
+.detail-header{
+    
+    padding-bottom: 15px;
+   
+}
+
+.in-box-details{
+    font-family: 'Trirong', serif;
+    font-size:1.3vw;
+    color:#323232
+}
 
 /* index-news----------------------------------------*/
 .img-news{
@@ -300,12 +323,12 @@ a.desc:after {
 }
 
 #panel-index-news{
-    border: 1px solid #80b5ef;
+    border: 1px solid #a4b9f4;
     font-family: 'Trirong', serif;
 }
 
 #panel-head-index-news{
-    background-color: #80b5ef;
+    background-color: #a4b9f4;
     
 }
 
@@ -342,13 +365,13 @@ a.desc:after {
 .h-box-news{
     font-family: 'Trirong', serif;
     font-size:1.2vw;
-    color:#155ca9;
+    color:#1a5389;
 }
 
 .button-news{
     border-radius: 10px;
-    background-color: #80b5ef; 
-    border: 1px solid#80b5ef;
+    background-color: #a4b9f4; 
+    border: 1px solid#a4b9f4;
     color:black;
 }
 
@@ -414,14 +437,14 @@ a.desc:after {
 /* index-calendar -----------------------------------*/
 
 #panel-index-calendar{
-    border: 1px solid #80d1ef;
+    border: 1px solid #a8c1da;
     font-family: 'Trirong', serif;
     margin-bottom:3vw;
     
 }
 
 #panel-head-index-calendar{
-    background-color: #80d1ef;
+    background-color: #a8c1da;
     
 }
 
@@ -435,7 +458,7 @@ a.desc:after {
 
 #panel-body-index-calendar{
   
-    background-color: #d7f1fa;
+    background-color: #e8f2fc;
     color:black; 
     font-size:1.3vw; 
     font-family: 'Trirong', serif;

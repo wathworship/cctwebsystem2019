@@ -7,6 +7,7 @@ use yii\bootstrap\Widget;
 use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
 use web_sdsu\models\Uploads;
+use web_sdsu\models\Banner;
 $this->title = 'หน่วยงานพัฒนาและบริการสังคม'
 ?>
 <div class="site-index">
@@ -16,71 +17,57 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
             <marquee behavior="alternate" scrollamount="4" style="font-size:1.3vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
         </div>
         
-        <div class="pull-right">
-            <img src="image/k11.png" class="img-responsive" style="width:14vw; height:14vw;padding:0.5vw;"/>
+  
+        <div class="row" align="center">
+        <div class="col-md-12">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="  margin-bottom:2vw;">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                <?php
+                $newreff = $banner->ref;
+                $count_banner = Uploads::find()->where(['ref'=> $newreff])->count();
+                for($i=0; $i<$count_banner; $i++){
+                    
+                ?>
             
-            <div class"pull-right" style="padding:2vw;">
-            <a href="http://www.cct.or.th">
-            <img src="image/cct.gif" class="img-responsive" style="width:10vw; height:10vw"/>
-            </a>
-            <img src="image/Capture.jpg" class"img=responsive" style="width:11.3vw; height:1.8vw">
-            
+                    <li data-target="#myCarousel" data-slide-to="<?php echo $i?>" class="<?php if($i==0){echo "active";} ?>"></li>
+                <?php 
+                }
+                ?>   
+                </ol>
+
+                <!-- Wrapper for slides -->
+                
+                <div class="carousel-inner">
+                <?php
+                $j=0;
+                //$newreff = $model->ref;
+                $test2 = Uploads::find()->where(['ref'=> $newreff])->all();
+                foreach($test2 as $test){
+                
+                ?>
+                    <div class="item <?php if($j==0){echo "active";} ?>">
+                        <img src="/cctwebsystem2019/images/banners/<?php echo $banner->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:35vw; width:100%" class="responsive" >
+                    </div>
+                <?php 
+                $j++;
+                } 
+                
+                
+                ?>
+                
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+                </a>
             </div>
-            
-        </div>
-        <div style="margin-bottom:30.5vw">
-        <div class="pull-left">
-            <?= Carousel::widget([
-                    'items' => [
-                        // the item contains only the image
-                        '<img src="image/b1.jpg" style="width:68vw; height:28vw"/>',
-                        // equivalent to the above
-                        ['content' => '<img src="image/k8p17.jpg" style="width:68vw; height:28vw"/>'],
-                     
-                        // the item contains both the image and the caption
-                        [
-                            'content' => '<img src="image/ban2.jpg" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/job.jpg" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/banner3.jpg" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/ban1.png" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/banner4.png" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/banner2.jpg" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/banner8.png" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                        [
-                            'content' => '<img src="image/bannner10.png" style="width:68vw; height:28vw"/>',
-                            //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                            //'options' => ['class' => 'img-index'],
-                        ],
-                    ]
-                ]);
-            ?>
         </div>
         
         </div>
@@ -105,11 +92,11 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                         <?php 
                             $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
                         ?>
-                        <img src="<?php echo $pic->real_filename?>" class="img-responsive"/>
+                        <img src="/cctwebsystem2019/images/news/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" class="img-responsive"/>
                         <div class="in-box-news" style="padding:1vw">
                         <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
                         <?php
-                            $d = strtotime("$new->date_add");
+                            $d = strtotime("$new->date_news");
                         ?>
                         <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
                         <p><?php echo $new->newtype->new_th ?></p>
@@ -139,11 +126,11 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                 <?php foreach($article as $ar){ ?>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="<?php echo $ar->cover?>" class="img-responsive" style="width:160px; height:200px"/>
+                        <img src="/cctwebsystem2019/images/journals/<?php echo $ar->cover?>" class="img-responsive" style="width:160px; height:200px"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center"><?php echo $ar->issue?></p>
-                        <a style=" text-align: center;" href="<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a>
+                        <a target ="_blank" style=" text-align: center;" href="<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a>
                         </div>
                         
                     </div>
@@ -155,17 +142,17 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
         </div>
         </div>
 <!-- ---------------------------------------------------------------------------------------------- -->   
-        <div id="panel-index-calendar" class="panel panel-default" style="margin-top:2.5vw;">
+        <div id="panel-index-calendar" class="panel panel-default responsive" style="margin-top:2.5vw;">
         <div id="panel-head-index-calendar" class="panel-heading">
             <h3 id="panel-title-index-calendar" class="panel-title"><b>ปฏิทินกิจกรรม</b> <i class="fas fa-users"></i></h3>
         </div>
         <div id="panel-body-index-calendar" class="panel-body" align="center">
         <div class="row">
-        <div class="col-md-7">  
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ccffff&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+        <div class="col-md-7 responsive">  
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
         </div>
-        <div class="col-md-5">
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23ccffff&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="420" height="400" frameborder="0" scrolling="no"></iframe>
+        <div class="col-md-5 responsive">
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="420" height="400" frameborder="0" scrolling="no"></iframe>
         </div>
         </div>
         </div>

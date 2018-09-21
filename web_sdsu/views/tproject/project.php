@@ -32,7 +32,7 @@ $this->title = 'โครงการ';
                 <b><p class="h-box-about" >โครงการของหน่วยงานพัฒนาและบริการสังคม ประจำปี <?php echo $year; ?></p></b>
                 <?php foreach($model as $pro) { ?>
                 
-                <a href="<?php echo $pro->docs?>"><?php echo $pro->projectname_th?> <i class="fa fa-download" aria-hidden="true"></i></a><br>
+                <a target ="_blank" href="/cctwebsystem2019/document/projects/<?php echo $pro->docs?>"> <?php echo $pro->projectname_th?> <i class="fa fa-download" aria-hidden="true"></i></a><br>
                 <?php } ?>
 
                 </div>
