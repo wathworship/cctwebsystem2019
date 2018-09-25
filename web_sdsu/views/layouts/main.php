@@ -53,8 +53,8 @@ AppAsset::register($this);
         [
             'label' => 'พันธกิจ', 
             'items' => [
-                ['label' => 'พันธกิจ', 'url' => '#'],
-                ['label' => 'โครงการ', 'url' => '#'],
+                ['label' => 'พันธกิจ', 'url' => 'index.php?r=thistory/pan'],
+                ['label' => 'โครงการ', 'url' => 'index.php?r=tproject/project'],
             ]
         ],
         ['label' => 'ปฏิทินกิจกรรม', 'url' => ['#']],

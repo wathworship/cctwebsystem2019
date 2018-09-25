@@ -3,17 +3,16 @@
 namespace web_sdsu\controllers;
 
 use Yii;
-use web_sdsu\models\Thistory;
-use web_sdsu\models\Dhistoryy;
-use web_sdsu\models\ThistorySearch;
+use web_sdsu\models\Tproject;
+use web_sdsu\models\TprojectSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ThistoryController implements the CRUD actions for Thistory model.
+ * TprojectController implements the CRUD actions for Tproject model.
  */
-class ThistoryController extends Controller
+class TprojectController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -31,12 +30,12 @@ class ThistoryController extends Controller
     }
 
     /**
-     * Lists all Thistory models.
+     * Lists all Tproject models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new ThistorySearch();
+        $searchModel = new TprojectSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -46,7 +45,7 @@ class ThistoryController extends Controller
     }
 
     /**
-     * Displays a single Thistory model.
+     * Displays a single Tproject model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -59,13 +58,13 @@ class ThistoryController extends Controller
     }
 
     /**
-     * Creates a new Thistory model.
+     * Creates a new Tproject model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Thistory();
+        $model = new Tproject();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -77,7 +76,7 @@ class ThistoryController extends Controller
     }
 
     /**
-     * Updates an existing Thistory model.
+     * Updates an existing Tproject model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -97,7 +96,7 @@ class ThistoryController extends Controller
     }
 
     /**
-     * Deletes an existing Thistory model.
+     * Deletes an existing Tproject model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -111,92 +110,29 @@ class ThistoryController extends Controller
     }
 
     /**
-     * Finds the Thistory model based on its primary key value.
+     * Finds the Tproject model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Thistory the loaded model
+     * @return Tproject the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Thistory::findOne($id)) !== null) {
+        if (($model = Tproject::findOne($id)) !== null) {
             return $model;
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
-    public function actionAbout()
+    public function actionProject()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=1')->orderBy('id DESC')->one();
-      
-        
+        $year = date("Y");
+        $model = Tproject::find()->where('type_id=8')->andWhere(['year'=> $year])->all();
 
-        return $this->render('about', [
-            'model' => $model,
-           
-
-        ]);
-    }
-
-    public function actionTus()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=4')->one();
-        $objective = Thistory::find()->where('history_type=8')->andWhere('d_history=5')->one();
-        $goal = Thistory::find()->where('history_type=8')->andWhere('d_history=6')->one();
-     
-
-        return $this->render('tus', [
-            'model' => $model,
-            'objective' => $objective,
-            'goal' => $goal,
-           
-        ]);
-    }
-
-    public function actionBible()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=7')->one();
-      
-
-
-        return $this->render('bible', [
+        return $this->render('project', [
             'model' => $model,
            
         ]);
     }
-
-    public function actionPan()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=9')->one();
-        $yut = Thistory::find()->where('history_type=8')->andWhere('d_history=11')->one();
-
-        return $this->render('pan', [
-            'model' => $model,
-            'yut' => $yut,
-        ]);
-    }
-
-    public function actionYut()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=10')->one();
-
-        return $this->render('yut', [
-            'model' => $model,
-           
-        ]);
-    }
-
-    public function actionWat()
-    {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=11')->one();
-
-        return $this->render('wat', [
-            'model' => $model,
-           
-        ]);
-    }
-
-   
-
 }
