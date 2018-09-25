@@ -43,11 +43,11 @@ $this->title = 'ติดต่อเรา';
                     <h3 id="panel-title-contact" class="panel-title">
                     <span class="glyphicon glyphicon-map-marker"></span> <b>แผนที่</b>  </h3>
                 </div>
-
                 <div class="panel-body panel-body-contact2"> 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15108.067309081991!2d99.00763479681827!3d18.797403418584086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3aa9931fbb6b%3A0x8db60bc51bbe866f!2z4Lih4Li54Lil4LiZ4Li04LiY4Li04LmB4Lir4LmI4LiH4Liq4Lig4Liy4LiE4Lij4Li04Liq4LiV4LiI4Lix4LiB4Lij4LmD4LiZ4Lib4Lij4Liw4LmA4LiX4Lio4LmE4LiX4Lii!5e0!3m2!1sth!2sth!4v1536226258732" width="100%" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>  
+                    <?php echo $model->map ?>
                 </div>
             </div>
         </div>
     </div>
+    
 </div>

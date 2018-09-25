@@ -12,6 +12,8 @@ use web_sdsu\models\PasswordResetRequestForm;
 use web_sdsu\models\ResetPasswordForm;
 use web_sdsu\models\SignupForm;
 use web_sdsu\models\ContactForm;
+use web_sdsu\models\Tcontact;
+use web_sdsu\models\Uploads;
 
 /**
  * Site controller
@@ -72,7 +74,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $map = Tcontact::find()->where('id_type=8')->one();
+        $banner = Uploads::find()->where('type=8')->one();
+        return $this->render('index',[
+            'map' => $map,
+            'banner' => $banner,
+        ]);
     }
 
     /**
