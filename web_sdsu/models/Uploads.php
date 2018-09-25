@@ -13,6 +13,8 @@ use Yii;
  * @property string $real_filename ชื่อไฟล์จริง
  * @property string $create_date
  * @property int $type ประเภท
+ *
+ * @property DType $type0
  */
 class Uploads extends \yii\db\ActiveRecord
 {
@@ -34,6 +36,7 @@ class Uploads extends \yii\db\ActiveRecord
             [['type'], 'integer'],
             [['ref'], 'string', 'max' => 50],
             [['file_name', 'real_filename'], 'string', 'max' => 150],
+            [['type'], 'exist', 'skipOnError' => true, 'targetClass' => DType::className(), 'targetAttribute' => ['type' => 'id']],
         ];
     }
 
@@ -52,8 +55,21 @@ class Uploads extends \yii\db\ActiveRecord
         ];
     }
 
-    public function getPic()
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getType0()
+    {
+        return $this->hasOne(DType::className(), ['id' => 'type']);
+    }
+
+    public function getNews()
     {
         return $this->hasOne(Tnew::className(), ['ref' => 'ref']);
+    }
+
+    public function getBanner()
+    {
+        return $this->hasOne(Banner::className(), ['ref' => 'ref']);
     }
 }

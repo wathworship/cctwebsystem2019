@@ -136,7 +136,7 @@ class TnewController extends Controller
 
         // create a pagination object with the total count
         $pagination = new Pagination(['totalCount' => $count]);
-        $pagination->setPageSize(2);
+        $pagination->setPageSize(6);
 
         // limit the query using the pagination and retrieve the articles
         $models = $query->offset($pagination->offset)

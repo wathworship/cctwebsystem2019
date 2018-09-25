@@ -45,6 +45,18 @@ return [
             ],
         ],
         */
+        'urlManager' => [
+            'class' => 'yii\web\urlManager',
+            'enablePrettyUrl' => false,
+            'showScriptName' => true,
+        ],
+        'urlManagerBackend' => [
+                'class' => 'yii\web\urlManager',
+                'baseUrl' => '/cctwebsystem2019/backend/web',
+                'scriptUrl'=>'/cctwebsystem2019/backend/web/index.php',
+                'enablePrettyUrl' => false,
+                'showScriptName' => true,
+        ],
     ],
     'params' => $params,
 ];

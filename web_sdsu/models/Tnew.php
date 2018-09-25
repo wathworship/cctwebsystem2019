@@ -1,6 +1,7 @@
 <?php
 
 namespace web_sdsu\models;
+use web_sdsu\models\Uploads;
 
 use Yii;
 
@@ -103,4 +104,13 @@ class Tnew extends \yii\db\ActiveRecord
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
+
+    public function getRef()
+    {
+        return $this->hasMany(Uploads::className(), ['ref' => 'ref']);
+    }
+
+    
+
+
 }
