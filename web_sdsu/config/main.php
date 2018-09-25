@@ -9,6 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
+    'name' => 'หน่วยงานพัฒนาและบริการสังคม',
     'bootstrap' => ['log'],
     'controllerNamespace' => 'web_sdsu\controllers',
     'components' => [

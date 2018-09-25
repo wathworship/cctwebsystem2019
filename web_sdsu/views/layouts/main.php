@@ -9,6 +9,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use web_sdsu\assets\AppAsset;
 use common\widgets\Alert;
+use web_sdsu\models\Tcontact;
 
 AppAsset::register($this);
 ?>
@@ -19,8 +20,9 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -31,7 +33,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'หน่วยงานพัฒนาและบริการสังคม',
+        'brandLabel' => '<img src="image/p.jpg" class="img-responsive pull-left" width="40" height="35"/>'.' '.'<div style="margin:15px" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -39,25 +41,27 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'หน้าแรก', 'url' => ['/site/index']],
+        ['label' => 'หน้าหลัก', 'url' => ['/site/index']],
         [
             'label' => 'เกี่ยวกับ',
             'items' => [
-                 ['label' => 'เกี่ยวกับ', 'url' => ['/site/about']],
-                 ['label' => 'ประวัติความเป็นมา', 'url' => '/dev-social/frontend/web/index.php?r=site%2Fhistory'],
-                 ['label' => 'โครงสร้างองค์กร', 'url' => '/site/construct'],
-                 ['label' => 'คำขวัญ', 'url' => '/site/poem'],
-                 ['label' => 'วิสัยทัศน์', 'url' => 'index.php?r=thistory/tus'],
-                 ['label' => 'ข้อพระคัมภีร์ประจำหน่วยงาน', 'url' => 'index.php?r=thistory/bible'],
-                 ['label' => 'ความหมายตราสัญลักษณ์', 'url' => 'index.php?r=thistory/sign'],
+                 ['label' => 'เกี่ยวกับเรา', 'url' => ['/thistory/about']],
+                 ['label' => 'ประวัติความเป็นมา', 'url' => '#'],
+                 ['label' => 'โครงสร้างองค์กร', 'url' => '#'],
             ],
         ],
-        ['label' => 'พันธกิจ', 'url' => ['/site/pan']],
-        ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
-        ['label' => 'ข่าวสาร', 'url' => ['/site/news']],
-        ['label' => 'วารสาร', 'url' => ['/site/article']],
-        ['label' => 'แบบฟอร์ม', 'url' => ['/document/download']],
-        ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/vcontact']],
+        [
+            'label' => 'พันธกิจ', 
+            'items' => [
+                ['label' => 'พันธกิจ', 'url' => '#'],
+                ['label' => 'โครงการ', 'url' => '#'],
+            ]
+        ],
+        ['label' => 'ปฏิทินกิจกรรม', 'url' => ['#']],
+        ['label' => 'ข่าวสาร', 'url' => ['#']],
+        ['label' => 'วารสาร', 'url' => ['#']],
+        ['label' => 'แบบฟอร์ม', 'url' => ['#']],
+        ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
         
     ];
     echo Nav::widget([
@@ -70,6 +74,11 @@ AppAsset::register($this);
 
     <div class="container">
         <?= Breadcrumbs::widget([
+            'homeLink' => [ 
+                'label' => 'หน้าหลัก',
+                'url' => Yii::$app->homeUrl,
+                'style' => 'color:#375a7f'
+           ],
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
@@ -79,9 +88,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
+        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?>   สภาคริสตจักรในประเทศไทย </p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>  โทรศัพท์ 053-244381 ต่อ 304 </p>
     </div>
 </footer>
 
