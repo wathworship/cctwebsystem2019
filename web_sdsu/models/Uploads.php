@@ -51,4 +51,9 @@ class Uploads extends \yii\db\ActiveRecord
             'type' => 'ประเภท',
         ];
     }
+
+    public function getPic()
+    {
+        return $this->hasOne(Tnew::className(), ['ref' => 'ref']);
+    }
 }

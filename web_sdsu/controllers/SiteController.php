@@ -15,6 +15,7 @@ use web_sdsu\models\ContactForm;
 use web_sdsu\models\Tcontact;
 use web_sdsu\models\Tjournal;
 use web_sdsu\models\Uploads;
+use web_sdsu\models\Tnew;
 
 /**
  * Site controller
@@ -78,10 +79,12 @@ class SiteController extends Controller
         $map = Tcontact::find()->where('id_type=8')->one();
         $banner = Uploads::find()->where('type=8')->one();
         $article = Tjournal::find()->where('unit=8')->orderBy('id DESC')->limit(4)->all();
+        $news = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->limit(4)->all();
         return $this->render('index',[
             'map' => $map,
             'banner' => $banner,
             'article' => $article,
+            'news' => $news,
         ]);
     }
 
@@ -221,5 +224,10 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
+    }
+
+    public function actionCalendar()
+    {
+        return $this->render('calendar');
     }
 }

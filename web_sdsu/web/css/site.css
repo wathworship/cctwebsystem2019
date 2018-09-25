@@ -255,6 +255,10 @@ a.desc:after {
     
 }
 
+.img-detail{
+    width:40vw;
+}
+
 #panel-index-news{
     border: 1px solid #80b5ef;
     font-family: 'Trirong', serif;

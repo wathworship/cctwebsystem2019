@@ -5,10 +5,14 @@
 use yii\helpers\Html;
 
 $this->title = 'วารสาร';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-article">
 
+    <ul class="breadcrumb" style="background-color:#f6f6f6">
+        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li  class="active">วารสาร</li>
+    </ul>
 
 
     <div id="panel-index-article" class="panel panel-default"> 

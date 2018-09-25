@@ -197,6 +197,26 @@ class ThistoryController extends Controller
         ]);
     }
 
+    public function actionStruct()
+    {
+        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=3')->one();
+
+        return $this->render('struct', [
+            'model' => $model,
+           
+        ]);
+    }
+
+    public function actionHistory()
+    {
+        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=2')->one();
+
+        return $this->render('history', [
+            'model' => $model,
+           
+        ]);
+    }
+
    
 
 }

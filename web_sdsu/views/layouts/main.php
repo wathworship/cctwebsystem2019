@@ -46,8 +46,8 @@ AppAsset::register($this);
             'label' => 'เกี่ยวกับ',
             'items' => [
                  ['label' => 'เกี่ยวกับเรา', 'url' => ['/thistory/about']],
-                 ['label' => 'ประวัติความเป็นมา', 'url' => '#'],
-                 ['label' => 'โครงสร้างองค์กร', 'url' => '#'],
+                 ['label' => 'ประวัติความเป็นมา', 'url' => 'index.php?r=thistory/history'],
+                 ['label' => 'โครงสร้างองค์กร', 'url' => 'index.php?r=thistory/struct'],
             ],
         ],
         [
@@ -57,8 +57,8 @@ AppAsset::register($this);
                 ['label' => 'โครงการ', 'url' => 'index.php?r=tproject/project'],
             ]
         ],
-        ['label' => 'ปฏิทินกิจกรรม', 'url' => ['#']],
-        ['label' => 'ข่าวสาร', 'url' => ['#']],
+        ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
+        ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
         ['label' => 'วารสาร', 'url' => ['tjournal/article']],
         ['label' => 'แบบฟอร์ม', 'url' => ['/tdocument/document']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
