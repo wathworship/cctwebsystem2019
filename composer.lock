@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "630d5f1d19e73b0163f900453171fba5",
+    "content-hash": "965b4dba7dad126560d7e9fa26a3b4f7",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -326,6 +326,54 @@
             "time": "2018-02-23T01:58:20+00:00"
         },
         {
+            "name": "raoul2000/yii2-bootswatch-asset",
+            "version": "1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raoul2000/yii2-bootswatch-asset.git",
+                "reference": "52bf7fc645c019a8f7df58d120179f50f3e0f429"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raoul2000/yii2-bootswatch-asset/zipball/52bf7fc645c019a8f7df58d120179f50f3e0f429",
+                "reference": "52bf7fc645c019a8f7df58d120179f50f3e0f429",
+                "shasum": ""
+            },
+            "require": {
+                "thomaspark/bootswatch": "3.3.7",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "raoul2000\\bootswatch\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Raoul",
+                    "email": "raoul.boulard@gmail.com"
+                }
+            ],
+            "description": "Use Bootswatch theme in your Yii application with minimum effort",
+            "keywords": [
+                "assets",
+                "bootstrap",
+                "bootswatch",
+                "css",
+                "extension",
+                "skin",
+                "stlye",
+                "theme",
+                "yii2"
+            ],
+            "time": "2016-09-14T12:17:27+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.1.2",
             "source": {
@@ -383,6 +431,64 @@
                 "mailer"
             ],
             "time": "2018-07-13T07:04:35+00:00"
+        },
+        {
+            "name": "thomaspark/bootswatch",
+            "version": "v3.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thomaspark/bootswatch.git",
+                "reference": "4b0d3762f309326a6d66fa4ea18945a7fc11f8ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/4b0d3762f309326a6d66fa4ea18945a7fc11f8ef",
+                "reference": "4b0d3762f309326a6d66fa4ea18945a7fc11f8ef",
+                "shasum": ""
+            },
+            "suggest": {
+                "robloach/component-installer": "Allows installation of Components via Composer"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "bootswatch",
+                    "files": [
+                        "README.md",
+                        "LICENSE",
+                        "amelia/*",
+                        "cerulean/*",
+                        "cosmo/*",
+                        "cyborg/*",
+                        "darkly/*",
+                        "flatly/*",
+                        "fonts/*",
+                        "journal/*",
+                        "lumen/*",
+                        "paper/*",
+                        "readable/*",
+                        "sandstone/*",
+                        "simplex/*",
+                        "slate/*",
+                        "spacelab/*",
+                        "superhero/*",
+                        "united/*",
+                        "yeti/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thomaspark",
+                    "email": "thomas@bootswatch.com"
+                }
+            ],
+            "description": "Themes for Bootstrap",
+            "time": "2016-07-30T21:56:26+00:00"
         },
         {
             "name": "yiisoft/yii2",

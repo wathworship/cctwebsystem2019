@@ -10,7 +10,7 @@ return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'controllerNamespace' => 'frontend\controllers',
+    'controllerNamespace' => 'web_sdsu\controllers',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
