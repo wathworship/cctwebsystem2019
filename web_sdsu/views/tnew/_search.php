@@ -29,6 +29,8 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'newdetail_cn') ?>
 
+    <?php // echo $form->field($model, 'date_news') ?>
+
     <?php // echo $form->field($model, 'ref') ?>
 
     <?php // echo $form->field($model, 'docs') ?>

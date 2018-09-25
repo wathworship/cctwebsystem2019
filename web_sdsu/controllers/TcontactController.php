@@ -33,7 +33,8 @@ class TcontactController extends Controller
      * Lists all Tcontact models.
      * @return mixed
      */
-    public function actionIndex()
+
+    /* public function actionIndex()
     {
         $searchModel = new TcontactSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -42,7 +43,7 @@ class TcontactController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
-    }
+    }*/
 
     /**
      * Displays a single Tcontact model.
@@ -50,19 +51,19 @@ class TcontactController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
+    /*public function actionView($id)
     {
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
-    }
+    }*/
 
     /**
      * Creates a new Tcontact model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    /*public function actionCreate()
     {
         $model = new Tcontact();
 
@@ -73,7 +74,7 @@ class TcontactController extends Controller
         return $this->render('create', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Updates an existing Tcontact model.
@@ -82,7 +83,7 @@ class TcontactController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
+    /*public function actionUpdate($id)
     {
         $model = $this->findModel($id);
 
@@ -93,7 +94,7 @@ class TcontactController extends Controller
         return $this->render('update', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Deletes an existing Tcontact model.
@@ -102,12 +103,12 @@ class TcontactController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
+    /*public function actionDelete($id)
     {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
-    }
+    }*/
 
     /**
      * Finds the Tcontact model based on its primary key value.

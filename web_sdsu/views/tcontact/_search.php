@@ -21,11 +21,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'contactname_en') ?>
 
+    <?= $form->field($model, 'contactname_cn') ?>
+
     <?= $form->field($model, 'map') ?>
 
-    <?= $form->field($model, 'contactdetail_th') ?>
+    <?php // echo $form->field($model, 'contactdetail_th') ?>
 
     <?php // echo $form->field($model, 'contactdetail_en') ?>
+
+    <?php // echo $form->field($model, 'contactdetail_cn') ?>
 
     <?php // echo $form->field($model, 'reply') ?>
 

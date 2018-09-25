@@ -19,7 +19,7 @@ class TjournalSearch extends Tjournal
     {
         return [
             [['id', 'd_journal', 'user_id', 'unit'], 'integer'],
-            [['name_th', 'name_en', 'issue', 'journal_file', 'cover', 'date_add', 'date_edit'], 'safe'],
+            [['name_th', 'name_en', 'name_cn', 'issue', 'issue_en', 'issue_cn', 'journal_file', 'cover', 'date_add', 'date_edit'], 'safe'],
         ];
     }
 
@@ -69,7 +69,10 @@ class TjournalSearch extends Tjournal
 
         $query->andFilterWhere(['like', 'name_th', $this->name_th])
             ->andFilterWhere(['like', 'name_en', $this->name_en])
+            ->andFilterWhere(['like', 'name_cn', $this->name_cn])
             ->andFilterWhere(['like', 'issue', $this->issue])
+            ->andFilterWhere(['like', 'issue_en', $this->issue_en])
+            ->andFilterWhere(['like', 'issue_cn', $this->issue_cn])
             ->andFilterWhere(['like', 'journal_file', $this->journal_file])
             ->andFilterWhere(['like', 'cover', $this->cover]);
 

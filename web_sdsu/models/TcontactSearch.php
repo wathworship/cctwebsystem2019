@@ -19,7 +19,7 @@ class TcontactSearch extends Tcontact
     {
         return [
             [['id', 'id_type', 'id_user'], 'integer'],
-            [['contactname_th', 'contactname_en', 'map', 'contactdetail_th', 'contactdetail_en', 'reply', 'date_add'], 'safe'],
+            [['contactname_th', 'contactname_en', 'contactname_cn', 'map', 'contactdetail_th', 'contactdetail_en', 'contactdetail_cn', 'reply', 'date_add'], 'safe'],
         ];
     }
 
@@ -67,9 +67,11 @@ class TcontactSearch extends Tcontact
 
         $query->andFilterWhere(['like', 'contactname_th', $this->contactname_th])
             ->andFilterWhere(['like', 'contactname_en', $this->contactname_en])
+            ->andFilterWhere(['like', 'contactname_cn', $this->contactname_cn])
             ->andFilterWhere(['like', 'map', $this->map])
             ->andFilterWhere(['like', 'contactdetail_th', $this->contactdetail_th])
             ->andFilterWhere(['like', 'contactdetail_en', $this->contactdetail_en])
+            ->andFilterWhere(['like', 'contactdetail_cn', $this->contactdetail_cn])
             ->andFilterWhere(['like', 'reply', $this->reply]);
 
         return $dataProvider;

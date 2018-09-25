@@ -10,8 +10,10 @@ use Yii;
  * @property int $id รหัสแบบฟอร์ม
  * @property string $name_th ชื่อแบบฟอร์ม
  * @property string $name_en ชื่อแบบฟอร์มภาษาอังกฤษ
+ * @property string $name_cn ชื่อแบบฟอร์มภาษาจีน
  * @property string $detail_th รายละเอียดภาษาไทย
  * @property string $detail_en รายละเอียดภาษาอังกฤษ
+ * @property string $detail_cn รายละเอียดจีน
  * @property int $doc_type ประเภทแบบฟอร์ม
  * @property string $link_doc เอกสารแนบ
  * @property int $type_id ชื่อหน่วยงาน
@@ -40,10 +42,10 @@ class Tdocument extends \yii\db\ActiveRecord
     {
         return [
             [['name_th', 'doc_type', 'type_id', 'user_id'], 'required'],
-            [['detail_th', 'detail_en', 'link_doc'], 'string'],
+            [['detail_th', 'detail_en', 'detail_cn', 'link_doc'], 'string'],
             [['doc_type', 'type_id', 'user_id'], 'integer'],
             [['date_add', 'date_update'], 'safe'],
-            [['name_th', 'name_en'], 'string', 'max' => 225],
+            [['name_th', 'name_en', 'name_cn'], 'string', 'max' => 225],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
             [['doc_type'], 'exist', 'skipOnError' => true, 'targetClass' => DDoc::className(), 'targetAttribute' => ['doc_type' => 'id']],
             [['type_id'], 'exist', 'skipOnError' => true, 'targetClass' => DType::className(), 'targetAttribute' => ['type_id' => 'id']],
@@ -59,8 +61,10 @@ class Tdocument extends \yii\db\ActiveRecord
             'id' => 'รหัสแบบฟอร์ม',
             'name_th' => 'ชื่อแบบฟอร์ม',
             'name_en' => 'ชื่อแบบฟอร์มภาษาอังกฤษ',
+            'name_cn' => 'ชื่อแบบฟอร์มภาษาจีน',
             'detail_th' => 'รายละเอียดภาษาไทย',
             'detail_en' => 'รายละเอียดภาษาอังกฤษ',
+            'detail_cn' => 'รายละเอียดจีน',
             'doc_type' => 'ประเภทแบบฟอร์ม',
             'link_doc' => 'เอกสารแนบ',
             'type_id' => 'ชื่อหน่วยงาน',
@@ -83,7 +87,7 @@ class Tdocument extends \yii\db\ActiveRecord
      */
     public function getDocType()
     {
-        return $this->hasOne(Ddoc::className(), ['id' => 'doc_type']);
+        return $this->hasOne(DDoc::className(), ['id' => 'doc_type']);
     }
 
     /**
@@ -91,6 +95,6 @@ class Tdocument extends \yii\db\ActiveRecord
      */
     public function getType()
     {
-        return $this->hasOne(Dtype::className(), ['id' => 'type_id']);
+        return $this->hasOne(DType::className(), ['id' => 'type_id']);
     }
 }

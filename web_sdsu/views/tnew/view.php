@@ -35,6 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'newdetail_th:ntext',
             'newdetail_en:ntext',
             'newdetail_cn:ntext',
+            'date_news',
             'ref',
             'docs:ntext',
             'newtype_id',

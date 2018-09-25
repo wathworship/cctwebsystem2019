@@ -7,7 +7,7 @@ use yii\helpers\Html;
 $this->title = 'ปฏิทินกิจกรรม';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-article">
+<div class="site-calendar">
   
 
 <div class="row">

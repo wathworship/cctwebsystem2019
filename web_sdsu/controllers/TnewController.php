@@ -4,11 +4,11 @@ namespace web_sdsu\controllers;
 
 use Yii;
 use web_sdsu\models\Tnew;
-use web_sdsu\models\Uploads;
 use web_sdsu\models\TnewSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\data\Pagination;
 
 /**
  * TnewController implements the CRUD actions for Tnew model.
@@ -128,15 +128,28 @@ class TnewController extends Controller
 
     public function actionNews()
     {   
-        $model = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->all();
+        //$model = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->all();
+        $query = Tnew::find()->where(['newtype_id' => 9])->orderBy('id DESC');
+
+        // get the total number of articles (but do not fetch the article data yet)
+        $count = $query->count();
+
+        // create a pagination object with the total count
+        $pagination = new Pagination(['totalCount' => $count]);
+        $pagination->setPageSize(2);
+
+        // limit the query using the pagination and retrieve the articles
+        $models = $query->offset($pagination->offset)
+            ->limit($pagination->limit)
+            ->all();
         
         
         return $this->render('news', [
-            'model' => $model,
+            'models' => $models,
+            'pagination' => $pagination,
             //'pic' => $pic,
         ]);
     }
-
     public function actionDetail($id)
     {
         return $this->render('detail', [

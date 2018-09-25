@@ -16,9 +16,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name_en')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'name_cn')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'd_journal')->textInput() ?>
 
     <?= $form->field($model, 'issue')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'issue_en')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'issue_cn')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'journal_file')->textarea(['rows' => 6]) ?>
 

@@ -21,9 +21,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'projectname_en') ?>
 
+    <?= $form->field($model, 'projectname_cn') ?>
+
     <?= $form->field($model, 'projectdetail') ?>
 
-    <?= $form->field($model, 'docs') ?>
+    <?php // echo $form->field($model, 'projectdetail_en') ?>
+
+    <?php // echo $form->field($model, 'projectdetail_cn') ?>
+
+    <?php // echo $form->field($model, 'docs') ?>
 
     <?php // echo $form->field($model, 'year') ?>
 

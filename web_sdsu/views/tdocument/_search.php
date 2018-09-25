@@ -21,9 +21,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name_en') ?>
 
+    <?= $form->field($model, 'name_cn') ?>
+
     <?= $form->field($model, 'detail_th') ?>
 
-    <?= $form->field($model, 'detail_en') ?>
+    <?php // echo $form->field($model, 'detail_en') ?>
+
+    <?php // echo $form->field($model, 'detail_cn') ?>
 
     <?php // echo $form->field($model, 'doc_type') ?>
 

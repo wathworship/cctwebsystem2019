@@ -3,6 +3,7 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+use yii\widgets\LinkPager;
 
 $this->title = 'วารสาร';
 //$this->params['breadcrumbs'][] = $this->title;
@@ -24,7 +25,7 @@ $this->title = 'วารสาร';
         <div class="panel-body panel-body-index-article"> 
             <div class="row" style="padding-top:0.5vw;">
 
-                <?php foreach($model as $ar){ ?>
+                <?php foreach($models as $ar){ ?>
                 <div class="col-md-4">
                     <div class="thumbnail box-article">
                         <img src="<?php echo $ar->cover?>" class="img-responsive" style="width:160px; height:200px"/>
@@ -42,6 +43,14 @@ $this->title = 'วารสาร';
                 
         </div>
     </div>
+
+     <?php 
+          
+          echo LinkPager::widget([
+                'pagination' => $pagination,
+
+            ]);  
+    ?>   
 
 
 </div>

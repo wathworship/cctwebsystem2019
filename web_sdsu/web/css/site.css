@@ -236,6 +236,46 @@ a.desc:after {
     font-family: 'Trirong', serif;
 }
 
+/*--donate-----------------------------------------*/
+#donate-title{
+    color:#373b41;
+    font-size:2vw;
+    text-shadow: white 0.1em 0.1em 0.2em; 
+}
+
+#donate-h{
+    
+    font-size:1.5vw;
+    color:#0049b3;
+}
+
+#donate-b{
+    font-size:1.5vw;
+    color:#3366ff;
+
+}
+#donate-name{
+    font-size:1.5vw;
+    color:#4A4F55;
+}
+
+#donate-img{
+    margin:2vw;
+}
+
+#donate-num{
+    font-size:1.5vw;
+    color:#4A4F55;
+}
+#donate-l{
+    font-size:1.4vw;
+    color:#4A4F55;
+}
+
+#donate-final{
+    font-size:1.3vw;
+    color:#ff4d4d;
+}
 /* -form------------------------------------------*/
 .box-form{
     background-color: #d8e1fa;

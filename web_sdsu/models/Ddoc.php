@@ -10,6 +10,7 @@ use Yii;
  * @property int $id รหัส
  * @property string $doc_th หมวดหมู่เอกสาร(ไทย)
  * @property string $doc_en หมวดหมู่เอกสาร(en)
+ * @property string $doc_cn หมวดหมู่เอกสาร(cn)
  * @property string $dateadd วันที่เพิ่ม
  *
  * @property TDocument[] $tDocuments
@@ -32,7 +33,7 @@ class Ddoc extends \yii\db\ActiveRecord
         return [
             [['doc_th', 'doc_en'], 'required'],
             [['dateadd'], 'safe'],
-            [['doc_th', 'doc_en'], 'string', 'max' => 225],
+            [['doc_th', 'doc_en', 'doc_cn'], 'string', 'max' => 225],
         ];
     }
 
@@ -45,6 +46,7 @@ class Ddoc extends \yii\db\ActiveRecord
             'id' => 'รหัส',
             'doc_th' => 'หมวดหมู่เอกสาร(ไทย)',
             'doc_en' => 'หมวดหมู่เอกสาร(en)',
+            'doc_cn' => 'หมวดหมู่เอกสาร(cn)',
             'dateadd' => 'วันที่เพิ่ม',
         ];
     }
