@@ -77,7 +77,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
     <div id="panel-index-news" class="panel panel-default"> 
         <div id="panel-head-index-news" class="panel-heading">
             <h3 id="panel-title-index-news" class="panel-title">
-            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>ข่าวสารหน่วยงานพัฒนาและบริการสังคม</b> </h3>
+            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>ข่าวสาร</b> </h3>
         </div>
 
         <div class="panel-body panel-body-index-news"> 
@@ -117,7 +117,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
         <div id="panel-index-article" class="panel panel-default"> 
         <div id="panel-head-index-article" class="panel-heading">
             <h3 id="panel-title-index-article" class="panel-title">
-            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>วารสารสภาคริสตจักร</b> </h3>
+            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>วารสาร</b> </h3>
         </div>
 
         <div class="panel-body panel-body-index-article"> 

@@ -33,6 +33,7 @@ $this->title = 'โครงการ';
                 <?php foreach($model as $pro) { ?>
                 
                 <a target ="_blank" href="/cctwebsystem2019/document/projects/<?php echo $pro->docs?>"> <?php echo $pro->projectname_th?> <i class="fa fa-download" aria-hidden="true"></i></a><br>
+                <!--<a target ="_blank" href="index.php?r=tproject/detailproject&id=<?php //echo $pro->id?>"> <?php //echo $pro->projectname_th?> <i class="fa fa-download" aria-hidden="true"></i></a><br>-->
                 <?php } ?>
 
                 </div>

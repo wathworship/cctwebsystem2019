@@ -2,7 +2,8 @@ html,
 body {
     height: 100%;
     font-family: 'Trirong', serif;
-    background-color:#e4e6f7;
+    /*background-color:#e4e6f7;*/
+    background-color:#e8f2fc;
 }
 
 .wrap {
@@ -46,8 +47,8 @@ body {
 
 
 .navbar {
-    background-color: /*#00468b*//*003ab3*/#0049b3;
-    border-color: #003480;
+    /*background-color:*/ /*#00468b*//*003ab3*//*#0049b3*/background-image: linear-gradient(to right, #c3dcf7 ,#2780e3,#2780e3,#2780e3 ,#3d8cff);
+    border-image: /*#003480*/linear-gradient(to right, #c3dcf7 ,#2780e3,#2780e3,#2780e3 ,#3d8cff);
     font-family: 'Trirong', serif;
     color:white;
 }
@@ -72,41 +73,53 @@ body {
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #002c85;
+    background-color: #1967be;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {         /* สีของเส้นกั้นระหว่างnavbarกับพื้นหลัง เมื่อกดเปิด navbar*/
-    border-color: #002c85;
+    border-color: #1967be;
 }
 
 /*---- navbar กระพริบสี-----------------------------*/
 .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
     color: white !important;
-    background-color: #002c85 !important;
+    background-color: #1967be !important;
 }
 
 /*------dropdown hi-light -------------------------*/
 .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
-    background-color: #0049b3 !important;
+    background-color: #2780e3 !important;
 }
 
 @media (max-width: 767px){
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: white;
+        color: white !important;
         
     }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: black !important;  
+    }
+
+    .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
+        color: white !important;
+        background-color: #1967be !important;
+    }
+
+    
     #w2,#w3{  
-        background-color:#0049b3;
+        background-color:#2780e3;
         
     }
 
     .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
-        background-color: #002c85 !important;
+        background-color: #1967be !important;
+        color:white !important;
     }
 }
 /*เมื่อเปิด navbar dropdown จะเปลี่ยนสี---------------------------------------------*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #002c85;
+    background-color: #1967be;
 }
 /*------ก่อนกระพริบ-----------------------------------------------*/
 .navbar-inverse .navbar-nav > li > a {
@@ -279,7 +292,6 @@ a.desc:after {
 /* -form------------------------------------------*/
 .box-form{
     background-color: #d8e1fa;
-    
 }
 
 #form{
@@ -309,7 +321,7 @@ a.desc:after {
 .in-box-details{
     font-family: 'Trirong', serif;
     font-size:1.3vw;
-    color:#323232
+    color:#323232;
 }
 
 /* index-news----------------------------------------*/
@@ -318,17 +330,13 @@ a.desc:after {
     
 }
 
-.img-detail{
-    width:40vw;
-}
-
 #panel-index-news{
-    border: 1px solid #a4b9f4;
+    border: 1px solid #80b5ef;
     font-family: 'Trirong', serif;
 }
 
 #panel-head-index-news{
-    background-color: #a4b9f4;
+    background-color: #80b5ef;
     
 }
 
@@ -365,13 +373,13 @@ a.desc:after {
 .h-box-news{
     font-family: 'Trirong', serif;
     font-size:1.2vw;
-    color:#1a5389;
+    color:#155ca9;
 }
 
 .button-news{
     border-radius: 10px;
-    background-color: #a4b9f4; 
-    border: 1px solid#a4b9f4;
+    background-color: #80b5ef; 
+    border: 1px solid#80b5ef;
     color:black;
 }
 
@@ -437,14 +445,13 @@ a.desc:after {
 /* index-calendar -----------------------------------*/
 
 #panel-index-calendar{
-    border: 1px solid #a8c1da;
+    border: 1px solid #80d1ef;
     font-family: 'Trirong', serif;
-    margin-bottom:3vw;
     
 }
 
 #panel-head-index-calendar{
-    background-color: #a8c1da;
+    background-color: #80d1ef;
     
 }
 
@@ -458,7 +465,7 @@ a.desc:after {
 
 #panel-body-index-calendar{
   
-    background-color: #e8f2fc;
+    background-color: #d7f1fa;
     color:black; 
     font-size:1.3vw; 
     font-family: 'Trirong', serif;
