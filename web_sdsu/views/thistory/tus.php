@@ -1,3 +1,4 @@
+<body style="background-color:#e4e6f7">
 <?php
 
 /* @var $this yii\web\View */
@@ -61,4 +62,5 @@ $this->title = 'วิสัยทัศน์ วัตถุประสงค
  
 
 </div>
+</body>
 

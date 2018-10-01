@@ -19,16 +19,42 @@ $this->title = 'โครงสร้างองค์กร';
         <li class="active"><?= $this->title ?></li>
     </ul>
 
-    
-                
+               
     <div class="row">
         <div class="col-md-9">
             <div class="thumbnail box-about">
                 
                 <div align="center" class="in-box-about" style="padding:1.5vw">
                 <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
-                <img   src="<?php echo $model->ref?>" style="width:58vw;">
+                <img   src="/cctwebsystem2019/images/struct/<?php echo $model->ref?>" style="width:58vw;">
                 <!--<p><?php echo $model->history_th?></p>-->
+                </div>
+                
+            </div>
+
+            <div class="thumbnail box-about">
+                
+                <div class="in-box-about" style="padding:1.5vw">
+                    <center><b><p class="h-box-about" ><?php echo $manager1->department->department_th ?></p></b></center>
+                    <center>
+                        <div class="table-responsive" style="padding-top:1.5vw;">          
+                            <table border="0" >
+                                <tbody>
+                                    <?php 
+                                    $i=1;
+                                    foreach($manager as $m) {?>
+                                    <tr border="0">
+                                        <td><p><?php echo $i?>.&nbsp;</p></td>
+                                        <td><p><?php echo $m->prefix->prefix_th?><?php echo $m->firstname_th?> <?php echo $m->lastname_th?></p></td>                                   
+                                        <td><p style="margin-left:3vw;"><?php echo $m->position->position_th?></p></td>
+                                    </tr>
+                                    <?php 
+                                    $i++;
+                                    } ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </center>
                 </div>
                 
             </div>

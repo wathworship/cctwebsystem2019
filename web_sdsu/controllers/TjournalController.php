@@ -130,7 +130,7 @@ class TjournalController extends Controller
    {   
        //$model = Tjournal::find()->where('unit=8')->orderBy('id DESC')->all(); 
 
-       $query = Tjournal::find()->where('unit=8')->orderBy('id DESC');
+       $query = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC');
 
         // get the total number of articles (but do not fetch the article data yet)
         $count = $query->count();
@@ -148,5 +148,20 @@ class TjournalController extends Controller
            'models' => $models, 
            'pagination' => $pagination,
        ]); 
+   }
+   
+   
+   public function actionArticle2() 
+   {   
+
+        $article2 = Tjournal::find()->where('unit=8')->andWhere('d_journal=3')->orderBy('id ASC')->all();
+
+        return $this->render('article2', [
+            'article2' => $article2,
+           
+        ]);
+    
    } 
+
+
 }

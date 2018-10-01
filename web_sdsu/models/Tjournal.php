@@ -42,7 +42,7 @@ class Tjournal extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name_th', 'd_journal', 'issue', 'user_id', 'unit'], 'required'],
+            [['name_th', 'd_journal', 'user_id', 'unit'], 'required'],
             [['d_journal', 'user_id', 'unit'], 'integer'],
             [['journal_file', 'cover'], 'string'],
             [['date_add', 'date_edit'], 'safe'],

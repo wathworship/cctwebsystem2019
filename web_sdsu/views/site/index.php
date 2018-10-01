@@ -42,7 +42,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                 <?php
                 $j=0;
                 //$newreff = $model->ref;
-                $test2 = Uploads::find()->where(['ref'=> $newreff])->all();
+                $test2 = Uploads::find()->where(['ref'=> $newreff])->orderBy('upload_id DESC')->all();
                 foreach($test2 as $test){
                 
                 ?>

@@ -5,10 +5,13 @@
 use yii\helpers\Html;
 
 $this->title = 'ปฏิทินกิจกรรม';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-calendar">
-  
+<ul class="breadcrumb">
+        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li class="active"><?= $this->title ?></li>
+</ul>
 
 <div class="row">
     <div class="col-md-1"></div>
