@@ -25,6 +25,7 @@ AppAsset::register($this);
     <meta http-equiv=Content-Type content="text/html; charset=utf-8">
     <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <?= Html::csrfMetaTags() ?>

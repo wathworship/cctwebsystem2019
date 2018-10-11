@@ -286,8 +286,15 @@ a.desc:after {
 }
 
 #donate-final{
-    font-size:1.3vw;
-    color:#ff4d4d;
+    font-size:1.2vw;
+    color:#ff4c4c;
+}
+
+#donate-thanks{
+    font-family: 'Srisakdi', cursive;
+    font-size:1.5vw;
+    color: /*#b39700*/#0049b3;
+    text-shadow:  #b8b8b8 0.1em 0.1em 0.2em; 
 }
 /* -form------------------------------------------*/
 .panel-body-index-form{

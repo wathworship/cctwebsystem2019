@@ -79,12 +79,19 @@ class SiteController extends Controller
     {
         $map = Tcontact::find()->where('id_type=8')->one();
         $banner = Banner::find()->where('unit=8')->one();
-        $article = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC')->limit(4)->all();
+        //$article = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC')->limit(4)->all();
+        $article1 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=9')->one();
+        $article2 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=7')->one();
+        $article3 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=5')->one();
+        $article4 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=3')->one();
         $news = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->limit(4)->all();
         return $this->render('index',[
             'map' => $map,
             'banner' => $banner,
-            'article' => $article,
+            'article1' => $article1,
+            'article2' => $article2,
+            'article3' => $article3,
+            'article4' => $article4,
             'news' => $news,
         ]);
     }
