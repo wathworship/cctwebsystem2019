@@ -207,7 +207,7 @@ class ThistoryController extends Controller
         $manager1 = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->one();
         $manager = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->all();
         $director = Tperson::find()->where('id_type=8')->andWhere('id_position=5')->orderBy('id ASC')->one();
-        $deputy_director = Tperson::find()->where('id_type=8')->andWhere(['id_position' => '6'])->orderBy('id ASC')->all();
+        $deputy_director = Tperson::find()->where('id_type=8')->andWhere(['not in','id_position',[5]])->andWhere(['id_department' => '5'])->orderBy('id ASC')->all();
         $adviser = Tperson::find()->where('id_type=8')->andWhere(['id_position' => '21'])->orderBy('id ASC')->all();
         $community = Tperson::find()->where('id_type=8')->andWhere('id_department=1')->orderBy('id ASC')->all();
         $community1 = Tperson::find()->where('id_type=8')->andWhere('id_department=1')->orderBy('id ASC')->one();

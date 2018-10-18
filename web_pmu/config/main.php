@@ -9,8 +9,9 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
+    'name' => 'หน่วยงานศิษยาภิบาล',
     'bootstrap' => ['log'],
-    'controllerNamespace' => 'frontend\controllers',
+    'controllerNamespace' => 'web_pmu\controllers',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
@@ -44,6 +45,18 @@ return [
             ],
         ],
         */
+        'urlManager' => [
+            'class' => 'yii\web\urlManager',
+            'enablePrettyUrl' => false,
+            'showScriptName' => true,
+        ],
+        'urlManagerBackend' => [
+                'class' => 'yii\web\urlManager',
+                'baseUrl' => '/cctwebsystem2019/backend/web',
+                'scriptUrl'=>'/cctwebsystem2019/backend/web/index.php',
+                'enablePrettyUrl' => false,
+                'showScriptName' => true,
+        ],
     ],
     'params' => $params,
 ];

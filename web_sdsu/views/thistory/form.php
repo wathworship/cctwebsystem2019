@@ -19,7 +19,7 @@ use web_sdsu\models\Thistory;
             </thead>
             <tbody>
             <tr>
-                <td><a  class="link-about" href="index.php?r=thistory/about"><i class="fa fa-chevron-right" aria-hidden="true"></i> เกี่ยวกับ</a></td>
+                <td><a  class="link-about" href="index.php?r=thistory/about"><i class="fa fa-chevron-right" aria-hidden="true"></i> เกี่ยวกับเรา</a></td>
                 
             </tr>
             <tr>
