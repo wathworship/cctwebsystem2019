@@ -4,7 +4,7 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
-use web_women\models\Thistory;
+use web_sdsu\models\Thistory;
 
 $this->title = 'เกี่ยวกับเรา';
 //$this->params['breadcrumbs'][] = $this->title;
@@ -27,7 +27,7 @@ $this->title = 'เกี่ยวกับเรา';
             <div class="thumbnail box-about">
                 
                 <div class="in-box-about" style="padding:1.5vw">
-                <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
+                <b><p class="h-box-about"><?php echo $model->dhistory->d_history_th ?></p></b>
                 <img src="/cctwebsystem2019/images/about/about_sdsu/<?php echo $model->ref?>" class="img-responsive pull-right" style="margin-left:1vw; width:14vw; height:14vw;"/>
                 <p><?php echo $model->history_th?></p>
                 </div>

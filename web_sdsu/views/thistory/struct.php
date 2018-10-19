@@ -28,7 +28,7 @@ $this->title = 'โครงสร้างองค์กร';
                 
                 <div align="center" class="in-box-about" style="padding:1.5vw">
                 <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
-                <img   src="/cctwebsystem2019/images/struct/struct_sdsu/<?php echo $model->ref?>" style="width:47vw; height:30vw;">
+                <img   src="/cctwebsystem2019/images/struct/struct_sdsu/<?php echo $model->ref?>" style="width:50vw; height:30vw;">
                 <!--<p><?php echo $model->history_th?></p>-->
                 </div>
                 

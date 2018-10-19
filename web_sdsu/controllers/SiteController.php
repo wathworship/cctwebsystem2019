@@ -85,6 +85,8 @@ class SiteController extends Controller
         $article3 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=5')->one();
         $article4 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=3')->one();
         $news = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->limit(4)->all();
+        $model = Tcontact::find()->where('id_type=8')->andWhere('branch_id=2')->one();
+        $tei = Tcontact::find()->where('id_type=8')->andWhere('branch_id=1')->one();
         return $this->render('index',[
             'map' => $map,
             'banner' => $banner,
@@ -93,6 +95,8 @@ class SiteController extends Controller
             'article3' => $article3,
             'article4' => $article4,
             'news' => $news,
+            'model' => $model,
+            'tei' => $tei,
         ]);
     }
 
@@ -101,7 +105,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionLogin()
+    /*public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
@@ -117,26 +121,26 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Logs out the current user.
      *
      * @return mixed
      */
-    public function actionLogout()
+    /*public function actionLogout()
     {
         Yii::$app->user->logout();
 
         return $this->goHome();
-    }
+    }*/
 
     /**
      * Displays contact page.
      *
      * @return mixed
      */
-    public function actionContact()
+    /*public function actionContact()
     {
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -152,7 +156,7 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Displays about page.
@@ -169,7 +173,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionSignup()
+    /*public function actionSignup()
     {
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post())) {
@@ -183,14 +187,14 @@ class SiteController extends Controller
         return $this->render('signup', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Requests password reset.
      *
      * @return mixed
      */
-    public function actionRequestPasswordReset()
+    /*public function actionRequestPasswordReset()
     {
         $model = new PasswordResetRequestForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -206,7 +210,7 @@ class SiteController extends Controller
         return $this->render('requestPasswordResetToken', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Resets password.
@@ -215,7 +219,7 @@ class SiteController extends Controller
      * @return mixed
      * @throws BadRequestHttpException
      */
-    public function actionResetPassword($token)
+    /*public function actionResetPassword($token)
     {
         try {
             $model = new ResetPasswordForm($token);
@@ -232,7 +236,7 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     public function actionCalendar()
     {

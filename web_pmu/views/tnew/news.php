@@ -3,8 +3,8 @@
 /* @var $this yii\web\View */
 use yii\widgets\LinkPager;
 use yii\helpers\Html;
-use web_pmu\models\Tnew;
-use web_pmu\models\Uploads;
+use web_sdsu\models\Tnew;
+use web_sdsu\models\Uploads;
 
 
 $this->title = 'ข่าวสารหน่วยงานพัฒนาและบริการสังคม';

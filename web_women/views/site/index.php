@@ -6,15 +6,15 @@ use yii\bootstrap\Carousel;
 use yii\bootstrap\Widget;
 use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
-use web_women\models\Uploads;
-use web_women\models\Banner;
+use web_sdsu\models\Uploads;
+use web_sdsu\models\Banner;
 $this->title = 'หน่วยงานพัฒนาและบริการสังคม'
 ?>
 <div class="site-index">
 
     <div class="body-content" style="padding-bottom:2.5vw;">
         <div style="padding-bottom:1vw;">
-            <marquee behavior="alternate" scrollamount="4" style="font-size:1.3vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+            <marquee behavior="alternate" scrollamount="4" style="font-size:1.2vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
         </div>
         
   
@@ -47,7 +47,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                 
                 ?>
                     <div class="item <?php if($j==0){echo "active";} ?>">
-                        <img src="/cctwebsystem2019/images/banners/<?php echo $banner->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:35vw; width:100%" class="responsive" >
+                        <img src="/cctwebsystem2019/images/banners/<?php echo $banner->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:35vw; width:100%" class="responsive">
                     </div>
                 <?php 
                 $j++;
@@ -92,7 +92,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                         <?php 
                             $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
                         ?>
-                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" class="img-responsive"/>
+                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" style="height:15vw; width:100%" class="img-responsive"/>
                         <div class="in-box-news" style="padding:1vw">
                         <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
                         <?php

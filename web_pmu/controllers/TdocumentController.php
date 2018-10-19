@@ -3,9 +3,9 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_pmu\models\Ddoc;
-use web_pmu\models\Tdocument;
-use web_pmu\models\TdocumentSearch;
+use web_sdsu\models\Ddoc;
+use web_sdsu\models\Tdocument;
+use web_sdsu\models\TdocumentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

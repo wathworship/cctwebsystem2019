@@ -128,9 +128,11 @@ class TcontactController extends Controller
 
     public function actionContact()
     {
-        $model = Tcontact::find()->where('id_type=8')->one();
+        $model = Tcontact::find()->where('id_type=8')->andWhere('branch_id=2')->one();
+        $tei = Tcontact::find()->where('id_type=8')->andWhere('branch_id=1')->one();
         return $this->render('contact', [
             'model' => $model,
+            'tei' => $tei,
         ]);
     }
 }

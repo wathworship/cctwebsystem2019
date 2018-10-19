@@ -8,15 +8,15 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-use web_pmu\models\PasswordResetRequestForm;
-use web_pmu\models\ResetPasswordForm;
-use web_pmu\models\SignupForm;
-use web_pmu\models\ContactForm;
-use web_pmu\models\Tcontact;
-use web_pmu\models\Tjournal;
-use web_pmu\models\Uploads;
-use web_pmu\models\Tnew;
-use web_pmu\models\Banner;
+use web_sdsu\models\PasswordResetRequestForm;
+use web_sdsu\models\ResetPasswordForm;
+use web_sdsu\models\SignupForm;
+use web_sdsu\models\ContactForm;
+use web_sdsu\models\Tcontact;
+use web_sdsu\models\Tjournal;
+use web_sdsu\models\Uploads;
+use web_sdsu\models\Tnew;
+use web_sdsu\models\Banner;
 
 /**
  * Site controller
@@ -101,7 +101,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionLogin()
+    /*public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
@@ -117,26 +117,26 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Logs out the current user.
      *
      * @return mixed
      */
-    public function actionLogout()
+    /*public function actionLogout()
     {
         Yii::$app->user->logout();
 
         return $this->goHome();
-    }
+    }*/
 
     /**
      * Displays contact page.
      *
      * @return mixed
      */
-    public function actionContact()
+    /*public function actionContact()
     {
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -152,7 +152,7 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Displays about page.
@@ -169,7 +169,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionSignup()
+    /*public function actionSignup()
     {
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post())) {
@@ -183,14 +183,14 @@ class SiteController extends Controller
         return $this->render('signup', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Requests password reset.
      *
      * @return mixed
      */
-    public function actionRequestPasswordReset()
+    /*public function actionRequestPasswordReset()
     {
         $model = new PasswordResetRequestForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -206,7 +206,7 @@ class SiteController extends Controller
         return $this->render('requestPasswordResetToken', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Resets password.
@@ -215,7 +215,7 @@ class SiteController extends Controller
      * @return mixed
      * @throws BadRequestHttpException
      */
-    public function actionResetPassword($token)
+    /*public function actionResetPassword($token)
     {
         try {
             $model = new ResetPasswordForm($token);
@@ -232,7 +232,7 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     public function actionCalendar()
     {

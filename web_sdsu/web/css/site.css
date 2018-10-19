@@ -548,7 +548,7 @@ a:hover, a:link, a:visited, a:active {
 
 #panel-title-contact{
     color:black;
-    font-size:1.4vw; 
+    font-size:1.45vw; 
     text-shadow: white 0.1em 0.1em 0.2em; 
     font-family: 'Trirong', serif; 
     padding-left:10px;
@@ -564,7 +564,15 @@ a:hover, a:link, a:visited, a:active {
     
     background-color:#e8f2fc;
     color:black; 
-    font-size:1.35vw; 
+    font-size:1.4vw; 
+    font-family: 'Trirong', serif;
+}
+
+.panel-body-contact3{
+    
+    background-color:#c4d5e6;
+    color:black; 
+    font-size:1.4vw; 
     font-family: 'Trirong', serif;
 }
 

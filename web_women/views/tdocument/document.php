@@ -3,16 +3,16 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
-use web_women\models\Tdocument;
+use web_sdsu\models\Tdocument;
 
-$this->title = 'ดาวน์โหลดแบบฟอร์ม';
+$this->title = 'ดาวน์โหลดเอกสาร';
 
 ?>
 <div class="tdocument-document">
 
     <ul class="breadcrumb" style="background-color:#f6f6f6">
         <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
-        <li  class="active">แบบฟอร์ม</li>
+        <li  class="active">ดาวน์โหลดเอกสาร</li>
     </ul>
 
   

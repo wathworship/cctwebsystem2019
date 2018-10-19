@@ -3,9 +3,9 @@
 namespace web_women\controllers;
 
 use Yii;
-use web_women\models\Ddoc;
-use web_women\models\Tdocument;
-use web_women\models\TdocumentSearch;
+use web_sdsu\models\Ddoc;
+use web_sdsu\models\Tdocument;
+use web_sdsu\models\TdocumentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
