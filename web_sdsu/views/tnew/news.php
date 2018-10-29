@@ -19,17 +19,17 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
 
     <div id="panel-index-news" class="panel panel-default"> 
         <div id="panel-head-index-news" class="panel-heading">
-            <h3 id="panel-title-index-article" class="panel-title">
+            <h3 id="panel-title-index-news" class="panel-title">
             <i class="fa fa-newspaper" aria-hidden="true"></i> <b>ข่าวสารหน่วยงานพัฒนาและบริการสังคม</b> </h3>
         </div>
 
-        <div class="panel-body panel-body-index-article"> 
+        <div class="panel-body panel-body-index-news"> 
             
             <?php foreach($models as $news) {
                 $newref = $news->ref;
             ?>
                 <div class="panel panel-default">
-                    <div class="panel-body box-article">
+                    <div class="panel-body box-news">
                         <div>
                             <?php 
                                 $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->limit(1)->all();
@@ -39,8 +39,8 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                             <img src="/cctwebsystem2019/images/news/<?php echo $news->ref?>/<?php echo $picture->real_filename?>" class="img-news img-responsive pull-left"/>
                             <?php } ?>
                         </div>
-                        <div class="pad-news in-box-article" style="margin-left:20vw;">
-                            <b><p class="h-box-article"><?php echo $news->newname_th?></p></b>
+                        <div class="pad-news in-box-news" style="margin-left:20vw;">
+                            <b><p class="h-box-news"><?php echo $news->newname_th?></p></b>
                             <?php
                             $d = strtotime("$news->date_news");
                             ?>                       

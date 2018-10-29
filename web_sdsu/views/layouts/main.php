@@ -12,6 +12,7 @@ use common\widgets\Alert;
 use web_sdsu\models\Tcontact;
 use web_sdsu\models\Tnew;
 
+//raoul2000\bootswatch\BootswatchAsset::$theme = 'cosmo';
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -36,7 +37,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="image/pet.png" class="img-responsive pull-left" width="40" height="35"/>'.' '.'<div style="margin:15px" class="pull-right">'.Yii::$app->name.'</div>',
+        'brandLabel' => '<img src="/cctwebsystem2019/images/k11.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top meenny',
@@ -57,6 +58,7 @@ AppAsset::register($this);
             'label' => 'พันธกิจ', 
             'items' => [
                 ['label' => 'พันธกิจ', 'url' => 'index.php?r=thistory/pan'],
+                ['label' => 'แผนงานหลัก', 'url' => 'index.php?r=thistory/plan'],
                 ['label' => 'โครงการ', 'url' => 'index.php?r=tproject/project'],
                 ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]

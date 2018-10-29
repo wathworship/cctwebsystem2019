@@ -135,4 +135,17 @@ class TprojectController extends Controller
            
         ]);
     }
+
+    public function actionDetailproject($id)
+    {
+        //$year = date("Y");
+        //$model = Tproject::find()->where('type_id=8')->andWhere(['year'=> $year])->all();
+
+        return $this->render('detailproject', [
+            'model' => $this->findModel($id),
+           
+        ]);
+    }
+
+
 }

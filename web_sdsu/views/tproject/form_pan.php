@@ -31,6 +31,10 @@ use web_sdsu\models\Thistory;
                
             </tr>
             <tr>
+                <td><a class="link-about" href="index.php?r=tproject/plan"><i class="fa fa-chevron-right" aria-hidden="true"></i> แผนงานหลัก</a></td>
+               
+            </tr>
+            <tr>
                 <td><a class="link-about" href="index.php?r=tproject/project"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงการ</a></td>
                
             </tr>

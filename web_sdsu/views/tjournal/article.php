@@ -48,7 +48,6 @@ $this->title = 'วารสาร';
           
           echo LinkPager::widget([
                 'pagination' => $pagination,
-
             ]);  
     ?>   
 
