@@ -17,11 +17,13 @@ use Yii;
  * @property string $contactdetail_cn รายละเอียดติดต่อ(cn)
  * @property string $reply ข้อเสนอแนะ/ตอบกลับ
  * @property int $id_type สังกัด
+ * @property int $branch_id
  * @property int $id_user ผู้บันทึก
  * @property string $date_add วันที่เพิ่ม
  *
  * @property DType $type
  * @property User $user
+ * @property DBranch $branch
  */
 class Tcontact extends \yii\db\ActiveRecord
 {
@@ -39,13 +41,14 @@ class Tcontact extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['contactname_th', 'id_type', 'id_user'], 'required'],
+            [['contactname_th', 'id_user'], 'required'],
             [['map', 'contactdetail_th', 'contactdetail_en', 'contactdetail_cn', 'reply'], 'string'],
-            [['id_type', 'id_user'], 'integer'],
+            [['id_type', 'branch_id', 'id_user'], 'integer'],
             [['date_add'], 'safe'],
             [['contactname_th', 'contactname_en', 'contactname_cn'], 'string', 'max' => 225],
             [['id_type'], 'exist', 'skipOnError' => true, 'targetClass' => DType::className(), 'targetAttribute' => ['id_type' => 'id']],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],
+            [['branch_id'], 'exist', 'skipOnError' => true, 'targetClass' => DBranch::className(), 'targetAttribute' => ['branch_id' => 'id_branch']],
         ];
     }
 
@@ -65,6 +68,7 @@ class Tcontact extends \yii\db\ActiveRecord
             'contactdetail_cn' => 'รายละเอียดติดต่อ(cn)',
             'reply' => 'ข้อเสนอแนะ/ตอบกลับ',
             'id_type' => 'สังกัด',
+            'branch_id' => 'Branch ID',
             'id_user' => 'ผู้บันทึก',
             'date_add' => 'วันที่เพิ่ม',
         ];
@@ -84,5 +88,13 @@ class Tcontact extends \yii\db\ActiveRecord
     public function getUser()
     {
         return $this->hasOne(User::className(), ['id' => 'id_user']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBranch()
+    {
+        return $this->hasOne(DBranch::className(), ['id_branch' => 'branch_id']);
     }
 }

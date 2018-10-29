@@ -7,10 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use web_women\assets\AppAsset;
+use web_sdsu\assets\AppAsset;
 use common\widgets\Alert;
-use web_women\models\Tcontact;
-use web_women\models\Tnew;
+use web_sdsu\models\Tcontact;
+use web_sdsu\models\Tnew;
 
 //raoul2000\bootswatch\BootswatchAsset::$theme = 'cosmo';
 AppAsset::register($this);
@@ -74,7 +74,7 @@ AppAsset::register($this);
                 
            ],
         ],
-        ['label' => 'แบบฟอร์ม', 'url' => ['/tdocument/document']],
+        ['label' => 'ดาวน์โหลด', 'url' => ['/tdocument/document']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
         
     ];

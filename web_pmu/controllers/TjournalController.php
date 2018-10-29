@@ -3,8 +3,8 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_pmu\models\Tjournal;
-use web_pmu\models\TjournalSearch;
+use web_sdsu\models\Tjournal;
+use web_sdsu\models\TjournalSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

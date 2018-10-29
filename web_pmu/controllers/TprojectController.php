@@ -3,8 +3,8 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_pmu\models\Tproject;
-use web_pmu\models\TprojectSearch;
+use web_sdsu\models\Tproject;
+use web_sdsu\models\TprojectSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

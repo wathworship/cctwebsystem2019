@@ -248,6 +248,12 @@ a.desc:after {
     font-size:1.3vw; 
     font-family: 'Trirong', serif;
 }
+.in-box-pan{
+    font-family: 'Trirong', serif;
+    font-size:1.22vw;
+    color:#1f3348;
+}
+
 
 /*--donate-----------------------------------------*/
 #donate-title{
@@ -514,7 +520,7 @@ a.desc:after {
 
 .in-box-about{
     font-family: 'Trirong', serif;
-    font-size:1.3vw;
+    font-size:1.26vw;
     color:#1f3348;
 }
 

@@ -38,7 +38,7 @@ class ThistoryController extends Controller
      * Lists all Thistory models.
      * @return mixed
      */
-    public function actionIndex()
+    /*public function actionIndex()
     {
         $searchModel = new ThistorySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -47,7 +47,7 @@ class ThistoryController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
-    }
+    }*/
 
     /**
      * Displays a single Thistory model.
@@ -55,19 +55,19 @@ class ThistoryController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
+    /*public function actionView($id)
     {
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
-    }
+    }*/
 
     /**
      * Creates a new Thistory model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    /*public function actionCreate()
     {
         $model = new Thistory();
 
@@ -78,7 +78,7 @@ class ThistoryController extends Controller
         return $this->render('create', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Updates an existing Thistory model.
@@ -87,7 +87,7 @@ class ThistoryController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
+    /*public function actionUpdate($id)
     {
         $model = $this->findModel($id);
 
@@ -98,7 +98,7 @@ class ThistoryController extends Controller
         return $this->render('update', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Deletes an existing Thistory model.
@@ -107,12 +107,12 @@ class ThistoryController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
+    /*public function actionDelete($id)
     {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
-    }
+    }*/
 
     /**
      * Finds the Thistory model based on its primary key value.
@@ -161,9 +161,7 @@ class ThistoryController extends Controller
     public function actionBible()
     {
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=7')->one();
-      
-
-
+        
         return $this->render('bible', [
             'model' => $model,
            

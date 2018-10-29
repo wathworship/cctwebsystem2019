@@ -3,8 +3,8 @@
 namespace web_women\controllers;
 
 use Yii;
-use web_women\models\Tnew;
-use web_women\models\TnewSearch;
+use web_sdsu\models\Tnew;
+use web_sdsu\models\TnewSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -34,7 +34,7 @@ class TnewController extends Controller
      * Lists all Tnew models.
      * @return mixed
      */
-    public function actionIndex()
+    /*public function actionIndex()
     {
         $searchModel = new TnewSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -43,7 +43,7 @@ class TnewController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
-    }
+    }*/
 
     /**
      * Displays a single Tnew model.
@@ -51,19 +51,19 @@ class TnewController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
+    /*public function actionView($id)
     {
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
-    }
+    }*/
 
     /**
      * Creates a new Tnew model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    /*public function actionCreate()
     {
         $model = new Tnew();
 
@@ -74,7 +74,7 @@ class TnewController extends Controller
         return $this->render('create', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Updates an existing Tnew model.
@@ -83,7 +83,7 @@ class TnewController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
+    /*public function actionUpdate($id)
     {
         $model = $this->findModel($id);
 
@@ -94,7 +94,7 @@ class TnewController extends Controller
         return $this->render('update', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Deletes an existing Tnew model.
@@ -103,12 +103,12 @@ class TnewController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
+    /*public function actionDelete($id)
     {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
-    }
+    }*/
 
     /**
      * Finds the Tnew model based on its primary key value.

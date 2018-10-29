@@ -3,8 +3,8 @@
 namespace web_women\controllers;
 
 use Yii;
-use web_women\models\Tcontact;
-use web_women\models\TcontactSearch;
+use web_sdsu\models\Tcontact;
+use web_sdsu\models\TcontactSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

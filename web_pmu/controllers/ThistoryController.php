@@ -3,13 +3,13 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_pmu\models\Thistory;
-use web_pmu\models\Dhistoryy;
-use web_pmu\models\Department;
-use web_pmu\models\Dposition;
-use web_pmu\models\Dprefix;
-use web_pmu\models\Tperson;
-use web_pmu\models\ThistorySearch;
+use web_sdsu\models\Thistory;
+use web_sdsu\models\Dhistoryy;
+use web_sdsu\models\Department;
+use web_sdsu\models\Dposition;
+use web_sdsu\models\Dprefix;
+use web_sdsu\models\Tperson;
+use web_sdsu\models\ThistorySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -38,7 +38,7 @@ class ThistoryController extends Controller
      * Lists all Thistory models.
      * @return mixed
      */
-    public function actionIndex()
+    /*public function actionIndex()
     {
         $searchModel = new ThistorySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -47,7 +47,7 @@ class ThistoryController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
-    }
+    }*/
 
     /**
      * Displays a single Thistory model.
@@ -55,19 +55,19 @@ class ThistoryController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
+    /*public function actionView($id)
     {
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
-    }
+    }*/
 
     /**
      * Creates a new Thistory model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    /*public function actionCreate()
     {
         $model = new Thistory();
 
@@ -78,7 +78,7 @@ class ThistoryController extends Controller
         return $this->render('create', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Updates an existing Thistory model.
@@ -87,7 +87,7 @@ class ThistoryController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
+    /*public function actionUpdate($id)
     {
         $model = $this->findModel($id);
 
@@ -98,7 +98,7 @@ class ThistoryController extends Controller
         return $this->render('update', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Deletes an existing Thistory model.
@@ -107,12 +107,12 @@ class ThistoryController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
+    /*public function actionDelete($id)
     {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
-    }
+    }*/
 
     /**
      * Finds the Thistory model based on its primary key value.
@@ -161,9 +161,7 @@ class ThistoryController extends Controller
     public function actionBible()
     {
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=7')->one();
-      
-
-
+        
         return $this->render('bible', [
             'model' => $model,
            
@@ -207,7 +205,7 @@ class ThistoryController extends Controller
         $manager1 = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->one();
         $manager = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->all();
         $director = Tperson::find()->where('id_type=8')->andWhere('id_position=5')->orderBy('id ASC')->one();
-        $deputy_director = Tperson::find()->where('id_type=8')->andWhere(['id_position' => '6'])->orderBy('id ASC')->all();
+        $deputy_director = Tperson::find()->where('id_type=8')->andWhere(['not in','id_position',[5]])->andWhere(['id_department' => '5'])->orderBy('id ASC')->all();
         $adviser = Tperson::find()->where('id_type=8')->andWhere(['id_position' => '21'])->orderBy('id ASC')->all();
         $community = Tperson::find()->where('id_type=8')->andWhere('id_department=1')->orderBy('id ASC')->all();
         $community1 = Tperson::find()->where('id_type=8')->andWhere('id_department=1')->orderBy('id ASC')->one();
