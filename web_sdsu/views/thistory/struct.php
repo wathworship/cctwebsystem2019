@@ -80,7 +80,7 @@ $this->title = 'โครงสร้างองค์กร';
                         <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/t1.JPG" style="width:20vw;">
+                            <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/t1.JPG" style="width:80%">
                             <p style="margin-top:1.5vw;"><b><?php echo $director->prefix->prefix_th?><?php echo $director->firstname_th?> <?php echo $director->lastname_th?></b></p>
                             <p><?php echo $director->position->position_th?></p>
                         </div>
@@ -91,7 +91,7 @@ $this->title = 'โครงสร้างองค์กร';
                                 
                                 <?php foreach($deputy_director as $deputy){ ?>
                                 <div class="col-md-4">
-                                    <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $deputy->img?>" class="img-circle" style="width:13vw;">
+                                    <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $deputy->img?>" class="img-circle" style="width:183px;">
                                     <p style="margin-top:1.5vw;"><b><?php echo $deputy->prefix->prefix_th?><?php echo $deputy->firstname_th?> <?php echo $deputy->lastname_th?></b></p>
                                     <p><?php echo $deputy->position->position_th?></p>
                                 </div>
@@ -110,7 +110,7 @@ $this->title = 'โครงสร้างองค์กร';
 
                                 <?php foreach($community as $commu){ ?>
                                 <div class="col-md-6">
-                                    <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $commu->img?>" class="img-circle" style="width:13vw;">
+                                    <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $commu->img?>" class="img-circle" style="width:183px;">
                                     <p style="margin-top:1.5vw;"><b><?php echo $commu->prefix->prefix_th?><?php echo $commu->firstname_th?> <?php echo $commu->lastname_th?></b></p>
                                     <p><?php echo $commu->position->position_th?></p>
                                 </div>
@@ -128,8 +128,8 @@ $this->title = 'โครงสร้างองค์กร';
                              
                                 <?php foreach($tei as $t){ ?>
                                     <div class="col-md-4">
-                                        <div style="height:22vw;">
-                                            <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $t->img ?>" class="img-circle" style="width:13vw; margin-bottom:1vw;">
+                                        <div style="height:280px;">
+                                            <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $t->img ?>" class="img-circle" style="width:183px; margin-bottom:1vw;">
                                             <p><b><?php echo $t->prefix->prefix_th?><?php echo $t->firstname_th?> <?php echo $t->lastname_th?></b></p>
                                             <p><?php echo $t->position->position_th?></p>
                                         </div>
@@ -148,7 +148,7 @@ $this->title = 'โครงสร้างองค์กร';
                                 
                                 <?php foreach($commu_aus as $aus){ ?>
                                 <div class="col-md-4">
-                                    <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $aus->img?>" class="img-circle" style="width:13vw;">
+                                    <img src="/cctwebsystem2019/images/organisation/organisation_sdsu/<?php echo $aus->img?>" class="img-circle" style="width:183px;">
                                     <p style="margin-top:1.5vw;"><b><?php echo $aus->prefix->prefix_th?><?php echo $aus->firstname_th?> <?php echo $aus->lastname_th?></b></p>
                                     
                                 </div>

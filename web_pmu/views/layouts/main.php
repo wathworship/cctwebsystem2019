@@ -101,9 +101,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?>   สภาคริสตจักรในประเทศไทย </p>
+        <p class="pull-left">&copy; ฝ่ายสารสนเทศ สภาคริสตจักรในประเทศไทย </p>
 
-        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>  ติดต่อเรา : 053-244381 ต่อ 410-413 </p>
+        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>   </p>
     </div>
 </footer>
 

@@ -14,7 +14,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
 
     <div class="body-content" style="padding-bottom:2.5vw;">
         <div style="padding-bottom:1vw;">
-            <marquee behavior="alternate" scrollamount="4" style="font-size:1.2vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+            <marquee behavior="alternate" scrollamount="4" style="font-size:1.26vw"><?php echo $bible->history_th ?></marquee>
         </div>
         
   
@@ -192,38 +192,38 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
         </div>
         </div>
 <!-- ---------------------------------------------------------------------------------------------- --> 
+<div class="row">
         
-        <div class="row">
-        
-            <div class="col-md-5">
-                <div id="panel-contact" class="panel panel-primary"> 
-                    <div id="panel-head-contact" class="panel-heading">
-                        <h3 id="panel-title-contact" class="panel-title">
-                        <i class="fa fa-envelope" aria-hidden="true"></i> <b>ติดต่อเรา</b>  </h3>
-                    </div>
-
-                    <div class="panel-body panel-body-contact"> 
-                        
-                    
-                        <p style="font-size: 1.2vw; padding-top:0px; padding-bottom:0.7vw"><b><?php echo $map->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
-                        <?php echo $map->contactdetail_th?>
-                    <br>
-                    <br>
-                    </div>
+        <div class="col-md-5">
+            <div id="panel-contact" class="panel panel-primary"> 
+                <div id="panel-head-contact" class="panel-heading">
+                    <h3 id="panel-title-contact" class="panel-title">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <b><?= Html::encode($this->title) ?></b>  </h3>
                 </div>
-            </div>
-            <div class="col-md-7">
-                <div id="panel-contact" class="panel panel-primary"> 
-                    <div id="panel-head-contact" class="panel-heading">
-                        <h3 id="panel-title-contact" class="panel-title">
-                        <span class="glyphicon glyphicon-map-marker"></span> <b>แผนที่</b>  </h3>
-                    </div>
-                    <div class="panel-body panel-body-contact2"> 
-                        <?php echo $map->map ?>
-                    </div>
+
+                <div class="panel-body panel-body-contact"> 
+                    
+                
+                    <p style="font-size: 1.2vw; padding-top:0px; padding-bottom:0.7vw"><b><?php echo $map->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
+                    <?php echo $map->contactdetail_th?>
+                   <br>
+                   <br>
                 </div>
             </div>
         </div>
+        <div class="col-md-7">
+            <div id="panel-contact" class="panel panel-primary"> 
+                <div id="panel-head-contact" class="panel-heading">
+                    <h3 id="panel-title-contact" class="panel-title">
+                    <span class="glyphicon glyphicon-map-marker"></span> <b>แผนที่</b>  </h3>
+                </div>
+                <div class="panel-body panel-body-contact2"> 
+                    <?php echo $map->map ?>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 <!---------------------------------------------------------------------------------------------------->
        
     </div>
