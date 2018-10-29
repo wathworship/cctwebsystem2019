@@ -83,30 +83,29 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
 
                 <div class="row" style="padding-top:0.5vw;">
 
-                <?php foreach($news as $new) { 
-                    $newref = $new->ref;
-                ?>
-                    <div class="col-md-3">
-                        <div class="thumbnail box-news">
-                            <?php 
-                                $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
-                            ?>
-                            <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" style="height:15vw; width:100%" class="img-responsive"/>
-                            <div class="in-box-news" style="padding:1vw">
-                            <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
-                            <?php
-                                $d = strtotime("$new->date_news");
-                            ?>
-                            <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
-                            <p><?php echo $new->newtype->new_th ?></p>
-                            <a href="index.php?r=tnew/detail&id=<?php echo $new->id ?>" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
+                    <?php foreach($news as $new) { 
+                        $newref = $new->ref;
+                    ?>
+                        <div class="col-md-3">
+                            <div class="thumbnail box-news">
+                                <?php 
+                                    $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
+                                ?>
+                                <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" class="img-responsive"/>
+                                <div class="in-box-news" style="padding:1vw">
+                                <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
+                                <?php
+                                    $d = strtotime("$new->date_news");
+                                ?>
+                                <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
+                                <p><?php echo $new->newtype->new_th ?></p>
+                                <a href="index.php?r=tnew/detail&id=<?php echo $new->id ?>" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
+                                </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
-                <?php } ?>
-            
-                    
+                    <?php } ?>
+   
                 </div> 
                 <a href="index.php?r=tnew/news" class="pull-right button-article-pr btn btn-warning btn-sm" role="button">อ่านต่อทั้งหมด</a>   
             </div>       
@@ -125,7 +124,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                     <?php //foreach($article as $ar){ ?>
                     <div class="col-md-3">
                         <div class="thumbnail box-article">
-                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article1->cover?>" class="img-responsive" style="height:25vw;"/>
+                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article1->cover?>" class="img-responsive" style="width:250px; height:350px;"/>
                             <div class="in-box-article" style="padding:1vw">
                             <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                             <p align="center"><?php echo $article1->issue?></p>
@@ -136,7 +135,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                     </div>
                     <div class="col-md-3">
                         <div class="thumbnail box-article">
-                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article4->cover?>" class="img-responsive" style="height:25vw;"/>
+                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article4->cover?>" class="img-responsive" style="width:250px; height:350px;"/>
                             <div class="in-box-article" style="padding:1vw">
                             <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                             <p align="center"><?php echo $article4->issue?></p>
@@ -147,7 +146,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                     </div>
                     <div class="col-md-3">
                         <div class="thumbnail box-article">
-                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article2->cover?>" class="img-responsive" style="height:25vw;"/>
+                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article2->cover?>" class="img-responsive" style="width:250px; height:350px;"/>
                             <div class="in-box-article" style="padding:1vw">
                             <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                             <p align="center"><?php echo $article2->issue?></p>
@@ -158,7 +157,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                     </div>
                     <div class="col-md-3">
                         <div class="thumbnail box-article">
-                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article3->cover?>" class="img-responsive" style="height:25vw;"/>
+                            <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article3->cover?>" class="img-responsive" style="width:250px; height:350px;"/>
                             <div class="in-box-article" style="padding:1vw">
                             <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                             <p align="center"><?php echo $article3->issue?></p>
@@ -171,6 +170,8 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                     <?php //} ?>
                     
                 </div> 
+
+                <a href="index.php?r=tjournal/article" class="pull-right button-article-pr btn btn-warning btn-sm" role="button">อ่านต่อทั้งหมด</a> 
                 
             </div>
         </div>
@@ -183,11 +184,11 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
             <div id="panel-body-index-calendar" class="panel-body" align="center">
                 <div class="row">
                     <div class="col-md-7 responsive">  
-                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0;" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
                     </div>
                     
                     <div class="col-md-5 responsive">
-                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="420" height="400" frameborder="0" scrolling="no"></iframe>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0;" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>

@@ -64,7 +64,6 @@ AppAsset::register($this);
                 ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]
         ],
-        ['label' => 'ร่วมสนับสนุน', 'url' => ['/site/donate']],
         ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
         [
             'label' => 'วารสาร', 
@@ -75,6 +74,7 @@ AppAsset::register($this);
            ],
         ],
         ['label' => 'ดาวน์โหลด', 'url' => ['/tdocument/document']],
+        ['label' => 'ร่วมสนับสนุน', 'url' => ['/site/donate']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
         
     ];
@@ -102,9 +102,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?>   สภาคริสตจักรในประเทศไทย </p>
+        <p class="pull-left">&copy; สภาคริสตจักรในประเทศไทย. สงวนลิขสิทธิ์.</p>
 
-        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>  โทรศัพท์ 053-244381 ต่อ 304 </p>
+        <p class="pull-right">ออกแบบโดย: ฝ่ายสารสนเทศ สภาคริสตจักรในประเทศไทย</p>
     </div>
 </footer>
 
