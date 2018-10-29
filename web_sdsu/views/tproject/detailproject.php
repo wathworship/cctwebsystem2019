@@ -30,7 +30,7 @@ $this->title = 'โครงการ';
                 <?php $year = date("Y"); ?>
 
                 <b><p class="h-box-about" > <?php echo $model->projectname_th ?></p></b>
-                <iframe name="project" class="responsive" width="100%" height="1150px" src="/cctwebsystem2019/document/projects/<?php echo $model->docs?>" frameborder="0"></iframe>
+                <iframe name="project" class="responsive" width="100%" height="1150px" src="/cctwebsystem2019/doc_sdsu/document/projects/<?php echo $model->docs?>" frameborder="0"></iframe>
                 
                 <!--<a target ="_blank" href="/cctwebsystem2019/document/projects/<?php //echo $pro->docs?>"> <?php //echo $pro->projectname_th?> <i class="fa fa-download" aria-hidden="true"></i></a><br>-->
                 

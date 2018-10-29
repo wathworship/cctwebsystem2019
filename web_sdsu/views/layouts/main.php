@@ -50,22 +50,29 @@ AppAsset::register($this);
             'label' => 'เกี่ยวกับ',
             'items' => [
                  ['label' => 'เกี่ยวกับเรา', 'url' => ['/thistory/about']],
-                 ['label' => 'ประวัติความเป็นมา', 'url' => 'index.php?r=thistory/history'],
-                 ['label' => 'โครงสร้างองค์กร', 'url' => 'index.php?r=thistory/struct'],
+                 ['label' => 'ประวัติความเป็นมา', 'url' => ['thistory/history']],
+                 ['label' => 'โครงสร้างองค์กร', 'url' => ['thistory/struct']],
             ],
         ],
         [
             'label' => 'พันธกิจ', 
             'items' => [
-                ['label' => 'พันธกิจ', 'url' => 'index.php?r=thistory/pan'],
-                ['label' => 'แผนงานหลัก', 'url' => 'index.php?r=thistory/plan'],
-                ['label' => 'โครงการ', 'url' => 'index.php?r=tproject/project'],
+                ['label' => 'พันธกิจ', 'url' => ['thistory/pan']],
+                ['label' => 'แผนงานหลัก', 'url' => ['thistory/plan']],
+                ['label' => 'โครงการ', 'url' => ['tproject/project']],
                 ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]
         ],
         ['label' => 'ร่วมสนับสนุน', 'url' => ['/site/donate']],
         ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
-        ['label' => 'วารสาร', 'url' => ['tjournal/article']],
+        [
+            'label' => 'วารสาร', 
+            'items' => [
+                ['label' => 'วารสาร', 'url' => ['tjournal/article']],
+                ['label' => 'บทความ', 'url' => ['tjournal/article2']],
+                
+           ],
+        ],
         ['label' => 'แบบฟอร์ม', 'url' => ['/tdocument/document']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
         

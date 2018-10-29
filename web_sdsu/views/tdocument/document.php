@@ -3,15 +3,12 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+use web_sdsu\models\Tdocument;
 
 $this->title = 'ดาวน์โหลดแบบฟอร์ม';
 
 ?>
 <div class="tdocument-document">
-
-    <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
-    </div>
 
     <ul class="breadcrumb" style="background-color:#f6f6f6">
         <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
@@ -25,32 +22,26 @@ $this->title = 'ดาวน์โหลดแบบฟอร์ม';
             <i class="fa fa-envelope" aria-hidden="true"></i> <b><?= Html::encode($this->title) ?></b>  </h3>
         </div>
 
-        <div class="panel-body panel-body-contact"> 
-            <!-------------------------------------------------------------->
+        <div class="panel-body panel-body-index-form"> 
+        <!---------------------------------------------------------------->
+            <?php foreach($model as $doc) {?>
             <div class="panel panel-default">
                 <div class="panel-body box-form">
-                <div class="in-box-article">
-                        <?php foreach($model as $doc){ ?>
-                        <!--<b><p class="h-box-article">แบบฟอร์มเสียภาษีเงินได้มูลนิธิหรือสมาคม (ภ.ง.ด. 55) ประจำปี</p></b>-->
-                        <a id="form" href="/cctwebsystem2019/document/form_download/<?php $doc->link_doc?>"><i class="fa fa-download" aria-hidden="true"></i> <?php echo $doc->name_th?></a><br>
-                        
+                <div>
+                        <b><p class="h-box-form"><?php echo $doc->doctype->doc_th ?></p></b>
+
+                        <?php 
+                            $tdocument = Tdocument::find()->where('type_id=8')->andWhere(['doc_type'=>$doc->doctype->id])->all();
+                            foreach($tdocument as $tdoc){
+                        ?>
+
+                        <a target ="_blank" id="form" href="/cctwebsystem2019/document/doc_sdsu/form_download/<?php echo $tdoc->link_doc?>"><i style="color:#999999" class="fa fa-download" aria-hidden="true"></i> <?php echo $tdoc->name_th?></a><br>
+
                         <?php }?>
                 </div>
                 </div>
             </div>
-
-            <!--<div class="panel panel-default">
-                <div class="panel-body box-form">
-                <div class="in-box-article">
-                        <b><p class="h-box-article">แบบฟอร์มการจัดทำงบประมาณ</p></b>
-                        <a id="form" href="#"><i class="fa fa-download" aria-hidden="true"></i> แบบฟอร์มงบประมาณหน่วยงานโดยตรง</a><br>
-                        <a id="form" href="#"><i class="fa fa-download" aria-hidden="true"></i> แบบฟอร์มงบประมาณหน่วยงานที่มีรายได้</a><br>
-                        <a id="form" href="#"><i class="fa fa-download" aria-hidden="true"></i> แบบฟอร์มงบประมาณโรงพยาบาล</a><br>
-                        <a id="form" href="#"><i class="fa fa-download" aria-hidden="true"></i> แบบฟอร์มงบประมาณโรงเรียน</a><br>
-                        <a id="form" href="#"><i class="fa fa-download" aria-hidden="true"></i> แบบฟอร์มงบประมาณคริสตจักร</a><br>
-                </div>
-                </div>
-            </div>-->
+            <?php }?>
         <!-------------------------------------------------------------->
         </div>
     </div>

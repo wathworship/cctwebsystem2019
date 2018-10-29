@@ -1,3 +1,4 @@
+<body style="background-color:#e4e6f7">
 <?php
 
 /* @var $this yii\web\View */
@@ -44,15 +45,7 @@ $this->title = 'เกี่ยวกับเรา';
         </div>
 
     </div>
-               
-               
-                
-            
-   
-               
-    
-
-  
 
 
 </div>
+</body>

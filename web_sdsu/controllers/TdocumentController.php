@@ -3,6 +3,7 @@
 namespace web_sdsu\controllers;
 
 use Yii;
+use web_sdsu\models\Ddoc;
 use web_sdsu\models\Tdocument;
 use web_sdsu\models\TdocumentSearch;
 use yii\web\Controller;
@@ -127,7 +128,7 @@ class TdocumentController extends Controller
 
     public function actionDocument()
     {
-        $model = Tdocument::find()->where('type_id=8')->all();
+        $model = Tdocument::find()->where('type_id=8')->groupBy(['doc_type'])->all();
         return $this->render('document', [
             'model' => $model,
         ]);

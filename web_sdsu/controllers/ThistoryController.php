@@ -5,6 +5,10 @@ namespace web_sdsu\controllers;
 use Yii;
 use web_sdsu\models\Thistory;
 use web_sdsu\models\Dhistoryy;
+use web_sdsu\models\Department;
+use web_sdsu\models\Dposition;
+use web_sdsu\models\Dprefix;
+use web_sdsu\models\Tperson;
 use web_sdsu\models\ThistorySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -200,9 +204,13 @@ class ThistoryController extends Controller
     public function actionStruct()
     {
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=3')->one();
+        $manager1 = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->one();
+        $manager = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->all();
 
         return $this->render('struct', [
             'model' => $model,
+            'manager1' => $manager1,
+            'manager' => $manager,
            
         ]);
     }
@@ -216,6 +224,18 @@ class ThistoryController extends Controller
            
         ]);
     }
+
+    public function actionPlan() 
+    {   
+ 
+         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=14')->orderBy('id ASC')->all();
+ 
+         return $this->render('plan', [
+             'model' => $model,
+            
+         ]);
+     
+    } 
 
    
 

@@ -2,6 +2,7 @@
 
 namespace web_sdsu\models;
 
+
 use Yii;
 
 /**
@@ -85,9 +86,9 @@ class Tdocument extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getDocType()
+    public function getDoctype()
     {
-        return $this->hasOne(DDoc::className(), ['id' => 'doc_type']);
+        return $this->hasOne(Ddoc::className(), ['id' => 'doc_type']);
     }
 
     /**
@@ -95,6 +96,6 @@ class Tdocument extends \yii\db\ActiveRecord
      */
     public function getType()
     {
-        return $this->hasOne(DType::className(), ['id' => 'type_id']);
+        return $this->hasOne(Dtype::className(), ['id' => 'type_id']);
     }
 }
