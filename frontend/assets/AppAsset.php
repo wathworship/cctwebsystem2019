@@ -19,6 +19,6 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        
+        'raoul2000\bootswatch\BootswatchAsset',
     ];
 }

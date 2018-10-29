@@ -14,13 +14,13 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
 
     <div class="body-content" style="padding-bottom:2.5vw;">
         <div style="padding-bottom:1vw;">
-            <marquee behavior="alternate" scrollamount="4" style="font-size:1.3vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+            <marquee behavior="alternate" scrollamount="4" style="font-size:1.2vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
         </div>
         
   
         <div class="row" align="center">
         <div class="col-md-12">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="  margin-bottom:2vw;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:2vw;">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                 <?php
@@ -47,7 +47,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                 
                 ?>
                     <div class="item <?php if($j==0){echo "active";} ?>">
-                        <img src="/cctwebsystem2019/images/banners/<?php echo $banner->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:35vw; width:100%" class="responsive" >
+                        <img src="/cctwebsystem2019/images/banners/<?php echo $banner->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:35vw; width:100%" class="responsive">
                     </div>
                 <?php 
                 $j++;
@@ -92,7 +92,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                         <?php 
                             $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
                         ?>
-                        <img src="/cctwebsystem2019/images/news/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" class="img-responsive"/>
+                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" style="height:15vw; width:100%" class="img-responsive"/>
                         <div class="in-box-news" style="padding:1vw">
                         <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
                         <?php
@@ -126,44 +126,44 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                 <?php //foreach($article as $ar){ ?>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/<?php echo $article1->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article1->cover?>" class="img-responsive" style="height:25vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center"><?php echo $article1->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article1->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article1->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
                         </div>
                         
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/<?php echo $article4->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article4->cover?>" class="img-responsive" style="height:25vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center"><?php echo $article4->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article4->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article4->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
                         </div>
                         
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/<?php echo $article2->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article2->cover?>" class="img-responsive" style="height:25vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center"><?php echo $article2->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article2->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article2->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
                         </div>
                         
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/<?php echo $article3->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article3->cover?>" class="img-responsive" style="height:25vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center"><?php echo $article3->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article3->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article3->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
                         </div>
                         
                     </div>

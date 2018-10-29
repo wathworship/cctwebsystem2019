@@ -37,7 +37,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                             <div align="center" class="row">
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:100%;  margin-bottom:2vw;">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:2vw;">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                 <?php
@@ -64,7 +64,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                                 
                                 ?>
                                     <div class="item <?php if($j==0){echo "active";} ?>">
-                                        <img src="/cctwebsystem2019/images/news/<?php echo $model->ref?>/<?php echo $test->real_filename?>" alt="a" style="width:100%" class="responsive" >
+                                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $model->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:38vw;" class="responsive">
                                     </div>
                                 <?php 
                                 $j++;

@@ -27,8 +27,8 @@ $this->title = 'เกี่ยวกับเรา';
             <div class="thumbnail box-about">
                 
                 <div class="in-box-about" style="padding:1.5vw">
-                <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
-                <img src="<?php echo $model->ref?>" class="img-responsive pull-right" style="margin-left:1vw; width:14vw; height:14vw;"/>
+                <b><p class="h-box-about"><?php echo $model->dhistory->d_history_th ?></p></b>
+                <img src="/cctwebsystem2019/images/about/about_sdsu/<?php echo $model->ref?>" class="img-responsive pull-right" style="margin-left:1vw; width:14vw; height:14vw;"/>
                 <p><?php echo $model->history_th?></p>
                 </div>
                 

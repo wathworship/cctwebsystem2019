@@ -25,9 +25,9 @@ $this->title = 'พันธกิจ';
         <div class="col-md-9">
             <div class="thumbnail box-about">
                 
-                <div class="in-box-about" style="padding:1.5vw">
+                <div class="in-box-pan" style="padding:1.5vw">
                 <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
-                <p><?php echo $model->history_th?></p>
+                <p style="font-size:1vw"><?php echo $model->history_th?></p>
                 </div>
                 
             </div>

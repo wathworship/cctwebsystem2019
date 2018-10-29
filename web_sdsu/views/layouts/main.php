@@ -38,7 +38,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="/cctwebsystem2019/images/k11.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
+        'brandLabel' => '<img src="/cctwebsystem2019/images/about/about_sdsu/k11.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top meenny',
@@ -48,7 +48,7 @@ AppAsset::register($this);
     $menuItems = [
         ['label' => 'หน้าหลัก', 'url' => ['/site/index']],
         [
-            'label' => 'เกี่ยวกับ',
+            'label' => 'เกี่ยวกับเรา',
             'items' => [
                  ['label' => 'เกี่ยวกับเรา', 'url' => ['/thistory/about']],
                  ['label' => 'ประวัติความเป็นมา', 'url' => ['thistory/history']],
@@ -74,7 +74,7 @@ AppAsset::register($this);
                 
            ],
         ],
-        ['label' => 'แบบฟอร์ม', 'url' => ['/tdocument/document']],
+        ['label' => 'ดาวน์โหลด', 'url' => ['/tdocument/document']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
         
     ];

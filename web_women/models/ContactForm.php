@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\models;
+namespace web_women\models;
 
 use Yii;
 use yii\base\Model;

@@ -1,5 +1,5 @@
 <?php
-namespace frontend\controllers;
+namespace web_women\controllers;
 
 use Yii;
 use yii\base\InvalidParamException;
@@ -8,10 +8,15 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-use frontend\models\PasswordResetRequestForm;
-use frontend\models\ResetPasswordForm;
-use frontend\models\SignupForm;
-use frontend\models\ContactForm;
+use web_women\models\PasswordResetRequestForm;
+use web_women\models\ResetPasswordForm;
+use web_women\models\SignupForm;
+use web_women\models\ContactForm;
+use web_women\models\Tcontact;
+use web_women\models\Tjournal;
+use web_women\models\Uploads;
+use web_women\models\Tnew;
+use web_women\models\Banner;
 
 /**
  * Site controller
@@ -72,7 +77,23 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $map = Tcontact::find()->where('id_type=8')->one();
+        $banner = Banner::find()->where('unit=8')->one();
+        //$article = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC')->limit(4)->all();
+        $article1 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=9')->one();
+        $article2 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=7')->one();
+        $article3 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=5')->one();
+        $article4 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=3')->one();
+        $news = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->limit(4)->all();
+        return $this->render('index',[
+            'map' => $map,
+            'banner' => $banner,
+            'article1' => $article1,
+            'article2' => $article2,
+            'article3' => $article3,
+            'article4' => $article4,
+            'news' => $news,
+        ]);
     }
 
     /**
@@ -138,10 +159,10 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionAbout()
+    /*public function actionAbout()
     {
         return $this->render('about');
-    }
+    }*/
 
     /**
      * Signs user up.
@@ -211,5 +232,15 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
+    }
+
+    public function actionCalendar()
+    {
+        return $this->render('calendar');
+    }
+
+    public function actionDonate()
+    {
+        return $this->render('donate');
     }
 }

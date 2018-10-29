@@ -36,7 +36,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                                 foreach($pic as $picture) {
                                 
                             ?>
-                            <img src="/cctwebsystem2019/images/news/<?php echo $news->ref?>/<?php echo $picture->real_filename?>" class="img-news img-responsive pull-left"/>
+                            <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $news->ref?>/<?php echo $picture->real_filename?>" class="img-news img-responsive pull-left"/>
                             <?php } ?>
                         </div>
                         <div class="pad-news in-box-news" style="margin-left:20vw;">
