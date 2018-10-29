@@ -38,6 +38,7 @@ $this->title = 'วิสัยทัศน์ วัตถุประสงค
                 <div class="in-box-about" style="padding:1.5vw">
                 <b><p class="h-box-about" ><?php echo $objective->dhistory->d_history_th ?></p></b>
                 <p><?php echo $objective->history_th?></p>
+
                 </div>
                 
             </div>

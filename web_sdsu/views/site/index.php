@@ -123,19 +123,53 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
         <div class="panel-body panel-body-index-article"> 
             <div class="row" style="padding-top:0.5vw;">
 
-                <?php foreach($article as $ar){ ?>
+                <?php //foreach($article as $ar){ ?>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/<?php echo $ar->cover?>" class="img-responsive" style="width:160px; height:200px"/>
+                        <img src="/cctwebsystem2019/images/journals/<?php echo $article1->cover?>" class="img-responsive" style="height:25vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $ar->issue?></p>
-                        <a target ="_blank" style=" text-align: center;" href="<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a>
+                        <p align="center"><?php echo $article1->issue?></p>
+                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article1->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
                         </div>
                         
                     </div>
                 </div>
-                <?php } ?>
+                <div class="col-md-3">
+                    <div class="thumbnail box-article">
+                        <img src="/cctwebsystem2019/images/journals/<?php echo $article4->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <div class="in-box-article" style="padding:1vw">
+                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
+                        <p align="center"><?php echo $article4->issue?></p>
+                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article4->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail box-article">
+                        <img src="/cctwebsystem2019/images/journals/<?php echo $article2->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <div class="in-box-article" style="padding:1vw">
+                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
+                        <p align="center"><?php echo $article2->issue?></p>
+                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article2->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail box-article">
+                        <img src="/cctwebsystem2019/images/journals/<?php echo $article3->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <div class="in-box-article" style="padding:1vw">
+                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
+                        <p align="center"><?php echo $article3->issue?></p>
+                        <center><a target ="_blank" style=" text-align: center;" href="<?php echo $article3->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <?php //} ?>
                 
             </div> 
                 

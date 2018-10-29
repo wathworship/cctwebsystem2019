@@ -19,25 +19,25 @@ $this->title = 'ประวัติความเป็นมา';
         <li class="active"><?= $this->title ?></li>
     </ul>
            
-    <div class="row">
+    <!--<div class="row">
         <div class="col-md-9">
             <div class="thumbnail box-about">
                 
                 <div class="in-box-about" style="padding:1.5vw">
-                <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
-                <p><?php echo $model->history_th?></p>
-                </div>
+                <b><p class="h-box-about" ><?php //echo $model->dhistory->d_history_th ?></p></b>-->
+                <center><iframe name="project" class="responsive" style="width:80vw; height:30vw;" src="/cctwebsystem2019/document/doc_sdsu/history/<?php echo $model->docs?>" frameborder="0"></iframe></center>
+                <!--</div>
                 
             </div>
         </div>
 
         <div class="col-md-3">
 
-        <?= $this->render('form', [
+        <?//= //$this->render('form', [
                 //'model' => $model,
-        ]) ?>
+        //]) ?>
         
-        </div>
+        </div>-->
 
     </div>
  

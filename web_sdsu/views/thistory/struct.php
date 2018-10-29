@@ -4,6 +4,8 @@
 
 use yii\helpers\Html;
 use web_sdsu\models\Thistory;
+use web_sdsu\models\Tperson;
+
 
 $this->title = 'โครงสร้างองค์กร';
 //$this->params['breadcrumbs'][] = $this->title;
@@ -21,7 +23,7 @@ $this->title = 'โครงสร้างองค์กร';
 
                
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
             <div class="thumbnail box-about">
                 
                 <div align="center" class="in-box-about" style="padding:1.5vw">
@@ -60,13 +62,114 @@ $this->title = 'โครงสร้างองค์กร';
             </div>
         </div>
 
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
 
-        <?= $this->render('form', [
-                //'model' => $model,
-        ]) ?>
+            <?//= $this->render('form', [
+                    //'model' => $model,
+            //]) ?>
         
+        </div>-->
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="thumbnail box-about">
+                <div align="center" class="in-box-about" style="padding:1.5vw">
+                        <b><p class="h-box-about" >คณะกรรมการหน่วยงานพัฒนาและบริการสังคม</p></b>
+                        <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/cctwebsystem2019/images/organisation/t1.JPG" style="width:20vw;">
+                            <p style="margin-top:1.5vw;"><b><?php echo $director->prefix->prefix_th?><?php echo $director->firstname_th?> <?php echo $director->lastname_th?></b></p>
+                            <p><?php echo $director->position->position_th?></p>
+                        </div>
+
+                        
+                        <div class="col-md-8">
+                            <div class="row">
+
+                                <?php foreach($deputy_director as $deputy){ ?>
+                                <div class="col-md-4">
+                                    <img src="/cctwebsystem2019/images/organisation/<?php echo $deputy->img?>" class="img-circle" style="width:13vw;">
+                                    <p style="margin-top:1.5vw;"><b><?php echo $deputy->prefix->prefix_th?><?php echo $deputy->firstname_th?> <?php echo $deputy->lastname_th?></b></p>
+                                    <p><?php echo $deputy->position->position_th?></p>
+                                </div>
+                                <?php } ?>
+
+                                <?php foreach($adviser as $advise){ ?>
+                                <div class="col-md-4">
+                                    <img src="/cctwebsystem2019/images/organisation/<?php echo $advise->img?>" class="img-circle" style="width:13vw;">
+                                    <p style="margin-top:1.5vw;"><b><?php echo $advise->prefix->prefix_th?> <?php echo $advise->firstname_th?> <?php echo $advise->lastname_th?></b></p>
+                                    <p><?php echo $advise->position->position_th?></p>
+                                </div>
+                                <?php } ?>
+
+                            </div>
+
+                                <!-- ------------ฝ่ายพัฒนาคริสตจักรและชุมชนเชียงใหม่--------------------- -->
+                            <div class="row">
+                                <div style="margin-top:3vw;margin-bottom:1vw; font-size:1.4vw;" class="col-md-12">
+                                <center><b><u><p><?php echo $community1->department->department_th?></p></u></b></center>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <?php foreach($community as $commu){ ?>
+                                <div class="col-md-5">
+                                    <img src="/cctwebsystem2019/images/organisation/<?php echo $commu->img?>" class="img-circle" style="width:13vw;">
+                                    <p style="margin-top:1.5vw;"><b><?php echo $commu->prefix->prefix_th?><?php echo $commu->firstname_th?> <?php echo $commu->lastname_th?></b></p>
+                                    <p><?php echo $commu->position->position_th?></p>
+                                </div>
+                                <?php } ?>
+                                <div class="col-md-1"></div>
+                            </div>
+                                <!-- -------------องค์กรเพื่อนบ้านชุมชนแห่งความหวังออสเตรเลีย----------------------- -->
+
+                            <div class="row">
+                                <div style="margin-top:4vw;margin-bottom:1vw; font-size:1.4vw;" class="col-md-12">
+                                <center><b><u><p><?php echo $commu_aus1->department->department_th?></p></u></b></center>
+                                </div>
+
+                                <div class="col-md-1"></div>
+
+                                <?php foreach($commu_aus as $aus){ ?>
+                                <div class="col-md-5">
+                                    <img src="/cctwebsystem2019/images/organisation/<?php echo $aus->img?>" class="img-circle" style="width:13vw;">
+                                    <p style="margin-top:1.5vw;"><b><?php echo $aus->prefix->prefix_th?><?php echo $aus->firstname_th?> <?php echo $aus->lastname_th?></b></p>
+                                    
+                                </div>
+                                <?php } ?>
+                                <div class="col-md-1"></div>
+                            </div>
+
+                            <!-- ---------โครงการศูนย์พัฒนาและบริการคลองเตย--------------------- -->                            
+                                
+                            <div style="margin-top:4vw;margin-bottom:1vw; font-size:1.4vw;" class="col-md-12">
+                                <center><b><u><p><?php echo $tei1->department->department_th?></p></u></b></center>
+                            </div>
+
+                            <div class="row">    
+                                <?php foreach($tei as $t){ ?>
+                                    <div class="col-md-4">
+                                        <div style="height:22vw;">
+                                            <img src="/cctwebsystem2019/images/organisation/<?php echo $t->img ?>" class="img-circle" style="width:13vw; margin-bottom:1vw;">
+                                            <p><b><?php echo $t->prefix->prefix_th?><?php echo $t->firstname_th?> <?php echo $t->lastname_th?></b></p>
+                                            <p><?php echo $t->position->position_th?></p>
+                                        </div>
+                                    </div>
+                                <?php } ?>
+                            </div> 
+                            </div> 
+
+                   
+
+                    </div>
+                </div>
+
+            </div>
         </div>
+
 
     </div>
  

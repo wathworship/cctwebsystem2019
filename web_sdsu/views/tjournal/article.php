@@ -27,8 +27,8 @@ $this->title = 'วารสาร';
 
                 <?php foreach($models as $ar){ ?>
                 <div class="col-md-4">
-                    <div class="thumbnail box-article" style="height:31vw;">
-                        <img src="/cctwebsystem2019/images/journals/<?php echo $ar->cover?>" class="img-responsive" style="width:240px; height:280px; margin-top:1.1vw;"/>
+                    <div class="thumbnail box-article" style="height:440px">
+                        <img src="/cctwebsystem2019/images/journals/<?php echo $ar->cover?>" class="img-responsive" style="width:250px; height:300px; margin-top:1.1vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center" class="h-box-article"><b><?php echo $ar->name_th?></b></p>

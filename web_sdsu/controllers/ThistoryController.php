@@ -206,11 +206,29 @@ class ThistoryController extends Controller
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=3')->one();
         $manager1 = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->one();
         $manager = Tperson::find()->where('id_type=8')->andWhere('id_department=4')->orderBy('id ASC')->all();
+        $director = Tperson::find()->where('id_type=8')->andWhere('id_position=5')->orderBy('id ASC')->one();
+        $deputy_director = Tperson::find()->where('id_type=8')->andWhere(['id_position' => '6'])->orderBy('id ASC')->all();
+        $adviser = Tperson::find()->where('id_type=8')->andWhere(['id_position' => '21'])->orderBy('id ASC')->all();
+        $community = Tperson::find()->where('id_type=8')->andWhere('id_department=1')->orderBy('id ASC')->all();
+        $community1 = Tperson::find()->where('id_type=8')->andWhere('id_department=1')->orderBy('id ASC')->one();
+        $commu_aus1 = Tperson::find()->where('id_type=8')->andWhere('id_department=3')->orderBy('id ASC')->one();
+        $commu_aus = Tperson::find()->where('id_type=8')->andWhere('id_department=3')->orderBy('id ASC')->all();
+        $tei1 = Tperson::find()->where('id_type=8')->andWhere('id_department=2')->one();
+        $tei = Tperson::find()->where('id_type=8')->andWhere('id_department=2')->orderBy('id ASC')->all();
 
         return $this->render('struct', [
             'model' => $model,
             'manager1' => $manager1,
             'manager' => $manager,
+            'director' => $director,
+            'deputy_director' => $deputy_director,
+            'adviser' => $adviser,
+            'community' => $community,
+            'community1' => $community1,
+            'commu_aus' => $commu_aus,
+            'commu_aus1' => $commu_aus1,
+            'tei1' => $tei1,
+            'tei' => $tei,
            
         ]);
     }
