@@ -3,8 +3,9 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_sdsu\models\Tcontact;
-use web_sdsu\models\TcontactSearch;
+use web_pmu\models\Tcontact;
+use web_pmu\models\Thistory;
+use web_pmu\models\TcontactSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -128,9 +129,11 @@ class TcontactController extends Controller
 
     public function actionContact()
     {
-        $model = Tcontact::find()->where('id_type=8')->one();
+        $model = Tcontact::find()->where('id_type=9')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
         return $this->render('contact', [
             'model' => $model,
+            'bible' => $bible,
         ]);
     }
 }

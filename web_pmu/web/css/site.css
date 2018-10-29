@@ -3,7 +3,7 @@ body {
     height: 100%;
     font-family: 'Trirong', serif;
     /*background-color:#e4e6f7;*/
-    background-color:/*#e8f2fc*/#e4e6f7;
+    background-color:/*#e8f2fc*/#fbe6dd
 }
 
 .wrap {
@@ -47,12 +47,11 @@ body {
 
 
 .navbar {
-    /*background-color:*/ /*#00468b*//*003ab3*//*#0049b3*/background-image: linear-gradient(to right, #c3dcf7 ,#2780e3,#2780e3,#2780e3 ,#3d8cff);
-    border-image: /*#003480*/linear-gradient(to right, #c3dcf7 ,#2780e3,#2780e3,#2780e3 ,#3d8cff);
+    /*background-color:*/ /*#00468b*//*003ab3*//*#0049b3*/background-image: linear-gradient(to right, #f9cccb ,#eb6864,#eb6864,#eb6864 ,#f08886);
+    border-image: /*#003480*/linear-gradient(to right, #f9cccb ,#eb6864,#eb6864,#eb6864 ,#f08886);
     font-family: 'Trirong', serif;
     color:white;
 }
-
 
 
 .navbar-brand>img {
@@ -73,21 +72,21 @@ body {
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #1967be;
+    background-color: #e74b47;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {         /* สีของเส้นกั้นระหว่างnavbarกับพื้นหลัง เมื่อกดเปิด navbar*/
-    border-color: #1967be;
+    border-color: #e74b47;
 }
 
 /*---- navbar กระพริบสี-----------------------------*/
 .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
     color: white !important;
-    background-color: #1967be !important;
+    background-color: #e74b47 !important;
 }
 
 /*------dropdown hi-light -------------------------*/
 .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
-    background-color: #2780e3 !important;
+    background-color: #eb6864 !important;
 }
 
 @media (max-width: 767px){
@@ -102,24 +101,24 @@ body {
 
     .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
         color: white !important;
-        background-color: #1967be !important;
+        background-color: #e74b47 !important;
     }
 
     
     #w2,#w3{  
-        background-color:#2780e3;
+        background-color:#eb6864;
         
     }
 
     .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
-        background-color: #1967be !important;
+        background-color: #e74b47 !important;
         color:white !important;
     }
 }
 /*เมื่อเปิด navbar dropdown จะเปลี่ยนสี---------------------------------------------*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #1967be;
+    background-color: #e74b47;
 }
 /*------ก่อนกระพริบ-----------------------------------------------*/
 .navbar-inverse .navbar-nav > li > a {
@@ -542,12 +541,12 @@ a:hover, a:link, a:visited, a:active {
 #panel-head-contact{
     /*background-color: #ff2e7f;*/
     font-family: 'Trirong', serif;
-    background-color: #a8c1da;
-    border-color: #a8c1da;
+    background-color: #f29997;
+    border-color: #f29997;
 }
 
 #panel-title-contact{
-    color:black;
+    color:#333333;
     font-size:1.4vw; 
     text-shadow: white 0.1em 0.1em 0.2em; 
     font-family: 'Trirong', serif; 
@@ -557,12 +556,12 @@ a:hover, a:link, a:visited, a:active {
 #panel-contact{
     
     font-family: 'Trirong', serif;
-    border-color:#a8c1da;
+    border-color:#f29997;
 }
 
 .panel-body-contact,.panel-body-contact2{
     
-    background-color:#e8f2fc;
+    background-color:#fbe6dd;
     color:black; 
     font-size:1.35vw; 
     font-family: 'Trirong', serif;

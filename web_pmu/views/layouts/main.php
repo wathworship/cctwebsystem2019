@@ -38,7 +38,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="/cctwebsystem2019/images/about/about_sdsu/k11.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
+        'brandLabel' => '<img src="/cctwebsystem2019/images/about/about_pmu/pmu.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top meenny',
@@ -64,7 +64,6 @@ AppAsset::register($this);
                 ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]
         ],
-        ['label' => 'ร่วมสนับสนุน', 'url' => ['/site/donate']],
         ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
         [
             'label' => 'วารสาร', 
@@ -104,7 +103,7 @@ AppAsset::register($this);
     <div class="container">
         <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?>   สภาคริสตจักรในประเทศไทย </p>
 
-        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>  โทรศัพท์ 053-244381 ต่อ 304 </p>
+        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>  ติดต่อเรา : 053-244381 ต่อ 410-413 </p>
     </div>
 </footer>
 
