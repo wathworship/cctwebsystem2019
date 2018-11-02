@@ -3,13 +3,13 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_sdsu\models\Thistory;
-use web_sdsu\models\Dhistoryy;
-use web_sdsu\models\Department;
-use web_sdsu\models\Dposition;
-use web_sdsu\models\Dprefix;
-use web_sdsu\models\Tperson;
-use web_sdsu\models\ThistorySearch;
+use web_pmu\models\Thistory;
+use web_pmu\models\Dhistoryy;
+use web_pmu\models\Department;
+use web_pmu\models\Dposition;
+use web_pmu\models\Dprefix;
+use web_pmu\models\Tperson;
+use web_pmu\models\ThistorySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -132,69 +132,80 @@ class ThistoryController extends Controller
 
     public function actionAbout()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=1')->orderBy('id DESC')->one();
-      
+        $model = Thistory::find()->where('history_type=9')->andWhere('d_history=1')->orderBy('id DESC')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
         
 
         return $this->render('about', [
             'model' => $model,
-           
+            'bible' => $bible,
 
         ]);
     }
 
     public function actionTus()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=4')->one();
-        $objective = Thistory::find()->where('history_type=8')->andWhere('d_history=5')->one();
-        $goal = Thistory::find()->where('history_type=8')->andWhere('d_history=6')->one();
+        $model = Thistory::find()->where('history_type=9')->andWhere('d_history=4')->one();
+        $objective = Thistory::find()->where('history_type=9')->andWhere('d_history=5')->one();
+        $goal = Thistory::find()->where('history_type=9')->andWhere('d_history=6')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
      
 
         return $this->render('tus', [
             'model' => $model,
             'objective' => $objective,
             'goal' => $goal,
+            'bible' => $bible,
            
         ]);
     }
 
     public function actionBible()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=7')->one();
+        $model = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
         
         return $this->render('bible', [
             'model' => $model,
+            'bible' => $bible,
+            
            
         ]);
     }
 
     public function actionPan()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=9')->one();
-        $yut = Thistory::find()->where('history_type=8')->andWhere('d_history=11')->one();
+        $model = Thistory::find()->where('history_type=9')->andWhere('d_history=9')->one();
+        $yut = Thistory::find()->where('history_type=9')->andWhere('d_history=11')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
 
         return $this->render('pan', [
             'model' => $model,
             'yut' => $yut,
+            'bible' => $bible,
         ]);
     }
 
     public function actionYut()
     {
         $model = Thistory::find()->where('history_type=8')->andWhere('d_history=10')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
 
         return $this->render('yut', [
             'model' => $model,
+            'bible' => $bible,
            
         ]);
     }
 
     public function actionWat()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=11')->one();
+        $model = Thistory::find()->where('history_type=9')->andWhere('d_history=11')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
 
         return $this->render('wat', [
             'model' => $model,
+            'bible' => $bible,
            
         ]);
     }
@@ -213,6 +224,7 @@ class ThistoryController extends Controller
         $commu_aus = Tperson::find()->where('id_type=8')->andWhere('id_department=3')->orderBy('id ASC')->all();
         $tei1 = Tperson::find()->where('id_type=8')->andWhere('id_department=2')->one();
         $tei = Tperson::find()->where('id_type=8')->andWhere('id_department=2')->orderBy('id ASC')->all();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
 
         return $this->render('struct', [
             'model' => $model,
@@ -227,16 +239,19 @@ class ThistoryController extends Controller
             'commu_aus1' => $commu_aus1,
             'tei1' => $tei1,
             'tei' => $tei,
+            'bible' => $bible,
            
         ]);
     }
 
     public function actionHistory()
     {
-        $model = Thistory::find()->where('history_type=8')->andWhere('d_history=2')->one();
+        $model = Thistory::find()->where('history_type=9')->andWhere('d_history=2')->one();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
 
         return $this->render('history', [
             'model' => $model,
+            'bible' => $bible,
            
         ]);
     }
@@ -245,9 +260,11 @@ class ThistoryController extends Controller
     {   
  
          $model = Thistory::find()->where('history_type=8')->andWhere('d_history=14')->orderBy('id ASC')->all();
+         $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
  
          return $this->render('plan', [
              'model' => $model,
+             'bible' => $bible,
             
          ]);
      

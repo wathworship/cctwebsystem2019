@@ -6,8 +6,8 @@ use yii\bootstrap\Carousel;
 use yii\bootstrap\Widget;
 use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
-use web_sdsu\models\Uploads;
-use web_sdsu\models\Banner;
+use web_pmu\models\Uploads;
+use web_pmu\models\Banner;
 $this->title = 'หน่วยงานศิษยาภิบาล'
 ?>
 <div class="site-index">

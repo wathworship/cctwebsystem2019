@@ -13,9 +13,9 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
 ?>
 <div class="tnew-news">
 
-    <ul class="breadcrumb" style="background-color:#f6f6f6">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
-        <li><a href="index.php?r=tnew/news">ข่าวสาร</a></li>
+    <ul class="breadcrumb" style="background-color:#f5f5f5">
+        <li><a style="color:#eb6864" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li><a style="color:#eb6864" href="index.php?r=tnew/news">ข่าวสาร</a></li>
         <li  class="active"><?php echo $model->newname_th?></li>
 
     </ul>
