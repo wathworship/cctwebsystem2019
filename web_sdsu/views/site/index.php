@@ -19,7 +19,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
         
   
         <div class="row" align="center">
-            <div class="col-md-12">
+            <div class="col-md-9">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:2vw;">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -68,6 +68,9 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                     <span class="sr-only">Next</span>
                     </a>
                 </div>
+            </div>
+            <div class="col-md-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZBglNI_yni8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
