@@ -13,9 +13,9 @@ $this->title = 'ติดต่อเรา';
         <marquee behavior="alternate" scrollamount="4" style="font-size:1.21vw"><?php echo $bible->history_th ?></marquee>
     </div>
 
-    <ul class="breadcrumb" style="background-color:#f6f6f6">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
-        <li  class="active">ติดต่อเรา</li>
+    <ul class="breadcrumb" style="background-color:#f5f5f5">
+        <li><a style="color:#eb6864" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li  class="active" style="color:#858585"><?= $this->title ?></li>
     </ul>
 
     <div class="row">

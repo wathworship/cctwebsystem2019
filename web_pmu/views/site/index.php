@@ -8,7 +8,7 @@ use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
 use web_sdsu\models\Uploads;
 use web_sdsu\models\Banner;
-$this->title = 'หน่วยงานพัฒนาและบริการสังคม'
+$this->title = 'หน่วยงานศิษยาภิบาล'
 ?>
 <div class="site-index">
 

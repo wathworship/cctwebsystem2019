@@ -3,9 +3,9 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_sdsu\models\Ddoc;
-use web_sdsu\models\Tdocument;
-use web_sdsu\models\TdocumentSearch;
+use web_pmu\models\Ddoc;
+use web_pmu\models\Tdocument;
+use web_pmu\models\TdocumentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -128,7 +128,7 @@ class TdocumentController extends Controller
 
     public function actionDocument()
     {
-        $model = Tdocument::find()->where('type_id=8')->groupBy(['doc_type'])->all();
+        $model = Tdocument::find()->where('type_id=9')->groupBy(['doc_type'])->all();
         return $this->render('document', [
             'model' => $model,
         ]);

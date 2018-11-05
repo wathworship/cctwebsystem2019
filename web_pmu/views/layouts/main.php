@@ -101,9 +101,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; ฝ่ายสารสนเทศ สภาคริสตจักรในประเทศไทย </p>
+        <p class="pull-left">&copy; สภาคริสตจักรในประเทศไทย. สงวนลิขสิทธิ์.</p>
 
-        <p class="pull-right"> <i class="fa fa-phone-square" aria-hidden="true"></i>   </p>
+        <p class="pull-right">ออกแบบโดย: ฝ่ายสารสนเทศ สภาคริสตจักรในประเทศไทย</p>
     </div>
 </footer>
 
