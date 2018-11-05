@@ -360,12 +360,12 @@ a.desc:after {
 }
 
 #panel-index-news{
-    border: 1px solid #80b5ef;
+    border: 1px solid #ffa282;
     font-family: 'Trirong', serif;
 }
 
 #panel-head-index-news{
-    background-color: #80b5ef;
+    background-color: #ffa282;
     
 }
 
@@ -390,7 +390,7 @@ a.desc:after {
 }
 
 .box-news{
-    background-color: #e8f2fc;
+    background-color: #ffdcd0;
     
 }
 
@@ -402,13 +402,13 @@ a.desc:after {
 .h-box-news{
     font-family: 'Trirong', serif;
     font-size:1.2vw;
-    color:#155ca9;
+    color:#822100;
 }
 
 .button-news{
     border-radius: 10px;
-    background-color: #80b5ef; 
-    border: 1px solid#80b5ef;
+    background-color: #ffa282; 
+    border: 1px solid#ffa282;
     color:black;
 }
 
@@ -419,12 +419,12 @@ a.desc:after {
 /* index-article----------------------------------------*/
 
 #panel-index-article{
-    border: 1px solid #92abf2;
+    border: 1px solid #ffa282;
     font-family: 'Trirong', serif;
 }
 
 #panel-head-index-article{
-    background-color: #92abf2;
+    background-color: #ffa282;
     
 }
 
@@ -445,7 +445,7 @@ a.desc:after {
 }
 
 .box-article{
-    background-color: #d8e1fa;
+    background-color: #ffdcd0;
 }
 
 .in-box-article{
@@ -461,8 +461,8 @@ a.desc:after {
 
 .button-article{
     border-radius: 10px;
-    background-color: #92abf2; 
-    border: 1px solid #92abf2;
+    background-color: #ff916e; 
+    border: 1px solid #ff916e;
     color:black;
 }
 
@@ -542,8 +542,8 @@ a:hover, a:link, a:visited, a:active {
 #panel-head-contact{
     /*background-color: #ff2e7f;*/
     font-family: 'Trirong', serif;
-    background-color: #f29997;
-    border-color: #f29997;
+    background-color: /*#f29997*/#f4aaa8;
+    border-color: /*#f29997*/#f4aaa8;
 }
 
 #panel-title-contact{

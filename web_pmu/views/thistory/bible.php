@@ -19,9 +19,7 @@ $this->title = 'ข้อพระคัมภีร์ประจำหน่�
         <li class="active"><?= $this->title ?></li>
     </ul>
 
-    
-                
-    <div class="row">
+ <div class="row">
         <div class="col-md-9">
             <div class="thumbnail box-about">
                 
@@ -42,7 +40,6 @@ $this->title = 'ข้อพระคัมภีร์ประจำหน่�
         </div>
 
     </div>
- 
 
 </div>
 

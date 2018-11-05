@@ -8,13 +8,14 @@ use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
 use web_pmu\models\Uploads;
 use web_pmu\models\Banner;
+use web_pmu\models\Tjournal;
 $this->title = 'หน่วยงานศิษยาภิบาล'
 ?>
 <div class="site-index">
 
     <div class="body-content" style="padding-bottom:2.5vw;">
         <div style="padding-bottom:1vw;">
-            <marquee behavior="alternate" scrollamount="4" style="font-size:1.26vw"><?php echo $bible->history_th ?></marquee>
+            <marquee behavior="alternate" scrollamount="4" style="font-size:1.26vw">ข้อพระคัมภีร์ประจำหน่วยงาน... <?php echo $bible->history_th ?></marquee>
         </div>
         
   
@@ -47,7 +48,7 @@ $this->title = 'หน่วยงานศิษยาภิบาล'
                 
                 ?>
                     <div class="item <?php if($j==0){echo "active";} ?>">
-                        <img src="/cctwebsystem2019/images/banners/<?php echo $banner->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:35vw; width:100%" class="responsive">
+                        <img src="images/banners/<?php echo $test->real_filename?>" alt="a" style="height:35vw; " class="responsive">
                     </div>
                 <?php 
                 $j++;
@@ -92,7 +93,7 @@ $this->title = 'หน่วยงานศิษยาภิบาล'
                         <?php 
                             $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
                         ?>
-                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" style="height:15vw; width:100%" class="img-responsive"/>
+                        <img src="images/news/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" style="height:15vw; width:100%" class="img-responsive"/>
                         <div class="in-box-news" style="padding:1vw">
                         <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
                         <?php
@@ -123,60 +124,27 @@ $this->title = 'หน่วยงานศิษยาภิบาล'
         <div class="panel-body panel-body-index-article"> 
             <div class="row" style="padding-top:0.5vw;">
 
-                <?php //foreach($article as $ar){ ?>
+                <?php foreach($article as $ar){ ?>
                 <div class="col-md-3">
                     <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article1->cover?>" class="img-responsive" style="height:25vw;"/>
+                        <img src="images/journals/<?php echo $ar->cover?>" class="img-responsive" style="height:250px;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article1->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article1->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article4->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article4->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article4->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article2->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article2->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article2->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article3->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article3->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article3->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                        <p align="center"><?php echo $ar->issue?></p>
+                        <center><a target ="_blank" style=" text-align: center;" href="document/journals/<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
                         </div>
                         
                     </div>
                 </div>
 
-                <?php //} ?>
+                <?php } ?>
                 
             </div> 
                 
         </div>
         </div>
 <!-- ---------------------------------------------------------------------------------------------- -->   
-        <div id="panel-index-calendar" class="panel panel-default responsive" style="margin-top:2.5vw;">
+        <!--<div id="panel-index-calendar" class="panel panel-default responsive" style="margin-top:2.5vw;">
         <div id="panel-head-index-calendar" class="panel-heading">
             <h3 id="panel-title-index-calendar" class="panel-title"><b>ปฏิทินกิจกรรม</b> <i class="fas fa-users"></i></h3>
         </div>
@@ -190,7 +158,7 @@ $this->title = 'หน่วยงานศิษยาภิบาล'
         </div>
         </div>
         </div>
-        </div>
+        </div>-->
 <!-- ---------------------------------------------------------------------------------------------- --> 
 <div class="row">
         
@@ -198,16 +166,16 @@ $this->title = 'หน่วยงานศิษยาภิบาล'
             <div id="panel-contact" class="panel panel-primary"> 
                 <div id="panel-head-contact" class="panel-heading">
                     <h3 id="panel-title-contact" class="panel-title">
-                    <i class="fa fa-envelope" aria-hidden="true"></i> <b><?= Html::encode($this->title) ?></b>  </h3>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <b>ติดต่อเรา</b>  </h3>
                 </div>
 
                 <div class="panel-body panel-body-contact"> 
                     
                 
-                    <p style="font-size: 1.2vw; padding-top:0px; padding-bottom:0.7vw"><b><?php echo $map->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
+                    <p style="padding-top:0px; padding-bottom:19.5px"><b><?php echo $map->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
                     <?php echo $map->contactdetail_th?>
                    <br>
-                   <br>
+                
                 </div>
             </div>
         </div>

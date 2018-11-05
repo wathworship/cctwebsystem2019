@@ -5,10 +5,10 @@ use yii\bootstrap\Carousel;
 use yii\bootstrap\Widget;
 use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
-use web_sdsu\models\Tnew;
-use web_sdsu\models\Uploads;
+use web_pmu\models\Tnew;
+use web_pmu\models\Uploads;
 
-$this->title = 'ข่าวสารหน่วยงานพัฒนาและบริการสังคม';
+$this->title = 'ข่าวสารหน่วยงานศิษยาภิบาล';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tnew-news">
@@ -64,7 +64,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                                 
                                 ?>
                                     <div class="item <?php if($j==0){echo "active";} ?>">
-                                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $model->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:38vw;" class="responsive">
+                                        <img src="images/news/<?php echo $model->ref?>/<?php echo $test->real_filename?>" alt="a" style="height:38vw;" class="responsive">
                                     </div>
                                 <?php 
                                 $j++;

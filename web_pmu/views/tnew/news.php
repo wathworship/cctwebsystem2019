@@ -3,11 +3,11 @@
 /* @var $this yii\web\View */
 use yii\widgets\LinkPager;
 use yii\helpers\Html;
-use web_sdsu\models\Tnew;
-use web_sdsu\models\Uploads;
+use web_pmu\models\Tnew;
+use web_pmu\models\Uploads;
 
 
-$this->title = 'ข่าวสารหน่วยงานพัฒนาและบริการสังคม';
+$this->title = 'ข่าวสารหน่วยงานศิษยาภิบาล';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tnew-news">
@@ -20,7 +20,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
     <div id="panel-index-news" class="panel panel-default"> 
         <div id="panel-head-index-news" class="panel-heading">
             <h3 id="panel-title-index-news" class="panel-title">
-            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>ข่าวสารหน่วยงานพัฒนาและบริการสังคม</b> </h3>
+            <i class="fa fa-newspaper" aria-hidden="true"></i> <b><?= $this->title ?></b> </h3>
         </div>
 
         <div class="panel-body panel-body-index-news"> 
@@ -36,7 +36,7 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
                                 foreach($pic as $picture) {
                                 
                             ?>
-                            <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $news->ref?>/<?php echo $picture->real_filename?>" class="img-news img-responsive pull-left"/>
+                            <img src="images/news/<?php echo $news->ref?>/<?php echo $picture->real_filename?>" class="img-news img-responsive pull-left"/>
                             <?php } ?>
                         </div>
                         <div class="pad-news in-box-news" style="margin-left:20vw;">

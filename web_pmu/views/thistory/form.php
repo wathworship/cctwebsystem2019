@@ -35,7 +35,7 @@ use web_pmu\models\Thistory;
                
             </tr>
             <tr>
-                <td><a class="link-about" href="index.php?r=thistory/struct"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงสร้างองค์กร</a></td>
+                <td><a class="link-about" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงสร้างองค์กร</a></td>
                
             </tr>
             </tbody>

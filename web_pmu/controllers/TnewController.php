@@ -3,8 +3,8 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_sdsu\models\Tnew;
-use web_sdsu\models\TnewSearch;
+use web_pmu\models\Tnew;
+use web_pmu\models\TnewSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -129,7 +129,7 @@ class TnewController extends Controller
     public function actionNews()
     {   
         //$model = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->all();
-        $query = Tnew::find()->where(['newtype_id' => 9])->orderBy('id DESC');
+        $query = Tnew::find()->where(['newtype_id' => 11])->orderBy('id DESC');
 
         // get the total number of articles (but do not fetch the article data yet)
         $count = $query->count();

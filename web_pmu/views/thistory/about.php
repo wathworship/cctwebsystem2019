@@ -19,9 +19,7 @@ $this->title = 'เกี่ยวกับเรา';
         <li><a href="index.php" style="color:#eb6864"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li class="active" style="color:#858585"><?= $this->title ?></li>
     </ul>
-
-    
-                
+             
     <div class="row">
         <div class="col-md-9">
             <div class="thumbnail box-about">
@@ -44,7 +42,6 @@ $this->title = 'เกี่ยวกับเรา';
         </div>
 
     </div>
-
 
 </div>
 
