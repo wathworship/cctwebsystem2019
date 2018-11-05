@@ -70,7 +70,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
                 </div>
             </div>
             <div class="col-md-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZBglNI_yni8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/ZBglNI_yni8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
