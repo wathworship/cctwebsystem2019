@@ -3,8 +3,8 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
-use web_sdsu\models\Thistory;
-use web_sdsu\models\Tperson;
+use web_pmu\models\Thistory;
+use web_pmu\models\Tperson;
 
 
 $this->title = 'โครงสร้างองค์กร';
@@ -20,8 +20,7 @@ $this->title = 'โครงสร้างองค์กร';
         <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li class="active"><?= $this->title ?></li>
     </ul>
-
-               
+             
     <div class="row">
         <div class="col-md-12">
             <div class="thumbnail box-about">

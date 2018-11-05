@@ -22,22 +22,22 @@ use web_pmu\models\Thistory;
                 <td><a  class="link-about" href="index.php?r=thistory/pan"><i class="fa fa-chevron-right" aria-hidden="true"></i> พันธกิจ</a></td>
                 
             </tr>
-            <tr>
+            <!--<tr>
                 <td><a class="link-about" href="index.php?r=thistory/yut"><i class="fa fa-chevron-right" aria-hidden="true"></i> ยุทธศาสตร์</a></td>
                 
-            </tr>
+            </tr>-->
             <tr>
                 <td><a class="link-about" href="index.php?r=thistory/wat"><i class="fa fa-chevron-right" aria-hidden="true"></i> ตัวชี้วัด</a></td>
                
             </tr>
-            <tr>
+            <!--<tr>
                 <td><a class="link-about" href="index.php?r=thistory/plan"><i class="fa fa-chevron-right" aria-hidden="true"></i> แผนงานหลัก</a></td>
                
             </tr>
             <tr>
                 <td><a class="link-about" href="index.php?r=tproject/project"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงการ</a></td>
                
-            </tr>
+            </tr>-->
       
             </tbody>
         </table>

@@ -52,26 +52,27 @@ AppAsset::register($this);
             'items' => [
                  ['label' => 'เกี่ยวกับเรา', 'url' => ['/thistory/about']],
                  ['label' => 'ประวัติความเป็นมา', 'url' => ['thistory/history']],
-                 ['label' => 'โครงสร้างองค์กร', 'url' => ['thistory/struct']],
+                 //['label' => 'โครงสร้างองค์กร', 'url' => ['thistory/struct']],
             ],
         ],
         [
             'label' => 'พันธกิจ', 
             'items' => [
                 ['label' => 'พันธกิจ', 'url' => ['thistory/pan']],
-                ['label' => 'แผนงานหลัก', 'url' => ['thistory/plan']],
-                ['label' => 'โครงการ', 'url' => ['tproject/project']],
-                ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
+                ['label' => 'ตัวชี้วัด', 'url' => ['thistory/wat']],
+                //['label' => 'แผนงานหลัก', 'url' => ['thistory/plan']],
+                //['label' => 'โครงการ', 'url' => ['tproject/project']],
+                //['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]
         ],
         ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
         [
-            'label' => 'วารสาร', 
-            'items' => [
-                ['label' => 'วารสาร', 'url' => ['tjournal/article']],
-                ['label' => 'บทความ', 'url' => ['tjournal/article2']],
+            'label' => 'วารสาร', 'url' => ['tjournal/article']
+            //'items' => [
+                //['label' => 'วารสาร', 'url' => ['tjournal/article']],
+                //['label' => 'บทความ', 'url' => ['tjournal/article2']],
                 
-           ],
+           //],
         ],
         ['label' => 'ดาวน์โหลด', 'url' => ['/tdocument/document']],
         ['label' => 'ติดต่อเรา', 'url' => ['/tcontact/contact']],
