@@ -11,7 +11,7 @@ $this->title = 'พันธกิจ';
 <div class="thistory-pan">
 
     <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+        <marquee behavior="alternate" scrollamount="4" style="font-size:16px">ข้อพระคัมภีร์ประจำหน่วยงาน... <?php echo $bible->history_th ?></marquee>
     </div>
 
     <ul class="breadcrumb">
@@ -25,8 +25,8 @@ $this->title = 'พันธกิจ';
         <div class="col-md-9">
             <div class="thumbnail box-about">
                 
-                <div class="in-box-about" style="padding:1.5vw">
-                <b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?></p></b>
+                <div class="in-box-about" style="padding-top:1.5vw; padding-bottom:1.5vw; padding-left:1vw; padding-right:1vw;font-size:16.61px">
+                <b><p class="h-box-about" style="padding-left:1vw;"><?php echo $model->dhistory->d_history_th ?></p></b>
                 <p><?php echo $model->history_th?></p>
                 </div>
                 
@@ -35,11 +35,10 @@ $this->title = 'พันธกิจ';
         </div>
 
         <div class="col-md-3">
-        <?= $this->render('form_pan', [
-                //'model' => $model,
-        ]) ?>
+            <?= $this->render('form_pan', [
+                    //'model' => $model,
+            ]) ?>
         </div>
-
     </div>
  
 

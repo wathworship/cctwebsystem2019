@@ -8,7 +8,7 @@ body {
 
 .wrap {
     font-family: 'Trirong', serif;
-    font-size:1.3vw;
+    font-size:18px;
     min-height: 100%;
     height: auto;
     margin: 0 auto -60px;
@@ -17,19 +17,20 @@ body {
 
 .meenny{
     font-family: 'Trirong', serif;
-    font-size:1.3vw;
+    font-size:18px;
 }
 
-/* .breadcrumb li a{
-    color:red;
+ .breadcrumb li a{
+	background-color:#f5f5f5;
+    color:#eb6864;
 }
 
 .breadcrumb > .active {
-    color:black;
-} */
+    color:#858585;
+} 
 .panel-title{
     color:white;
-    font-size:1.8vw; 
+    font-size:25px; 
     text-shadow: black 0.1em 0.1em 0.2em; 
     font-family: 'Trirong', serif; 
     padding-left:10px;
@@ -62,7 +63,7 @@ body {
 
 .navbar .navbar-brand {
     color: white;
-    font-size:1.5vw;
+    font-size:22.5px;
     text-shadow: black 0.1em 0.1em 0.2em;
     padding: 0px;
 }
@@ -118,7 +119,7 @@ body {
 /*เมื่อเปิด navbar dropdown จะเปลี่ยนสี---------------------------------------------*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #e74b47;
+    background-color: #e74b47 !important;
 }
 /*------ก่อนกระพริบ-----------------------------------------------*/
 .navbar-inverse .navbar-nav > li > a {
@@ -134,7 +135,7 @@ body {
 .footer {
     color:black;
     font-family: 'Trirong', serif;
-    font-size: 1.2vw;
+    font-size: 16px;
     height: 60px;
     background-color:/*#d3d3d3*/#ebebeb;
     text-shadow: white 0.1em 0.1em 0.2em; 
@@ -306,7 +307,7 @@ a.desc:after {
   
     background-color: /*#eeeeee*/#f5f5f5;
     color:black; 
-    font-size:1.4vw; 
+    /*font-size:1.4vw;*/
     font-family: 'Trirong', serif;
 }
 .box-form{
@@ -318,12 +319,12 @@ a.desc:after {
 
 .h-box-form{
     font-family: 'Trirong', serif;
-    font-size:1.25vw;
+    font-size:17px;
     color:#082442;
 }
 
 #form{
-    font-size:1.22vw;
+    font-size:16.61px;
     line-height: 2vw;
     color:#4a4a4a;
     font-family: 'Trirong', serif;
@@ -507,30 +508,30 @@ a.desc:after {
 /* About-----------------------------------------------*/
 
 .box-about{
-    background-color: #f1f1f1;
-    border-top: 5px solid #375a7f;
+    background-color: #f9f9f9/*#f5f5f5*/;
+    border-top: 5px solid #ab023e;
 }
 
 .h-box-about{
     font-family: 'Trirong', serif;
-    font-size:1.5vw;
-    color:#1f3348;
+    font-size:21px;
+    color:#ab023e;
 }
 
 .in-box-about{
     font-family: 'Trirong', serif;
-    font-size:1.26vw;
-    color:#1f3348;
+    font-size:17px;
+    color:/*#1f3348*/#535353;
 }
 
-.link-about{
-    color:#1f3348;
+.link-about,.link-about:hover{
+    color:#840230;
     text-decoration:none; 
 }
 
 .link-h-about{
-    color:#1f3348;
-    font-size:1.5vw;
+    color:#ab023e;
+    font-size:20.2px;
 }
 a:hover, a:link, a:visited, a:active {
     text-decoration: none;
@@ -547,7 +548,7 @@ a:hover, a:link, a:visited, a:active {
 
 #panel-title-contact{
     color:#333333;
-    font-size:1.4vw; 
+    font-size:19.7px; 
     text-shadow: white 0.1em 0.1em 0.2em; 
     font-family: 'Trirong', serif; 
     padding-left:10px;
@@ -563,17 +564,17 @@ a:hover, a:link, a:visited, a:active {
     
     background-color:#fbe6dd;
     color:black; 
-    font-size:1.35vw; 
+    font-size:17px; 
     font-family: 'Trirong', serif;
 }
 
 .panel-body-contact{
-    padding:2vw;
+    padding:26px;
 }
 
 
 .map{
-    font-size:1.2vw;
+    font-size:16.5px;
 }
 
 /*------------------------------------------------------------*/

@@ -1,4 +1,4 @@
-<body style="background-color:#e4e6f7">
+
 <?php
 
 /* @var $this yii\web\View */
@@ -12,7 +12,7 @@ $this->title = 'แผนงานหลัก';
 <div class="thistory-plan">
 
     <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+        <marquee behavior="alternate" scrollamount="4" style="font-size:16px">ข้อพระคัมภีร์ประจำหน่วยงาน... <?php echo $bible->history_th ?></marquee>
     </div>
 
     <ul class="breadcrumb">
@@ -30,7 +30,7 @@ $this->title = 'แผนงานหลัก';
                 <div class="in-box-about" style="padding:1.5vw">
                 <?php $year = date("Y"); ?>
 
-                <b><p class="h-box-about" >แผนงานหลักของ พบส.</p></b>
+                <b><p class="h-box-about" >แผนงานหลักของ นศบ.</p></b>
                 <?php foreach($model as $plan) { ?>
                 
                 <a target ="_blank" href="/cctwebsystem2019/document/doc_sdsu/plans/<?php echo $plan->docs?>"> <i style="color:#999999" class="fa fa-download" aria-hidden="true"></i> <?php echo $plan->history_name?> </a><br>
@@ -53,5 +53,5 @@ $this->title = 'แผนงานหลัก';
  
 
 </div>
-</body>
+
 

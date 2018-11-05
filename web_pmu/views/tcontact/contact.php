@@ -10,12 +10,12 @@ $this->title = 'ติดต่อเรา';
 <div class="tcontact-contact">
 
     <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.21vw"><?php echo $bible->history_th ?></marquee>
+        <marquee behavior="alternate" scrollamount="4" style="font-size:16px">ข้อพระคัมภีร์ประจำหน่วยงาน... <?php echo $bible->history_th ?></marquee>
     </div>
 
-    <ul class="breadcrumb" style="background-color:#f5f5f5">
-        <li><a style="color:#eb6864" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
-        <li  class="active" style="color:#858585"><?= $this->title ?></li>
+    <ul class="breadcrumb">
+        <li><a  href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li  class="active"><?= $this->title ?></li>
     </ul>
 
     <div class="row">
@@ -30,10 +30,10 @@ $this->title = 'ติดต่อเรา';
                 <div class="panel-body panel-body-contact"> 
                     
                 
-                    <p style="font-size: 1.2vw; padding-top:0px; padding-bottom:0.7vw"><b><?php echo $model->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
+                    <p style="padding-top:0px; padding-bottom:19.5px"><b><?php echo $model->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
                     <?php echo $model->contactdetail_th?>
                    <br>
-                   <br>
+                
                 </div>
             </div>
         </div>

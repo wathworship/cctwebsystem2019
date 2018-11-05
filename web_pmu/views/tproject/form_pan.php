@@ -13,7 +13,7 @@ use web_pmu\models\Thistory;
         <table class="table table-hover">
             <thead>
             <tr>
-                <th><p class="link-h-about">พันธกิจ พบส.</p></th>
+                <th><p class="link-h-about">พันธกิจ นศบ.</p></th>
              
             </tr>
             </thead>

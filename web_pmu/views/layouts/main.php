@@ -7,10 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use web_sdsu\assets\AppAsset;
+use web_pmu\assets\AppAsset;
 use common\widgets\Alert;
-use web_sdsu\models\Tcontact;
-use web_sdsu\models\Tnew;
+use web_pmu\models\Tcontact;
+use web_pmu\models\Tnew;
 
 //raoul2000\bootswatch\BootswatchAsset::$theme = 'cosmo';
 AppAsset::register($this);
@@ -38,7 +38,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="/cctwebsystem2019/images/about/about_pmu/pmu.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
+        'brandLabel' => '<img src="images/pmu.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top meenny',

@@ -26,7 +26,7 @@ $this->title = 'ร่วมสนับสนุนพันธกิจ';
             <p id="donate-h"><b>ท่านสามารถร่วมถวายเพื่อสนับสนุนพันธกิจของหน่วยงานพัฒนาและบริการสังคม</b></p>
             <br>
             <p id="donate-b">โดยโอนเงินถวายผ่าน <b>หมายเลขบัญชีของ มูลนิธิแห่งสภาคริสตจักรในประเทศไทย</b></p>
-            <img id="donate-img" src="image/ktb.png" style="width:20vw; height:5vw;"/>
+            <img id="donate-img" src="/cctwebsystem2019/images/donate/ktb.png" style="width:20vw; height:5vw;"/>
             
             <br>
             <p id="donate-name">ชื่อบัญชี  <b>มูลนิธิแห่งสภาคริสตจักรในประเทศไทย</b></p>

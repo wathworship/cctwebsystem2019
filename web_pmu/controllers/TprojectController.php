@@ -3,8 +3,9 @@
 namespace web_pmu\controllers;
 
 use Yii;
-use web_sdsu\models\Tproject;
-use web_sdsu\models\TprojectSearch;
+use web_pmu\models\Tproject;
+use web_pmu\models\Thistory;
+use web_pmu\models\TprojectSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -129,10 +130,12 @@ class TprojectController extends Controller
     {
         $year = date("Y");
         $model = Tproject::find()->where('type_id=8')->andWhere(['year'=> $year])->all();
+        $bible = Thistory::find()->where('history_type=9')->andWhere('d_history=7')->one();
+
 
         return $this->render('project', [
             'model' => $model,
-           
+            'bible' => $bible,
         ]);
     }
 

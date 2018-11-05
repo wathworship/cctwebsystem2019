@@ -11,11 +11,11 @@ $this->title = 'ข้อพระคัมภีร์ประจำหน่�
 <div class="thistory-bible">
 
     <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+        <marquee behavior="alternate" scrollamount="4" style="font-size:16px">ข้อพระคัมภีร์ประจำหน่วยงาน... <?php echo $bible->history_th ?></marquee>
     </div>
 
     <ul class="breadcrumb">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li><a  href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li class="active"><?= $this->title ?></li>
     </ul>
 

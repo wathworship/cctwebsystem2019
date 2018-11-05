@@ -12,8 +12,8 @@ $this->title = 'ข่าวสารหน่วยงานพัฒนาแ�
 ?>
 <div class="tnew-news">
 
-    <ul class="breadcrumb" style="background-color:#f6f6f6">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+    <ul class="breadcrumb" >
+        <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li  class="active">ข่าวสาร</li>
     </ul>
 

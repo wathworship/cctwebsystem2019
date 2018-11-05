@@ -16,7 +16,7 @@ $this->title = 'บทความ';
     </div>
 
     <ul class="breadcrumb">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li class="active"><?= $this->title ?></li>
     </ul>
 
