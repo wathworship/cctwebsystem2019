@@ -1,0 +1,562 @@
+a:13:{s:6:"config";s:1767:"a:5:{s:10:"phpVersion";s:5:"7.2.7";s:10:"yiiVersion";s:8:"2.0.15.1";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.15.1";s:4:"name";s:54:"หน่วยงานศิษยาภิบาล";s:7:"version";s:3:"1.0";s:8:"language";s:5:"th_TH";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"7.2.7";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:6:{s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.8.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:66:"D:\xampp\htdocs\cctwebsystem2019\vendor/yiisoft/yii2-bootstrap/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:60:"D:\xampp\htdocs\cctwebsystem2019\vendor/yiisoft/yii2-gii/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:58:"D:\xampp\htdocs\cctwebsystem2019\vendor/yiisoft/yii2-faker";}}s:31:"raoul2000/yii2-bootswatch-asset";a:3:{s:4:"name";s:31:"raoul2000/yii2-bootswatch-asset";s:7:"version";s:7:"1.2.7.0";s:5:"alias";a:1:{s:21:"@raoul2000/bootswatch";s:71:"D:\xampp\htdocs\cctwebsystem2019\vendor/raoul2000/yii2-bootswatch-asset";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.1.2.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:68:"D:\xampp\htdocs\cctwebsystem2019\vendor/yiisoft/yii2-swiftmailer/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.14.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:62:"D:\xampp\htdocs\cctwebsystem2019\vendor/yiisoft/yii2-debug/src";}}}}";s:7:"request";s:4924:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:11:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:9:"max-age=0";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:101:"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36";s:3:"dnt";s:1:"1";s:6:"accept";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:7:"referer";s:76:"http://localhost/cctwebsystem2019/web_pmu/web/index.php?r=tcontact%2Fcontact";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:14:"th-TH,th;q=0.9";s:6:"cookie";s:237:"advanced-frontend=qik4i583f253sttk9sde39ioan; _csrf-frontend=1382bbaee677ff2082353fbda15e72e1bc5483e1f52d28bf5bd5bf6f33c900b2a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224k7K5mjzei38OeN6GlUVr_CM-7qPYKvu%22%3B%7D";}s:15:"responseHeaders";a:8:{s:12:"X-Powered-By";s:9:"PHP/7.2.7";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"5be2ec1f4790c";s:16:"X-Debug-Duration";s:3:"622";s:12:"X-Debug-Link";s:82:"/cctwebsystem2019/web_pmu/web/index.php?r=debug%2Fdefault%2Fview&tag=5be2ec1f4790c";}s:5:"route";s:10:"site/index";s:6:"action";s:49:"web_pmu\controllers\SiteController::actionIndex()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:44:{s:7:"MIBDIRS";s:24:"D:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"D:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:101:"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36";s:8:"HTTP_DNT";s:1:"1";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:12:"HTTP_REFERER";s:76:"http://localhost/cctwebsystem2019/web_pmu/web/index.php?r=tcontact%2Fcontact";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"th-TH,th;q=0.9";s:11:"HTTP_COOKIE";s:237:"advanced-frontend=qik4i583f253sttk9sde39ioan; _csrf-frontend=1382bbaee677ff2082353fbda15e72e1bc5483e1f52d28bf5bd5bf6f33c900b2a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224k7K5mjzei38OeN6GlUVr_CM-7qPYKvu%22%3B%7D";s:4:"PATH";s:450:"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\IBM\SPSS\Statistics\22\JRE\bin;D:\xampp\php;D:\xampp\htdocs;D:\Program files;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\lKittyzaa\AppData\Roaming\Composer\vendor\bin";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:94:"<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:46:"Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:15:"D:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"D:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:54:"D:/xampp/htdocs/cctwebsystem2019/web_pmu/web/index.php";s:11:"REMOTE_PORT";s:5:"65414";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:14:"r=site%2Findex";s:11:"REQUEST_URI";s:54:"/cctwebsystem2019/web_pmu/web/index.php?r=site%2Findex";s:11:"SCRIPT_NAME";s:39:"/cctwebsystem2019/web_pmu/web/index.php";s:8:"PHP_SELF";s:39:"/cctwebsystem2019/web_pmu/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1541598239.014;s:12:"REQUEST_TIME";i:1541598239;}s:3:"GET";a:1:{s:1:"r";s:10:"site/index";}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:17:"advanced-frontend";s:26:"qik4i583f253sttk9sde39ioan";s:14:"_csrf-frontend";s:140:"1382bbaee677ff2082353fbda15e72e1bc5483e1f52d28bf5bd5bf6f33c900b2a:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"4k7K5mjzei38OeN6GlUVr_CM-7qPYKvu";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:1:{s:7:"__flash";a:0:{}}}";s:3:"log";s:18456:"a:1:{s:8:"messages";a:38:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1541598239.155124;i:4;a:0:{}i:5;i:1950832;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1541598239.155124;i:4;a:0:{}i:5;i:1951640;}i:2;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1541598239.24613;i:4;a:0:{}i:5;i:2809792;}i:3;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1541598239.282132;i:4;a:0:{}i:5;i:2958320;}i:4;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1541598239.308133;i:4;a:0:{}i:5;i:3040488;}i:5;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1541598239.310133;i:4;a:0:{}i:5;i:3061472;}i:7;a:6:{i:0;s:29:"Route requested: 'site/index'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1541598239.320134;i:4;a:0:{}i:5;i:3158048;}i:8;a:6:{i:0;s:24:"Route to run: site/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1541598239.354136;i:4;a:0:{}i:5;i:3250264;}i:9;a:6:{i:0;s:65:"Running action: web_pmu\controllers\SiteController::actionIndex()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1541598239.373137;i:4;a:0:{}i:5;i:3335696;}i:10;a:6:{i:0;s:41:"SELECT * FROM `t_contact` WHERE id_type=9";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.504144;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4724144;}i:11;a:6:{i:0;s:64:"Opening DB connection: mysql:host=localhost;dbname=cctweb2018_db";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1541598239.504144;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4726344;}i:16;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_contact`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.515145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4755832;}i:19;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_contact' AND kcu.table_name = 't_contact'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.538146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4790368;}i:22;a:6:{i:0;s:66:"SELECT * FROM `t_history` WHERE (history_type=9) AND (d_history=7)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.548147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4835128;}i:25;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_history`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.551147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4842776;}i:28;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_history' AND kcu.table_name = 't_history'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.560148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4855896;}i:31;a:6:{i:0;s:35:"SELECT * FROM `banner` WHERE unit=9";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.564148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4872888;}i:34;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `banner`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.566148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4880664;}i:37;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'banner' AND kcu.table_name = 'banner'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.573148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4891648;}i:40;a:6:{i:0;s:85:"SELECT * FROM `t_journal` WHERE (unit=9) AND (d_journal=4) ORDER BY `id` DESC LIMIT 4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.577148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4913728;}i:43;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_journal`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.579149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4923952;}i:46;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_journal' AND kcu.table_name = 't_journal'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.588149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4938208;}i:49;a:6:{i:0;s:68:"SELECT * FROM `t_new` WHERE newtype_id=11 ORDER BY `id` DESC LIMIT 4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.593149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4964768;}i:52;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `t_new`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.59515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4973240;}i:55;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_new' AND kcu.table_name = 't_new'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60315;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4988544;}i:58;a:6:{i:0;s:82:"Rendering view file: D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1541598239.612151;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5081432;}i:59;a:6:{i:0;s:55:"SELECT COUNT(*) FROM `uploads` WHERE `ref`='banner_pmu'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.617151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:29;s:8:"function";s:5:"count";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5154832;}i:62;a:6:{i:0;s:69:"SELECT * FROM `uploads` WHERE `ref`='banner_pmu' ORDER BY `upload_id`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.619151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5158488;}i:65;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `uploads`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.621151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5168032;}i:68;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploads' AND kcu.table_name = 'uploads'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.630152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5179888;}i:71;a:6:{i:0;s:68:"SELECT * FROM `uploads` WHERE `ref`='pmu_news1' ORDER BY `upload_id`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.633152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:96;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5183888;}i:74;a:6:{i:0;s:35:"SELECT * FROM `d_new` WHERE `id`=11";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.641152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5227944;}i:77;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `d_new`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.643152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5234168;}i:80;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_new' AND kcu.table_name = 'd_new'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.650153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5245296;}i:83;a:6:{i:0;s:35:"SELECT * FROM `d_type` WHERE `id`=9";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.654153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5267816;}i:86;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `d_type`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.655153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5274040;}i:89;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_type' AND kcu.table_name = 'd_type'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.667154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5285176;}i:92;a:6:{i:0;s:84:"Rendering view file: D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1541598239.671154;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5275240;}}}";s:9:"profiling";s:32650:"a:3:{s:6:"memory";i:6024288;s:4:"time";d:0.6250360012054443;s:8:"messages";a:54:{i:12;a:6:{i:0;s:64:"Opening DB connection: mysql:host=localhost;dbname=cctweb2018_db";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1541598239.505144;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4727160;}i:13;a:6:{i:0;s:64:"Opening DB connection: mysql:host=localhost;dbname=cctweb2018_db";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1541598239.511145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4741344;}i:14;a:6:{i:0;s:41:"SELECT * FROM `t_contact` WHERE id_type=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.511145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4741136;}i:15;a:6:{i:0;s:41:"SELECT * FROM `t_contact` WHERE id_type=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.513145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4745728;}i:17;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_contact`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.515145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4757320;}i:18;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_contact`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.534146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4768760;}i:20;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_contact' AND kcu.table_name = 't_contact'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.538146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4792464;}i:21;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_contact' AND kcu.table_name = 't_contact'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.540146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4795576;}i:23;a:6:{i:0;s:66:"SELECT * FROM `t_history` WHERE (history_type=9) AND (d_history=7)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.548147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4836248;}i:24;a:6:{i:0;s:66:"SELECT * FROM `t_history` WHERE (history_type=9) AND (d_history=7)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.550147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4838488;}i:26;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_history`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.551147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4843816;}i:27;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_history`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.558147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4853752;}i:29;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_history' AND kcu.table_name = 't_history'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.560148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4857992;}i:30;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_history' AND kcu.table_name = 't_history'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.562148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4861112;}i:32;a:6:{i:0;s:35:"SELECT * FROM `banner` WHERE unit=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.564148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4873928;}i:33;a:6:{i:0;s:35:"SELECT * FROM `banner` WHERE unit=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.565148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4876448;}i:35;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `banner`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.566148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4881688;}i:36;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `banner`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.572148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4888240;}i:38;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'banner' AND kcu.table_name = 'banner'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.573148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4893744;}i:39;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'banner' AND kcu.table_name = 'banner'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.575148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4896056;}i:41;a:6:{i:0;s:85:"SELECT * FROM `t_journal` WHERE (unit=9) AND (d_journal=4) ORDER BY `id` DESC LIMIT 4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.577148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4914880;}i:42;a:6:{i:0;s:85:"SELECT * FROM `t_journal` WHERE (unit=9) AND (d_journal=4) ORDER BY `id` DESC LIMIT 4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.579149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4919952;}i:44;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_journal`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.579149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4924992;}i:45;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_journal`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.586149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4936976;}i:47;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_journal' AND kcu.table_name = 't_journal'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.588149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4940304;}i:48;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_journal' AND kcu.table_name = 't_journal'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.589149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4943408;}i:50;a:6:{i:0;s:68:"SELECT * FROM `t_new` WHERE newtype_id=11 ORDER BY `id` DESC LIMIT 4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.593149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4965888;}i:51;a:6:{i:0;s:68:"SELECT * FROM `t_new` WHERE newtype_id=11 ORDER BY `id` DESC LIMIT 4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.59515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4969248;}i:53;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `t_new`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.59515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4974264;}i:54;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `t_new`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60215;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4987960;}i:56;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_new' AND kcu.table_name = 't_new'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60315;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4990640;}i:57;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_new' AND kcu.table_name = 't_new'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4993712;}i:60;a:6:{i:0;s:55:"SELECT COUNT(*) FROM `uploads` WHERE `ref`='banner_pmu'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.617151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:29;s:8:"function";s:5:"count";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5156232;}i:61;a:6:{i:0;s:55:"SELECT COUNT(*) FROM `uploads` WHERE `ref`='banner_pmu'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.618151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:29;s:8:"function";s:5:"count";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5157456;}i:63;a:6:{i:0;s:69:"SELECT * FROM `uploads` WHERE `ref`='banner_pmu' ORDER BY `upload_id`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.619151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5159920;}i:64;a:6:{i:0;s:69:"SELECT * FROM `uploads` WHERE `ref`='banner_pmu' ORDER BY `upload_id`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.621151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5162800;}i:66;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `uploads`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.621151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5169344;}i:67;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `uploads`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.629151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5176224;}i:69;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploads' AND kcu.table_name = 'uploads'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.630152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5182256;}i:70;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploads' AND kcu.table_name = 'uploads'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.632152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5184840;}i:72;a:6:{i:0;s:68:"SELECT * FROM `uploads` WHERE `ref`='pmu_news1' ORDER BY `upload_id`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.633152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:96;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5185320;}i:73;a:6:{i:0;s:68:"SELECT * FROM `uploads` WHERE `ref`='pmu_news1' ORDER BY `upload_id`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.636152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:96;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5187240;}i:75;a:6:{i:0;s:35:"SELECT * FROM `d_new` WHERE `id`=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.641152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5229296;}i:76;a:6:{i:0;s:35:"SELECT * FROM `d_new` WHERE `id`=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.642152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5231080;}i:78;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `d_new`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.643152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5235464;}i:79;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `d_new`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.649153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5240992;}i:81;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_new' AND kcu.table_name = 'd_new'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.650153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5247664;}i:82;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_new' AND kcu.table_name = 'd_new'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.652153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5249648;}i:84;a:6:{i:0;s:35:"SELECT * FROM `d_type` WHERE `id`=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.654153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5269168;}i:85;a:6:{i:0;s:35:"SELECT * FROM `d_type` WHERE `id`=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.655153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5270952;}i:87;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `d_type`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.655153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5275336;}i:88;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `d_type`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.666154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5280864;}i:90;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_type' AND kcu.table_name = 'd_type'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.667154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5287544;}i:91;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_type' AND kcu.table_name = 'd_type'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.669154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5289528;}}}";s:2:"db";s:31839:"a:1:{s:8:"messages";a:52:{i:14;a:6:{i:0;s:41:"SELECT * FROM `t_contact` WHERE id_type=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.511145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4741136;}i:15;a:6:{i:0;s:41:"SELECT * FROM `t_contact` WHERE id_type=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.513145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4745728;}i:17;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_contact`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.515145;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4757320;}i:18;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_contact`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.534146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4768760;}i:20;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_contact' AND kcu.table_name = 't_contact'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.538146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4792464;}i:21;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_contact' AND kcu.table_name = 't_contact'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.540146;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:81;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4795576;}i:23;a:6:{i:0;s:66:"SELECT * FROM `t_history` WHERE (history_type=9) AND (d_history=7)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.548147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4836248;}i:24;a:6:{i:0;s:66:"SELECT * FROM `t_history` WHERE (history_type=9) AND (d_history=7)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.550147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4838488;}i:26;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_history`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.551147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4843816;}i:27;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_history`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.558147;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4853752;}i:29;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_history' AND kcu.table_name = 't_history'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.560148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4857992;}i:30;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_history' AND kcu.table_name = 't_history'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.562148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:82;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4861112;}i:32;a:6:{i:0;s:35:"SELECT * FROM `banner` WHERE unit=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.564148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4873928;}i:33;a:6:{i:0;s:35:"SELECT * FROM `banner` WHERE unit=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.565148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4876448;}i:35;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `banner`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.566148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4881688;}i:36;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `banner`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.572148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4888240;}i:38;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'banner' AND kcu.table_name = 'banner'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.573148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4893744;}i:39;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'banner' AND kcu.table_name = 'banner'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.575148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:83;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4896056;}i:41;a:6:{i:0;s:85:"SELECT * FROM `t_journal` WHERE (unit=9) AND (d_journal=4) ORDER BY `id` DESC LIMIT 4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.577148;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4914880;}i:42;a:6:{i:0;s:85:"SELECT * FROM `t_journal` WHERE (unit=9) AND (d_journal=4) ORDER BY `id` DESC LIMIT 4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.579149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4919952;}i:44;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_journal`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.579149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4924992;}i:45;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `t_journal`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.586149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4936976;}i:47;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_journal' AND kcu.table_name = 't_journal'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.588149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4940304;}i:48;a:6:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_journal' AND kcu.table_name = 't_journal'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.589149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:84;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4943408;}i:50;a:6:{i:0;s:68:"SELECT * FROM `t_new` WHERE newtype_id=11 ORDER BY `id` DESC LIMIT 4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.593149;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4965888;}i:51;a:6:{i:0;s:68:"SELECT * FROM `t_new` WHERE newtype_id=11 ORDER BY `id` DESC LIMIT 4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.59515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4969248;}i:53;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `t_new`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.59515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4974264;}i:54;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `t_new`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60215;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4987960;}i:56;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_new' AND kcu.table_name = 't_new'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60315;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4990640;}i:57;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 't_new' AND kcu.table_name = 't_new'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.60515;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:85;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4993712;}i:60;a:6:{i:0;s:55:"SELECT COUNT(*) FROM `uploads` WHERE `ref`='banner_pmu'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.617151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:29;s:8:"function";s:5:"count";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5156232;}i:61;a:6:{i:0;s:55:"SELECT COUNT(*) FROM `uploads` WHERE `ref`='banner_pmu'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.618151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:29;s:8:"function";s:5:"count";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5157456;}i:63;a:6:{i:0;s:69:"SELECT * FROM `uploads` WHERE `ref`='banner_pmu' ORDER BY `upload_id`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.619151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5159920;}i:64;a:6:{i:0;s:69:"SELECT * FROM `uploads` WHERE `ref`='banner_pmu' ORDER BY `upload_id`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.621151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5162800;}i:66;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `uploads`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.621151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5169344;}i:67;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `uploads`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.629151;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5176224;}i:69;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploads' AND kcu.table_name = 'uploads'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.630152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5182256;}i:70;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploads' AND kcu.table_name = 'uploads'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.632152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:46;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5184840;}i:72;a:6:{i:0;s:68:"SELECT * FROM `uploads` WHERE `ref`='pmu_news1' ORDER BY `upload_id`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.633152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:96;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5185320;}i:73;a:6:{i:0;s:68:"SELECT * FROM `uploads` WHERE `ref`='pmu_news1' ORDER BY `upload_id`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.636152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:96;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5187240;}i:75;a:6:{i:0;s:35:"SELECT * FROM `d_new` WHERE `id`=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.641152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5229296;}i:76;a:6:{i:0;s:35:"SELECT * FROM `d_new` WHERE `id`=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.642152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5231080;}i:78;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `d_new`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.643152;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5235464;}i:79;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `d_new`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.649153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5240992;}i:81;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_new' AND kcu.table_name = 'd_new'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.650153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5247664;}i:82;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_new' AND kcu.table_name = 'd_new'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.652153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:105;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5249648;}i:84;a:6:{i:0;s:35:"SELECT * FROM `d_type` WHERE `id`=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.654153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5269168;}i:85;a:6:{i:0;s:35:"SELECT * FROM `d_type` WHERE `id`=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.655153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5270952;}i:87;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `d_type`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.655153;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5275336;}i:88;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `d_type`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.666154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5280864;}i:90;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_type' AND kcu.table_name = 'd_type'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.667154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5287544;}i:91;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'd_type' AND kcu.table_name = 'd_type'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1541598239.669154;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\views\site\index.php";s:4:"line";i:177;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\controllers\SiteController.php";s:4:"line";i:91;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5289528;}}}";s:5:"event";s:12090:"a:70:{i:0;a:5:{s:4:"time";d:1541598239.320134;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1541598239.354136;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1541598239.371137;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"web_pmu\controllers\SiteController";}i:3;a:5:{s:4:"time";d:1541598239.467142;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:4;a:5:{s:4:"time";d:1541598239.511145;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:5;a:5:{s:4:"time";d:1541598239.513145;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tcontact";}i:6;a:5:{s:4:"time";d:1541598239.540146;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tcontact";}i:7;a:5:{s:4:"time";d:1541598239.542146;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:8;a:5:{s:4:"time";d:1541598239.550147;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Thistory";}i:9;a:5:{s:4:"time";d:1541598239.562148;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Thistory";}i:10;a:5:{s:4:"time";d:1541598239.564148;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:11;a:5:{s:4:"time";d:1541598239.566148;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"web_pmu\models\Banner";}i:12;a:5:{s:4:"time";d:1541598239.575148;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"web_pmu\models\Banner";}i:13;a:5:{s:4:"time";d:1541598239.577148;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:14;a:5:{s:4:"time";d:1541598239.579149;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:15;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:16;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:17;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:18;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:19;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:20;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:21;a:5:{s:4:"time";d:1541598239.590149;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"web_pmu\models\Tjournal";}i:22;a:5:{s:4:"time";d:1541598239.593149;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:23;a:5:{s:4:"time";d:1541598239.59515;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"web_pmu\models\Tnew";}i:24;a:5:{s:4:"time";d:1541598239.60515;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"web_pmu\models\Tnew";}i:25;a:5:{s:4:"time";d:1541598239.612151;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:26;a:5:{s:4:"time";d:1541598239.615151;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:27;a:5:{s:4:"time";d:1541598239.618151;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:28;a:5:{s:4:"time";d:1541598239.621151;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"web_pmu\models\Uploads";}i:29;a:5:{s:4:"time";d:1541598239.633152;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"web_pmu\models\Uploads";}i:30;a:5:{s:4:"time";d:1541598239.633152;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"web_pmu\models\Uploads";}i:31;a:5:{s:4:"time";d:1541598239.633152;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"web_pmu\models\Uploads";}i:32;a:5:{s:4:"time";d:1541598239.633152;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:33;a:5:{s:4:"time";d:1541598239.636152;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"web_pmu\models\Uploads";}i:34;a:5:{s:4:"time";d:1541598239.636152;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"web_pmu\models\Uploads";}i:35;a:5:{s:4:"time";d:1541598239.637152;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:36;a:5:{s:4:"time";d:1541598239.642152;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"web_pmu\models\Dnew";}i:37;a:5:{s:4:"time";d:1541598239.652153;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"web_pmu\models\Dnew";}i:38;a:5:{s:4:"time";d:1541598239.653153;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:39;a:5:{s:4:"time";d:1541598239.655153;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"web_pmu\models\Dtype";}i:40;a:5:{s:4:"time";d:1541598239.669154;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"web_pmu\models\Dtype";}i:41;a:5:{s:4:"time";d:1541598239.671154;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:42;a:5:{s:4:"time";d:1541598239.685155;s:4:"name";s:9:"beginPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:43;a:5:{s:4:"time";d:1541598239.695155;s:4:"name";s:9:"beginBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:44;a:5:{s:4:"time";d:1541598239.701156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\NavBar";}i:45;a:5:{s:4:"time";d:1541598239.705156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\bootstrap\Nav";}i:46;a:5:{s:4:"time";d:1541598239.706156;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\bootstrap\Nav";}i:47;a:5:{s:4:"time";d:1541598239.707156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:48;a:5:{s:4:"time";d:1541598239.708156;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:49;a:5:{s:4:"time";d:1541598239.709156;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:50;a:5:{s:4:"time";d:1541598239.709156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:51;a:5:{s:4:"time";d:1541598239.709156;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:52;a:5:{s:4:"time";d:1541598239.709156;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:53;a:5:{s:4:"time";d:1541598239.709156;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\bootstrap\Nav";}i:54;a:5:{s:4:"time";d:1541598239.710156;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\NavBar";}i:55;a:5:{s:4:"time";d:1541598239.710156;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\NavBar";}i:56;a:5:{s:4:"time";d:1541598239.711156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\widgets\Breadcrumbs";}i:57;a:5:{s:4:"time";d:1541598239.711156;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\widgets\Breadcrumbs";}i:58;a:5:{s:4:"time";d:1541598239.711156;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\widgets\Breadcrumbs";}i:59;a:5:{s:4:"time";d:1541598239.713156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"common\widgets\Alert";}i:60;a:5:{s:4:"time";d:1541598239.713156;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"common\widgets\Alert";}i:61;a:5:{s:4:"time";d:1541598239.713156;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"common\widgets\Alert";}i:62;a:5:{s:4:"time";d:1541598239.715156;s:4:"name";s:7:"endBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:63;a:5:{s:4:"time";d:1541598239.715156;s:4:"name";s:7:"endPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:64;a:5:{s:4:"time";d:1541598239.716156;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"web_pmu\controllers\SiteController";}i:65;a:5:{s:4:"time";d:1541598239.716156;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:66;a:5:{s:4:"time";d:1541598239.716156;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:67;a:5:{s:4:"time";d:1541598239.716156;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:68;a:5:{s:4:"time";d:1541598239.718157;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:69;a:5:{s:4:"time";d:1541598239.718157;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:6:"assets";s:2226:"a:5:{s:23:"web_pmu\assets\AppAsset";a:9:{s:8:"basePath";s:44:"D:/xampp/htdocs/cctwebsystem2019/web_pmu/web";s:7:"baseUrl";s:29:"/cctwebsystem2019/web_pmu/web";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:1:{i:0;s:10:"js/site.js";}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:59:"D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:60:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\web\assets\4daaf698";s:7:"baseUrl";s:45:"/cctwebsystem2019/web_pmu/web/assets/4daaf698";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:63:"D:\xampp\htdocs\cctwebsystem2019/vendor/bower-asset/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:60:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\web\assets\d461944d";s:7:"baseUrl";s:45:"/cctwebsystem2019/web_pmu/web/assets/d461944d";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:66:"D:\xampp\htdocs\cctwebsystem2019/vendor/bower-asset/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:60:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\web\assets\a0faf686";s:7:"baseUrl";s:45:"/cctwebsystem2019/web_pmu/web/assets/a0faf686";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:66:"D:\xampp\htdocs\cctwebsystem2019/vendor/bower-asset/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:60:"D:\xampp\htdocs\cctwebsystem2019\web_pmu\web\assets\a0faf686";s:7:"baseUrl";s:45:"/cctwebsystem2019/web_pmu/web/assets/a0faf686";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1541598239.097121;s:3:"end";d:1541598239.724157;s:6:"memory";i:6024288;}";s:4:"user";s:2:"N;";s:6:"router";s:205:"a:1:{s:8:"messages";a:1:{i:6;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1541598239.320134;i:4;a:0:{}i:5;i:3158000;}}}";s:7:"summary";a:10:{s:3:"tag";s:13:"5be2ec1f4790c";s:3:"url";s:70:"http://localhost/cctwebsystem2019/web_pmu/web/index.php?r=site%2Findex";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:3:"::1";s:4:"time";d:1541598239.014;s:10:"statusCode";i:200;s:8:"sqlCount";i:26;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}}s:10:"exceptions";a:0:{}}

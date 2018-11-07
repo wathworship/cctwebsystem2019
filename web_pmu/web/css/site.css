@@ -240,6 +240,13 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+/*-- banner ------------------------------------------*/
+.button-banner{
+    border-radius: 10px;
+    background-color: #e81271; 
+    border: 1px solid #ff916e;
+    color:white;
+}
 
 /* pan------------------------------------------------*/
 .panel-body-pan{
@@ -537,7 +544,7 @@ a:hover, a:link, a:visited, a:active {
     text-decoration: none;
 }
 
-/* contact---------------------------------------------------*/
+/* contact ---------------------------------------------------*/
 
 #panel-head-contact{
     /*background-color: #ff2e7f;*/
@@ -577,4 +584,5 @@ a:hover, a:link, a:visited, a:active {
     font-size:16.5px;
 }
 
-/*------------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+
