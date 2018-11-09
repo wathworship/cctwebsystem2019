@@ -13,7 +13,7 @@ use web_women\models\Tjournal;
         <table class="table table-hover">
             <thead>
             <tr>
-                <th><p class="link-h-about">คู่มือ พบส.</p></th>
+                <th><p class="link-h-about">คู่มือ หน่วยงานสตรี</p></th>
              
             </tr>
             </thead>

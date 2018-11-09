@@ -6,15 +6,15 @@ use yii\bootstrap\Carousel;
 use yii\bootstrap\Widget;
 use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
-use web_sdsu\models\Uploads;
-use web_sdsu\models\Banner;
+use web_women\models\Uploads;
+use web_women\models\Banner;
 $this->title = 'หน่วยงานพัฒนาและบริการสังคม'
 ?>
 <div class="site-index">
 
     <div class="body-content" style="padding-bottom:2.5vw;">
-        <div style="padding-bottom:1vw;">
-            <marquee behavior="alternate" scrollamount="4" style="font-size:1.2vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+        <div style="padding-bottom:0.5vw;">
+            <marquee behavior="alternate" scrollamount="4" style="font-size:1.2vw"><?= $bible->history_th?></marquee>
         </div>
         
   
@@ -177,53 +177,55 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
         </div>
 <!-- ---------------------------------------------------------------------------------------------- -->   
         <div id="panel-index-calendar" class="panel panel-default responsive" style="margin-top:2.5vw;">
-        <div id="panel-head-index-calendar" class="panel-heading">
-            <h3 id="panel-title-index-calendar" class="panel-title"><b>ปฏิทินกิจกรรม</b> <i class="fas fa-users"></i></h3>
-        </div>
+            <div id="panel-head-index-calendar" class="panel-heading">
+                <h3 id="panel-title-index-calendar" class="panel-title"><b>ปฏิทินกิจกรรม</b> <i class="fas fa-users"></i></h3>
+            </div>
         <div id="panel-body-index-calendar" class="panel-body" align="center">
-        <div class="row">
-        <div class="col-md-7 responsive">  
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
-        </div>
-        <div class="col-md-5 responsive">
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="420" height="400" frameborder="0" scrolling="no"></iframe>
-        </div>
-        </div>
+            <div class="row">
+                <div class="col-md-7 responsive">  
+                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+                </div>
+                
+                <div class="col-md-5 responsive">
+                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23eaeaea&amp;src=webmaster%40cct.or.th&amp;color=%2380d1ef&amp;ctz=Asia%2FBangkok" style="border-width:0" width="420" height="400" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
         </div>
         </div>
 <!-- ---------------------------------------------------------------------------------------------- --> 
         
-        <div class="row">
+<div class="row">
         
-            <div class="col-md-5">
-                <div id="panel-contact" class="panel panel-primary"> 
-                    <div id="panel-head-contact" class="panel-heading">
-                        <h3 id="panel-title-contact" class="panel-title">
-                        <i class="fa fa-envelope" aria-hidden="true"></i> <b>ติดต่อเรา</b>  </h3>
-                    </div>
-
-                    <div class="panel-body panel-body-contact"> 
-                        
-                    
-                        <p style="font-size: 1.2vw; padding-top:0px; padding-bottom:0.7vw"><b><?php echo $map->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
-                        <?php echo $map->contactdetail_th?>
-                    <br>
-                    <br>
-                    </div>
+        <div class="col-md-5">
+            <div id="panel-contact" class="panel panel-primary"> 
+                <div id="panel-head-contact" class="panel-heading">
+                    <h3 id="panel-title-contact" class="panel-title">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <b><?= Html::encode($this->title) ?></b>  </h3>
                 </div>
-            </div>
-            <div class="col-md-7">
-                <div id="panel-contact" class="panel panel-primary"> 
-                    <div id="panel-head-contact" class="panel-heading">
-                        <h3 id="panel-title-contact" class="panel-title">
-                        <span class="glyphicon glyphicon-map-marker"></span> <b>แผนที่</b>  </h3>
-                    </div>
-                    <div class="panel-body panel-body-contact2"> 
-                        <?php echo $map->map ?>
-                    </div>
+
+                <div class="panel-body panel-body-contact"> 
+                    
+                
+                    <p style="padding-top:0px; padding-bottom:10px"><b><?php echo $map->type->type_th?> สภาคริสตจักรในประเทศไทย</b></p>
+                    <?php echo $map->contactdetail_th?>
+                   
+                
                 </div>
             </div>
         </div>
+        <div class="col-md-7">
+            <div id="panel-contact" class="panel panel-primary"> 
+                <div id="panel-head-contact" class="panel-heading">
+                    <h3 id="panel-title-contact" class="panel-title">
+                    <span class="glyphicon glyphicon-map-marker"></span> <b>แผนที่</b>  </h3>
+                </div>
+                <div class="panel-body panel-body-contact2"> 
+                    <?php echo $map->map ?>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 <!---------------------------------------------------------------------------------------------------->
        
     </div>

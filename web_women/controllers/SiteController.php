@@ -8,15 +8,16 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-use web_sdsu\models\PasswordResetRequestForm;
-use web_sdsu\models\ResetPasswordForm;
-use web_sdsu\models\SignupForm;
-use web_sdsu\models\ContactForm;
-use web_sdsu\models\Tcontact;
-use web_sdsu\models\Tjournal;
-use web_sdsu\models\Uploads;
-use web_sdsu\models\Tnew;
-use web_sdsu\models\Banner;
+use web_women\models\PasswordResetRequestForm;
+use web_women\models\ResetPasswordForm;
+use web_women\models\SignupForm;
+use web_women\models\ContactForm;
+use web_women\models\Tcontact;
+use web_women\models\Thistory;
+use web_women\models\Tjournal;
+use web_women\models\Uploads;
+use web_women\models\Tnew;
+use web_women\models\Banner;
 
 /**
  * Site controller
@@ -77,8 +78,9 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $map = Tcontact::find()->where('id_type=8')->one();
+        $map = Tcontact::find()->where('id_type=10')->one();
         $banner = Banner::find()->where('unit=8')->one();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
         //$article = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC')->limit(4)->all();
         $article1 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=9')->one();
         $article2 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=7')->one();
@@ -93,6 +95,7 @@ class SiteController extends Controller
             'article3' => $article3,
             'article4' => $article4,
             'news' => $news,
+            'bible' => $bible,
         ]);
     }
 

@@ -1,0 +1,1120 @@
+2018-11-09 12:20:43 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][Error] Error: Class 'web_women\controllers\Thistory' not found in D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\SiteController.php:82
+Stack trace:
+#0 [internal function]: web_women\controllers\SiteController->actionIndex()
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#5 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2018-11-09 12:20:43 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory/tus'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '61667'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541762443.17
+    'REQUEST_TIME' => 1541762443
+]
+2018-11-09 13:08:59 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'docs' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php:34
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php(34): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\ThistoryController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('plan', Array, Object(web_women\controllers\ThistoryController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\ThistoryController.php(261): yii\base\Controller->render('plan', Array)
+#6 [internal function]: web_women\controllers\ThistoryController->actionPlan()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('plan', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('thistory/plan', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:08:59 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'thistory/plan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory/yut'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '51613'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=thistory%2Fplan'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fplan'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541765339.506
+    'REQUEST_TIME' => 1541765339
+]
+2018-11-09 13:10:09 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'docs' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php:34
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php(34): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\ThistoryController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('plan', Array, Object(web_women\controllers\ThistoryController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\ThistoryController.php(261): yii\base\Controller->render('plan', Array)
+#6 [internal function]: web_women\controllers\ThistoryController->actionPlan()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('plan', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('thistory/plan', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:10:09 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'thistory/plan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory/yut'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '51717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=thistory%2Fplan'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fplan'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541765409.445
+    'REQUEST_TIME' => 1541765409
+]
+2018-11-09 13:10:43 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'docs' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php:35
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php(35): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 35, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\ThistoryController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('plan', Array, Object(web_women\controllers\ThistoryController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\ThistoryController.php(261): yii\base\Controller->render('plan', Array)
+#6 [internal function]: web_women\controllers\ThistoryController->actionPlan()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('plan', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('thistory/plan', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:10:43 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'thistory/plan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory/yut'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '51769'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=thistory%2Fplan'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fplan'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541765442.968
+    'REQUEST_TIME' => 1541765442
+]
+2018-11-09 13:12:23 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'docs' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php:35
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\thistory\plan.php(35): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 35, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\ThistoryController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('plan', Array, Object(web_women\controllers\ThistoryController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\ThistoryController.php(261): yii\base\Controller->render('plan', Array)
+#6 [internal function]: web_women\controllers\ThistoryController->actionPlan()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('plan', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('thistory/plan', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:12:22 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'thistory/plan'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory/yut'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '51918'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=thistory%2Fplan'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fplan'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541765542.921
+    'REQUEST_TIME' => 1541765542
+]
+2018-11-09 13:30:30 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'history_th' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php:15
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php(15): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 15, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\TprojectController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('project', Array, Object(web_women\controllers\TprojectController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TprojectController.php(137): yii\base\Controller->render('project', Array)
+#6 [internal function]: web_women\controllers\TprojectController->actionProject()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('project', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/projec...', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:30:30 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/project'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fpan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '53499'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject/project'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject/project'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541766630.607
+    'REQUEST_TIME' => 1541766630
+]
+2018-11-09 13:31:01 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: pro in D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php:33
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php(33): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 33, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\TprojectController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('project', Array, Object(web_women\controllers\TprojectController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TprojectController.php(137): yii\base\Controller->render('project', Array)
+#6 [internal function]: web_women\controllers\TprojectController->actionProject()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('project', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/projec...', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:31:01 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/project'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fpan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '53547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject/project'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject/project'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541766661.5
+    'REQUEST_TIME' => 1541766661
+]
+2018-11-09 13:31:30 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'type' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php:33
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php(33): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 33, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\TprojectController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('project', Array, Object(web_women\controllers\TprojectController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TprojectController.php(137): yii\base\Controller->render('project', Array)
+#6 [internal function]: web_women\controllers\TprojectController->actionProject()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('project', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/projec...', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:31:30 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/project'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fpan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '53595'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject/project'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject/project'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541766690.503
+    'REQUEST_TIME' => 1541766690
+]
+2018-11-09 13:33:07 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'typee' of non-object in D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php:33
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\web_women\views\tproject\project.php(33): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 33, Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(336): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(web_women\controllers\TprojectController))
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('project', Array, Object(web_women\controllers\TprojectController))
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TprojectController.php(137): yii\base\Controller->render('project', Array)
+#6 [internal function]: web_women\controllers\TprojectController->actionProject()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('project', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/projec...', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-11-09 13:33:07 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/project'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory%2Fpan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '53731'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject/project'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject/project'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541766787.05
+    'REQUEST_TIME' => 1541766787
+]
+2018-11-09 13:37:16 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: tproject/wat in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('wat', Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/wat', Array)
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: ไม่พบหน้า in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-09 13:37:16 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/wat'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=thistory/plan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '54102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject%2Fwat'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject%2Fwat'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541767036.047
+    'REQUEST_TIME' => 1541767036
+]
+2018-11-09 13:37:20 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: tproject/wat in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('wat', Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/wat', Array)
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: ไม่พบหน้า in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-09 13:37:20 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/wat'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=tproject%2Fwat'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '54112'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject%2Fwat'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject%2Fwat'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541767040.573
+    'REQUEST_TIME' => 1541767040
+]
+2018-11-09 13:37:29 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: tproject/wat in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('wat', Array)
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tproject/wat', Array)
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: ไม่พบหน้า in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-09 13:37:29 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tproject/wat'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=tproject%2Fproject'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '54127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tproject%2Fwat'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tproject%2Fwat'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541767049.319
+    'REQUEST_TIME' => 1541767049
+]
+2018-11-09 13:49:06 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][Error] Error: Class 'web_women\controllers\Thistory' not found in D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TjournalController.php:132
+Stack trace:
+#0 [internal function]: web_women\controllers\TjournalController->actionArticle()
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('article', Array)
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tjournal/articl...', Array)
+#5 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2018-11-09 13:49:06 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tjournal/article'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=tjournal%2Farticle2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '55136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tjournal%2Farticle'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tjournal%2Farticle'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541767746.239
+    'REQUEST_TIME' => 1541767746
+]
+2018-11-09 13:56:42 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'doc_type=8' in 'group statement' in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TdocumentController.php(131): yii\db\ActiveQuery->all()
+#6 [internal function]: web_women\controllers\TdocumentController->actionDocument()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('document', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tdocument/docum...', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'doc_type=8' in 'group statement'
+The SQL being executed was: SELECT * FROM `t_document` WHERE type_id=10 GROUP BY `doc_type=8` in D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\xampp\htdocs\cctwebsystem2019\web_women\controllers\TdocumentController.php(131): yii\db\ActiveQuery->all()
+#6 [internal function]: web_women\controllers\TdocumentController->actionDocument()
+#7 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('document', Array)
+#10 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tdocument/docum...', Array)
+#11 D:\xampp\htdocs\cctwebsystem2019\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\cctwebsystem2019\web_women\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'doc_type=8' in 'group statement'
+)
+
+2018-11-09 13:56:42 [::1][-][92tpd7k57kusn0qi1ks8arb7lu][info][application] $_GET = [
+    'r' => 'tdocument/document'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '92tpd7k57kusn0qi1ks8arb7lu'
+    '_csrf-frontend' => 'b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/cctwebsystem2019/web_women/web/index.php?r=tjournal%2Farticle'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'advanced-frontend=92tpd7k57kusn0qi1ks8arb7lu; _csrf-frontend=b602d91a0e406be7d9a310ecb59830502dca538c3745b7fa366ba2507bd86448a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFQ2eV4SA6Ul03h2eOBWUTgrZcXh_gJf%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\IBM\\SPSS\\Statistics\\22\\JRE\\bin;D:\\xampp\\php;D:\\xampp\\htdocs;D:\\Program files;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;E:\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\lKittyzaa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/cctwebsystem2019/web_women/web/index.php'
+    'REMOTE_PORT' => '55823'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tdocument%2Fdocument'
+    'REQUEST_URI' => '/cctwebsystem2019/web_women/web/index.php?r=tdocument%2Fdocument'
+    'SCRIPT_NAME' => '/cctwebsystem2019/web_women/web/index.php'
+    'PHP_SELF' => '/cctwebsystem2019/web_women/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1541768202.426
+    'REQUEST_TIME' => 1541768202
+]

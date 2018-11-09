@@ -3,7 +3,7 @@ body {
     height: 100%;
     font-family: 'Trirong', serif;
     /*background-color:#e4e6f7;*/
-    background-color:/*#e8f2fc*/#e4e6f7;
+    background-color:/*#e8f2fc*/#efdcec;
 }
 
 .wrap {
@@ -47,8 +47,8 @@ body {
 
 
 .navbar {
-    /*background-color:*/ /*#00468b*//*003ab3*//*#0049b3*/background-image: linear-gradient(to right, #c3dcf7 ,#2780e3,#2780e3,#2780e3 ,#3d8cff);
-    border-image: /*#003480*/linear-gradient(to right, #c3dcf7 ,#2780e3,#2780e3,#2780e3 ,#3d8cff);
+    /*background-color:*/ /*#00468b*//*003ab3*//*#0049b3*/background-image: linear-gradient(to right, #f4e8ef ,#a657af,#a657af,#a657af ,#bb7fc2);
+    border-image: /*#003480*/linear-gradient(to right, #f4e8ef ,#a657af,#a657af,#a657af ,#bb7fc2);
     font-family: 'Trirong', serif;
     color:white;
 }
@@ -63,7 +63,7 @@ body {
 
 .navbar .navbar-brand {
     color: white;
-    font-size:1.5vw;
+    font-size:1.4vw;
     text-shadow: black 0.1em 0.1em 0.2em;
     padding: 0px;
 }
@@ -73,21 +73,21 @@ body {
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #1967be;
+    background-color: #783c7e;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {         /* สีของเส้นกั้นระหว่างnavbarกับพื้นหลัง เมื่อกดเปิด navbar*/
-    border-color: #1967be;
+    border-color: #783c7e;
 }
 
 /*---- navbar กระพริบสี-----------------------------*/
 .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
     color: white !important;
-    background-color: #1967be !important;
+    background-color: #783c7e !important;
 }
 
 /*------dropdown hi-light -------------------------*/
 .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
-    background-color: #2780e3 !important;
+    background-color: #a657af !important;
 }
 
 @media (max-width: 767px){
@@ -102,24 +102,24 @@ body {
 
     .navbar-nav li a:hover,.navbar-nav li a:focus, .navbar-nav li.active a {
         color: white !important;
-        background-color: #1967be !important;
+        background-color: #783c7e !important;
     }
 
     
     #w2,#w3{  
-        background-color:#2780e3;
+        background-color:#a657af;
         
     }
 
     .navbar-nav li ul li a:hover,.navbar-nav li ul li.active a{
-        background-color: #1967be !important;
+        background-color: #783c7e !important;
         color:white !important;
     }
 }
 /*เมื่อเปิด navbar dropdown จะเปลี่ยนสี---------------------------------------------*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #1967be;
+    background-color: #783c7e;
 }
 /*------ก่อนกระพริบ-----------------------------------------------*/
 .navbar-inverse .navbar-nav > li > a {
@@ -509,28 +509,29 @@ a.desc:after {
 
 .box-about{
     background-color: #f1f1f1;
-    border-top: 5px solid #375a7f;
+    border-top: 5px solid #8c407f;
 }
 
 .h-box-about{
     font-family: 'Trirong', serif;
     font-size:1.5vw;
-    color:#1f3348;
+    color:#713467;
 }
 
 .in-box-about{
     font-family: 'Trirong', serif;
     font-size:1.26vw;
-    color:#1f3348;
+    color:#2e152a;
 }
 
 .link-about{
-    color:#1f3348;
+    color:#713467;
     text-decoration:none; 
+    font-weight: bold;
 }
 
 .link-h-about{
-    color:#1f3348;
+    color:#713467;
     font-size:1.5vw;
 }
 a:hover, a:link, a:visited, a:active {
@@ -578,3 +579,8 @@ a:hover, a:link, a:visited, a:active {
 }
 
 /*------------------------------------------------------------*/
+ .breadcrumb li a{
+    color:#a74c82;
+}
+
+

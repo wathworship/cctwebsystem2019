@@ -38,7 +38,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="/cctwebsystem2019/images/about/about_sdsu/k11.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
+        'brandLabel' => '<img src="images/about/women.png" class="img-responsive pull-left" width="40" height="35" />'.' '.'<div style="margin:15px;" class="pull-right">'.Yii::$app->name.'</div>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top meenny',
@@ -51,6 +51,8 @@ AppAsset::register($this);
             'label' => 'เกี่ยวกับเรา',
             'items' => [
                  ['label' => 'เกี่ยวกับเรา', 'url' => ['/thistory/about']],
+                 ['label' => 'วิสัยทัศน์ วัตถุประสงค์ เป้าหมาย', 'url' => ['/thistory/tus']],
+                 ['label' => ' ข้อพระคัมภีร์ประจำหน่วยงาน', 'url' => ['/thistory/bible']],
                  ['label' => 'ประวัติความเป็นมา', 'url' => ['thistory/history']],
                  ['label' => 'โครงสร้างองค์กร', 'url' => ['thistory/struct']],
             ],
@@ -58,13 +60,14 @@ AppAsset::register($this);
         [
             'label' => 'พันธกิจ', 
             'items' => [
-                ['label' => 'พันธกิจ', 'url' => ['thistory/pan']],
-                ['label' => 'แผนงานหลัก', 'url' => ['thistory/plan']],
+                ['label' => 'พันธกิจและยุทธศาสตร์', 'url' => ['thistory/pan']],
+				['label' => 'การประสานงานระหว่างหน่วยงาน', 'url' => ['thistory/yut']],
+                ['label' => 'แผนงานตอบสนองนโยบายสภาคริสตจักร', 'url' => ['thistory/plan']],
                 ['label' => 'โครงการ', 'url' => ['tproject/project']],
+				['label' => 'ตัวชี้วัด', 'url' => ['thistory/wat']],
                 ['label' => 'ปฏิทินกิจกรรม', 'url' => ['/site/calendar']],
             ]
         ],
-        ['label' => 'ร่วมสนับสนุน', 'url' => ['/site/donate']],
         ['label' => 'ข่าวสาร', 'url' => ['tnew/news']],
         [
             'label' => 'วารสาร', 

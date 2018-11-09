@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'name' => 'หน่วยงานสตรี',
+    'name' => 'หน่วยงานสตรี และสตรีคริสเตียนสภาฯ',
     'bootstrap' => ['log'],
     'controllerNamespace' => 'web_women\controllers',
     'components' => [
