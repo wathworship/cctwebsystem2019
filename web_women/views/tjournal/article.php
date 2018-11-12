@@ -28,11 +28,11 @@ $this->title = 'วารสาร';
                 <?php foreach($models as $ar){ ?>
                 <div class="col-md-4">
                     <div class="thumbnail box-article" style="height:440px">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $ar->cover?>" class="img-responsive" style="width:250px; height:300px; margin-top:1.1vw;"/>
+                        <img src="images/journals/<?php echo $ar->cover?>" class="img-responsive" style="width:250px; height:300px; margin-top:1.1vw;"/>
                         <div class="in-box-article" style="padding:1vw">
                         <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
                         <p align="center" class="h-box-article"><b><?php echo $ar->name_th?></b></p>
-                        <center><a target ="_blank" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>           
+                        <center><a target ="_blank" href="document/journals/<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>           
                         </div>
                         
                     </div>

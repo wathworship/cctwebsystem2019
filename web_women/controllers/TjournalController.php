@@ -131,7 +131,7 @@ class TjournalController extends Controller
    {   
        //$model = Tjournal::find()->where('unit=8')->orderBy('id DESC')->all(); 
        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
-       $query = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC');
+       $query = Tjournal::find()->where('unit=10')->andWhere('d_journal=5')->orderBy('id DESC');
 
         // get the total number of articles (but do not fetch the article data yet)
         $count = $query->count();
