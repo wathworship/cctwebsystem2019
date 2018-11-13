@@ -1,4 +1,4 @@
-<body style="background-color:#e4e6f7">
+
 <?php
 
 /* @var $this yii\web\View */
@@ -11,7 +11,7 @@ $this->title = 'โครงการ';
 ?>
 <div class="thistory-yut">
 
-    <div style="padding-bottom:1vw;">
+    <div style="padding-bottom:0.5vw;">
         <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw"><?= $bible->history_th?></marquee>
     </div>
 
@@ -53,5 +53,5 @@ $this->title = 'โครงการ';
  
 
 </div>
-</body>
+
 

@@ -40,7 +40,7 @@ body {
     font-size:1.3vw;
 }
 
-#w3,#w4{  
+#w3,#w4,#w5{  
    
     font-size:1.3vw;
 }
@@ -63,7 +63,7 @@ body {
 
 .navbar .navbar-brand {
     color: white;
-    font-size:1.4vw;
+    font-size:1.5vw;
     text-shadow: black 0.1em 0.1em 0.2em;
     padding: 0px;
 }
@@ -302,7 +302,7 @@ a.desc:after {
     color: /*#b39700*/#0049b3;
     text-shadow:  #b8b8b8 0.1em 0.1em 0.2em; 
 }
-/* -form------------------------------------------*/
+/* -formm------------------------------------------*/
 .panel-body-index-form{
   
     background-color: #eeeeee;
@@ -311,7 +311,7 @@ a.desc:after {
     font-family: 'Trirong', serif;
 }
 .box-form{
-    background-color: /*#d8e1fa*/#e7eef5;
+    background-color: /*#d8e1fa*/#ece3f5;
 }
 .in-box-form{
     background-color:/*#ccdbe9*/red;
@@ -360,12 +360,12 @@ a.desc:after {
 }
 
 #panel-index-news{
-    border: 1px solid #80b5ef;
+    border: 1px solid #c4b2ff;
     font-family: 'Trirong', serif;
 }
 
 #panel-head-index-news{
-    background-color: #80b5ef;
+    background-color: #c4b2ff;
     
 }
 
@@ -390,7 +390,7 @@ a.desc:after {
 }
 
 .box-news{
-    background-color: #e8f2fc;
+    background-color: #ebf0ff;
     
 }
 
@@ -402,13 +402,13 @@ a.desc:after {
 .h-box-news{
     font-family: 'Trirong', serif;
     font-size:1.2vw;
-    color:#155ca9;
+    color:#340051;
 }
 
 .button-news{
     border-radius: 10px;
-    background-color: #80b5ef; 
-    border: 1px solid#80b5ef;
+    background-color: #c4b2ff; 
+    border: 1px solid#c4b2ff;
     color:black;
 }
 
@@ -419,12 +419,12 @@ a.desc:after {
 /* index-article----------------------------------------*/
 
 #panel-index-article{
-    border: 1px solid #92abf2;
+    border: 1px solid #d7b2ff;
     font-family: 'Trirong', serif;
 }
 
 #panel-head-index-article{
-    background-color: #92abf2;
+    background-color: #d7b2ff;
     
 }
 
@@ -445,7 +445,7 @@ a.desc:after {
 }
 
 .box-article{
-    background-color: #d8e1fa;
+    background-color: #ece3f5;
 }
 
 .in-box-article{
@@ -461,8 +461,8 @@ a.desc:after {
 
 .button-article{
     border-radius: 10px;
-    background-color: #92abf2; 
-    border: 1px solid #92abf2;
+    background-color: #d7b2ff; 
+    border: 1px solid /*#e0acff*/#d7b2ff;
     color:black;
 }
 
@@ -474,13 +474,13 @@ a.desc:after {
 /* index-calendar -----------------------------------*/
 
 #panel-index-calendar{
-    border: 1px solid #80d1ef;
+    border: 1px solid #e4b2ff;
     font-family: 'Trirong', serif;
     
 }
 
 #panel-head-index-calendar{
-    background-color: #80d1ef;
+    background-color: #e4b2ff;
     
 }
 
@@ -494,7 +494,7 @@ a.desc:after {
 
 #panel-body-index-calendar{
   
-    background-color: #d7f1fa;
+    background-color: #ece3f5;
     color:black; 
     font-size:1.3vw; 
     font-family: 'Trirong', serif;
@@ -543,14 +543,14 @@ a:hover, a:link, a:visited, a:active {
 #panel-head-contact{
     /*background-color: #ff2e7f;*/
     font-family: 'Trirong', serif;
-    background-color: #a8c1da;
-    border-color: #a8c1da;
+    background-color: #c4b6c5;
+    border-color: #c4b6c5;
 }
 
 #panel-title-contact{
     color:black;
     font-size:1.4vw; 
-    text-shadow: white 0.1em 0.1em 0.2em; 
+    text-shadow: white 0.1em 0.1em 0.2em;
     font-family: 'Trirong', serif; 
     padding-left:10px;
 }
@@ -558,12 +558,12 @@ a:hover, a:link, a:visited, a:active {
 #panel-contact{
     
     font-family: 'Trirong', serif;
-    border-color:#a8c1da;
+    border-color:#c4b6c5;
 }
 
 .panel-body-contact,.panel-body-contact2{
     
-    background-color:#e8f2fc;
+    background-color:#efdcec;
     color:black; 
     font-size:1.35vw; 
     font-family: 'Trirong', serif;

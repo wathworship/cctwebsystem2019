@@ -30,7 +30,6 @@ $this->title = 'แผนงานหลัก';
                 
                 <div class="in-box-about" style="padding:1.5vw">
                 <?php $year = date("Y"); ?>
-
                 <center><b><p class="h-box-about" >แผนงานตอบสนองนโยบายสภาคริสตจักร</p></b></center>
                 <center><iframe name="project" class="responsive" style="width:80vw; height:60vw;" src="document/plans/<?php echo $model->docs?>" frameborder="0"></iframe></center>
 

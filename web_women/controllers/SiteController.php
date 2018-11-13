@@ -81,19 +81,13 @@ class SiteController extends Controller
         $map = Tcontact::find()->where('id_type=10')->one();
         $banner = Banner::find()->where('unit=8')->one();
         $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
-        //$article = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC')->limit(4)->all();
-        $article1 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=9')->one();
-        $article2 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=7')->one();
-        $article3 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=5')->one();
-        $article4 = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->andWhere('id=3')->one();
+        $article = Tjournal::find()->where('unit=10')->andWhere('d_journal=5')->orderBy('id DESC')->limit(4)->all();
+     
         $news = Tnew::find()->where('newtype_id=9')->orderBy('id DESC')->limit(4)->all();
         return $this->render('index',[
             'map' => $map,
             'banner' => $banner,
-            'article1' => $article1,
-            'article2' => $article2,
-            'article3' => $article3,
-            'article4' => $article4,
+            'article' => $article,
             'news' => $news,
             'bible' => $bible,
         ]);

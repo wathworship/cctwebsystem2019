@@ -25,7 +25,7 @@ $this->title = 'ประวัติความเป็นมา';
                 
                 <div class="in-box-about" style="padding:1.5vw">
                 <b><p class="h-box-about" ><?php //echo $model->dhistory->d_history_th ?></p></b>-->
-                <center><iframe name="project" class="responsive" style="width:80vw; height:30vw;" src="/cctwebsystem2019/document/history/<?php echo $model->docs?>" frameborder="0"></iframe></center>
+                <center><iframe name="project" class="responsive" style="width:80vw; height:30vw;" src="document/history/<?php echo $model->docs?>" frameborder="0"></iframe></center>
                 <!--</div>
                 
             </div>

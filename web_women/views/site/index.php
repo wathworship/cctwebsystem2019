@@ -8,7 +8,7 @@ use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
 use web_women\models\Uploads;
 use web_women\models\Banner;
-$this->title = 'หน่วยงานพัฒนาและบริการสังคม'
+$this->title = 'หน่วยงานสตรี'
 ?>
 <div class="site-index">
 
@@ -75,105 +75,71 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
 <!-- ------------------------------------------------------------------------------------------------ -->    
 
     <div id="panel-index-news" class="panel panel-default"> 
-        <div id="panel-head-index-news" class="panel-heading">
-            <h3 id="panel-title-index-news" class="panel-title">
-            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>ข่าวสาร</b> </h3>
-        </div>
+            <div id="panel-head-index-news" class="panel-heading">
+                <h3 id="panel-title-index-news" class="panel-title">
+                <i class="fa fa-newspaper" aria-hidden="true"></i> <b>ข่าวสาร</b> </h3>
+            </div>
 
-        <div class="panel-body panel-body-index-news"> 
+            <div class="panel-body panel-body-index-news"> 
 
-            <div class="row" style="padding-top:0.5vw;">
+                <div class="row" style="padding-top:0.5vw;">
 
-            <?php foreach($news as $new) { 
-                $newref = $new->ref;
-            ?>
-                <div class="col-md-3">
-                    <div class="thumbnail box-news">
-                        <?php 
-                            $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
-                        ?>
-                        <img src="/cctwebsystem2019/images/news/sdsu_new/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" style="height:15vw; width:100%" class="img-responsive"/>
-                        <div class="in-box-news" style="padding:1vw">
-                        <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
-                        <?php
-                            $d = strtotime("$new->date_news");
-                        ?>
-                        <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
-                        <p><?php echo $new->newtype->new_th ?></p>
-                        <a href="index.php?r=tnew/detail&id=<?php echo $new->id ?>" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
+                <?php foreach($news as $new) { 
+                    $newref = $new->ref;
+                ?>
+                    <div class="col-md-3">
+                        <div class="thumbnail box-news">
+                            <?php 
+                                $pic = Uploads::find()->where(['ref'=> $newref])->orderBy('upload_id ASC')->one();                              
+                            ?>
+                            <img src="images/news/<?php echo $new->ref?>/<?php echo $pic->real_filename?>" class="img-responsive"/>
+                            <div class="in-box-news" style="padding:1vw">
+                            <b><p class="h-box-news"><?php echo $new->newname_th?></p></b>
+                            <?php
+                                $d = strtotime("$new->date_news");
+                            ?>
+                            <p>วันที่ <?php echo date("d/m/Y", $d) ?></p>
+                            <p><?php echo $new->newtype->new_th ?></p>
+                            <a href="index.php?r=tnew/detail&id=<?php echo $new->id ?>" class="button-news btn btn-default btn-sm" role="button"><b>อ่านต่อ</b></a>
+                            </div>
+                            
                         </div>
-                        
                     </div>
-                </div>
-            <?php } ?>
-        
-                
-            </div> 
-            <a href="index.php?r=tnew/news" class="pull-right button-article-pr btn btn-warning btn-sm" role="button">อ่านต่อทั้งหมด</a>   
-        </div>       
-    </div>
-
+                <?php } ?>
+            
+                    
+                </div> 
+                <a href="index.php?r=tnew/news" class="pull-right button-article-pr btn btn-warning btn-sm" role="button">อ่านต่อทั้งหมด</a>   
+            </div>       
+        </div>
 <!------------------------------------------------------------------------------------------------------>
-        <div id="panel-index-article" class="panel panel-default"> 
-        <div id="panel-head-index-article" class="panel-heading">
-            <h3 id="panel-title-index-article" class="panel-title">
-            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>วารสาร</b> </h3>
-        </div>
+<div id="panel-index-article" class="panel panel-default"> 
+            <div id="panel-head-index-article" class="panel-heading">
+                <h3 id="panel-title-index-article" class="panel-title">
+                <i class="fa fa-newspaper" aria-hidden="true"></i> <b>วารสาร</b> </h3>
+            </div>
 
-        <div class="panel-body panel-body-index-article"> 
-            <div class="row" style="padding-top:0.5vw;">
+            <div class="panel-body panel-body-index-article"> 
+                <div class="row" style="padding-top:0.5vw;">
 
-                <?php //foreach($article as $ar){ ?>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article1->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article1->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article1->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                    <?php foreach($article as $ar){ ?>
+                    <div class="col-md-3">
+                        <div class="thumbnail box-article">
+                            <img src="images/journals/<?php echo $ar->cover?>" class="img-responsive" style="height:250px;"/>
+                            <div class="in-box-article" style="padding:1vw">
+                            <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
+                            <p align="center"><?php echo $ar->issue?></p>
+                            <center><a target ="_blank" style=" text-align: center;" href="document/journals/<?php echo $ar->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
+                            </div>
+                            
                         </div>
-                        
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article4->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article4->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article4->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article2->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article2->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article2->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail box-article">
-                        <img src="/cctwebsystem2019/images/journals/journal_sdsu/<?php echo $article3->cover?>" class="img-responsive" style="height:25vw;"/>
-                        <div class="in-box-article" style="padding:1vw">
-                        <!--<b><p class="h-box-article" align="center"><?php //echo $ar->name_th ?></p></b>-->
-                        <p align="center"><?php echo $article3->issue?></p>
-                        <center><a target ="_blank" style=" text-align: center;" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $article3->journal_file ?>" class="button-article btn btn-default btn-sm" role="button"><i class="fa fa-download" aria-hidden="true"></i> <b>ดาวน์โหลด</b></a></center>
-                        </div>
-                        
-                    </div>
-                </div>
 
-                <?php //} ?>
-                
-            </div> 
-                
-        </div>
+                    <?php } ?>
+                    
+                </div> 
+                    
+            </div>
         </div>
 <!-- ---------------------------------------------------------------------------------------------- -->   
         <div id="panel-index-calendar" class="panel panel-default responsive" style="margin-top:2.5vw;">
@@ -200,7 +166,7 @@ $this->title = 'หน่วยงานพัฒนาและบริกา�
             <div id="panel-contact" class="panel panel-primary"> 
                 <div id="panel-head-contact" class="panel-heading">
                     <h3 id="panel-title-contact" class="panel-title">
-                    <i class="fa fa-envelope" aria-hidden="true"></i> <b><?= Html::encode($this->title) ?></b>  </h3>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <b>ติดต่อเรา</b>  </h3>
                 </div>
 
                 <div class="panel-body panel-body-contact"> 

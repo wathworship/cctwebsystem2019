@@ -11,7 +11,7 @@ $this->title = 'เกี่ยวกับเรา';
 ?>
 <div class="thistory-about">
 
-    <div style="padding-bottom:1vw;">
+    <div style="padding-bottom:0.5vw;">
         <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw"><?= $bible->history_th?></marquee>
     </div>
 
