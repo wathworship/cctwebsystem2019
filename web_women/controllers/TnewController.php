@@ -3,8 +3,8 @@
 namespace web_women\controllers;
 
 use Yii;
-use web_sdsu\models\Tnew;
-use web_sdsu\models\TnewSearch;
+use web_women\models\Tnew;
+use web_women\models\TnewSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
