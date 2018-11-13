@@ -13,29 +13,34 @@ use web_women\models\Thistory;
         <table class="table table-hover">
             <thead>
             <tr>
-                <th><p class="link-h-about">พันธกิจ พบส.</p></th>
+                <th><p class="link-h-about">พันธกิจหน่วยงานสตรี</p></th>
              
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td><a  class="link-about" href="index.php?r=thistory/pan"><i class="fa fa-chevron-right" aria-hidden="true"></i> พันธกิจ</a></td>
+                <td><a  class="link-about" href="index.php?r=thistory/pan"><i class="fa fa-chevron-right" aria-hidden="true"></i> พันธกิจและยุทธศาสตร์</a></td>
                 
             </tr>
             <tr>
-                <td><a class="link-about" href="index.php?r=thistory/yut"><i class="fa fa-chevron-right" aria-hidden="true"></i> ยุทธศาสตร์</a></td>
+                <td><a class="link-about" href="index.php?r=thistory/yut"><i class="fa fa-chevron-right" aria-hidden="true"></i> การประสานงานระหว่างหน่วยงาน</a></td>
                 
+            </tr>
+            
+            <tr>
+                <td><a class="link-about" href="index.php?r=thistory/plan"><i class="fa fa-chevron-right" aria-hidden="true"></i> แผนงาน</a></td>
+               
+            </tr>
+            <tr>
+                <td><a class="link-about" href="index.php?r=tproject/project"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงการ</a></td>
+               
             </tr>
             <tr>
                 <td><a class="link-about" href="index.php?r=thistory/wat"><i class="fa fa-chevron-right" aria-hidden="true"></i> ตัวชี้วัด</a></td>
                
             </tr>
             <tr>
-                <td><a class="link-about" href="index.php?r=thistory/plan"><i class="fa fa-chevron-right" aria-hidden="true"></i> แผนงานหลัก</a></td>
-               
-            </tr>
-            <tr>
-                <td><a class="link-about" href="index.php?r=tproject/project"><i class="fa fa-chevron-right" aria-hidden="true"></i> โครงการ</a></td>
+                <td><a class="link-about" href="index.php?r=site/calendar"><i class="fa fa-chevron-right" aria-hidden="true"></i> ปฏิทินกิจกรรม</a></td>
                
             </tr>
       

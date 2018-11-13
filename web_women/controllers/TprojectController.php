@@ -3,8 +3,9 @@
 namespace web_women\controllers;
 
 use Yii;
-use web_sdsu\models\Tproject;
-use web_sdsu\models\TprojectSearch;
+use web_women\models\Thistory;
+use web_women\models\Tproject;
+use web_women\models\TprojectSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -128,11 +129,14 @@ class TprojectController extends Controller
         public function actionProject()
     {
         $year = date("Y");
-        $model = Tproject::find()->where('type_id=8')->andWhere(['year'=> $year])->all();
+        $model = Tproject::find()->where('type_id=10')->andWhere(['year'=> $year])->all();
+        $name = Tproject::find()->where('type_id=10')->andWhere(['year'=> $year])->one();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
 
         return $this->render('project', [
             'model' => $model,
-           
+            'bible' => $bible,
+            'name' => $name,
         ]);
     }
 

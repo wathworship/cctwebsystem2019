@@ -3,8 +3,9 @@
 namespace web_women\controllers;
 
 use Yii;
-use web_sdsu\models\Tjournal;
-use web_sdsu\models\TjournalSearch;
+use web_women\models\Thistory;
+use web_women\models\Tjournal;
+use web_women\models\TjournalSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -129,7 +130,7 @@ class TjournalController extends Controller
     public function actionArticle() 
    {   
        //$model = Tjournal::find()->where('unit=8')->orderBy('id DESC')->all(); 
-
+       $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
        $query = Tjournal::find()->where('unit=8')->andWhere('d_journal=2')->orderBy('id DESC');
 
         // get the total number of articles (but do not fetch the article data yet)
@@ -146,6 +147,7 @@ class TjournalController extends Controller
 
        return $this->render('article', [ 
            'models' => $models, 
+           'bible' => $bible,
            'pagination' => $pagination,
        ]); 
    }
@@ -154,11 +156,11 @@ class TjournalController extends Controller
    public function actionArticle2() 
    {   
 
-        $article2 = Tjournal::find()->where('unit=8')->andWhere('d_journal=3')->orderBy('id ASC')->all();
-
+        $article2 = Tjournal::find()->where('unit=10')->andWhere('d_journal=6')->orderBy('id ASC')->all();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
         return $this->render('article2', [
             'article2' => $article2,
-           
+            'bible' => $bible,
         ]);
     
    } 

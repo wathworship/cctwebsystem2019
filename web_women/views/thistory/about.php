@@ -1,4 +1,4 @@
-<body style="background-color:#e4e6f7">
+
 <?php
 
 /* @var $this yii\web\View */
@@ -12,11 +12,11 @@ $this->title = 'เกี่ยวกับเรา';
 <div class="thistory-about">
 
     <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw"><?= $bible->history_th?></marquee>
     </div>
 
     <ul class="breadcrumb">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li class="active"><?= $this->title ?></li>
     </ul>
 
@@ -28,7 +28,7 @@ $this->title = 'เกี่ยวกับเรา';
                 
                 <div class="in-box-about" style="padding:1.5vw">
                 <b><p class="h-box-about"><?php echo $model->dhistory->d_history_th ?></p></b>
-                <img src="/cctwebsystem2019/images/about/about_sdsu/<?php echo $model->ref?>" class="img-responsive pull-right" style="margin-left:1vw; width:14vw; height:14vw;"/>
+                <img src="images/about/<?php echo $model->ref?>" class="img-responsive pull-right" style="margin-left:1vw; width:14vw; height:14vw;"/>
                 <p><?php echo $model->history_th?></p>
                 </div>
                 
@@ -48,4 +48,4 @@ $this->title = 'เกี่ยวกับเรา';
 
 
 </div>
-</body>
+

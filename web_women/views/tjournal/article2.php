@@ -16,7 +16,7 @@ $this->title = 'บทความ';
     </div>
 
     <ul class="breadcrumb">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li class="active"><?= $this->title ?></li>
     </ul>
 
@@ -33,7 +33,7 @@ $this->title = 'บทความ';
                 <b><p class="h-box-about" >บทความ</p></b>
                 <?php foreach($article2 as $ar2) { ?>
                 
-                <a target ="_blank" href="/cctwebsystem2019/document/doc_sdsu/journals/<?php echo $ar2->journal_file?>"> <i style="color:#999999" class="fa fa-download" aria-hidden="true"></i> <?php echo $ar2->name_th?> </a><br>
+                <a target ="_blank" href="document/journals/<?php echo $ar2->journal_file?>"> <i style="color:#999999" class="fa fa-download" aria-hidden="true"></i> <?php echo $ar2->name_th?> </a><br>
                 <!--<a target ="_blank" href="index.php?r=tproject/detailproject&id=<?php //echo $pro->id?>"> <?php //echo $pro->projectname_th?> <i class="fa fa-download" aria-hidden="true"></i></a><br>-->
                 <?php } ?>
 

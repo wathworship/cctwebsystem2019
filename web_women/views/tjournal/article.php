@@ -11,7 +11,7 @@ $this->title = 'วารสาร';
 <div class="site-article">
 
     <ul class="breadcrumb" style="background-color:#f6f6f6">
-        <li><a style="color:#375a7f" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
+        <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> หน้าหลัก</a></li>
         <li  class="active">วารสาร</li>
     </ul>
 
@@ -19,7 +19,7 @@ $this->title = 'วารสาร';
     <div id="panel-index-article" class="panel panel-default"> 
         <div id="panel-head-index-article" class="panel-heading">
             <h3 id="panel-title-index-article" class="panel-title">
-            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>วารสารสภาคริสตจักร</b> </h3>
+            <i class="fa fa-newspaper" aria-hidden="true"></i> <b>วารสารหน่วยงานสตรี</b> </h3>
         </div>
 
         <div class="panel-body panel-body-index-article"> 

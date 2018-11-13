@@ -128,7 +128,7 @@ class TdocumentController extends Controller
 
     public function actionDocument()
     {
-        $model = Tdocument::find()->where('type_id=8')->groupBy(['doc_type'])->all();
+        $model = Tdocument::find()->where('type_id=10')->andWhere('doc_type=8')->all();
         return $this->render('document', [
             'model' => $model,
         ]);
