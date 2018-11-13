@@ -161,6 +161,22 @@ class ThistoryController extends Controller
         ]);
     }
 
+    public function actionChristian_women_vision()
+    {
+        $model = Thistory::find()->where('history_type=10')->andWhere('d_history=4')->one();
+        $objective = Thistory::find()->where('history_type=31')->andWhere('d_history=5')->one();
+        $goal = Thistory::find()->where('history_type=10')->andWhere('d_history=6')->one();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
+     
+
+        return $this->render('christian_women_vision', [
+            'model' => $model,
+            'objective' => $objective,
+            'goal' => $goal,
+            'bible' => $bible,
+        ]);
+    }
+
     public function actionBible()
     {
         $model = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
@@ -243,10 +259,34 @@ class ThistoryController extends Controller
     public function actionHistory()
     {
         $model = Thistory::find()->where('history_type=10')->andWhere('d_history=2')->one();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
+ 
 
         return $this->render('history', [
             'model' => $model,
-           
+            'bible' => $bible,
+        ]);
+    }
+
+    public function actionChristian_women_history()
+    {
+        $model = Thistory::find()->where('history_type=31')->andWhere('d_history=2')->one();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
+        
+        return $this->render('christian_women_history', [
+            'model' => $model,
+            'bible' => $bible,
+        ]);
+    }
+
+    public function actionChristian_women_mission()
+    {
+        $model = Thistory::find()->where('history_type=31')->andWhere('d_history=9')->one();
+        $bible = Thistory::find()->where('history_type=10')->andWhere('d_history=7')->one();
+        
+        return $this->render('christian_women_mission', [
+            'model' => $model,
+            'bible' => $bible,
         ]);
     }
 
@@ -260,9 +300,6 @@ class ThistoryController extends Controller
              'model' => $model,
              'bible' => $bible,
          ]);
-     
     } 
-
-   
 
 }

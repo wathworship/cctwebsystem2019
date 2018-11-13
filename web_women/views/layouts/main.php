@@ -7,10 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use web_sdsu\assets\AppAsset;
+use web_women\assets\AppAsset;
 use common\widgets\Alert;
-use web_sdsu\models\Tcontact;
-use web_sdsu\models\Tnew;
+use web_women\models\Tcontact;
+use web_women\models\Tnew;
 
 //raoul2000\bootswatch\BootswatchAsset::$theme = 'cosmo';
 AppAsset::register($this);
@@ -60,10 +60,10 @@ AppAsset::register($this);
         [
             'label' => 'สตรีคริสเตียนสภาฯ',
             'items' => [
-                 ['label' => 'ประวัติสตรีคริสเตียนสภาฯ', 'url' => ['/thistory/about2']],
-                 ['label' => 'วิสัยทัศน์ วัตถุประสงค์ เป้าหมาย', 'url' => ['/thistory/tus2']],
-                 ['label' => 'โครงสร้างการบริหารงานสตรีคริสเตียนสภาฯ', 'url' => ['/thistory/struct2']],
-                 ['label' => 'พันธกิจของสตรีคริสเตียนสภาฯ', 'url' => ['thistory/pan2']],
+                 ['label' => 'ประวัติสตรีคริสเตียนสภาฯ', 'url' => ['/thistory/christian_women_history']],
+                 ['label' => 'วิสัยทัศน์ วัตถุประสงค์ เป้าหมาย', 'url' => ['/thistory/christian_women_vision']],
+                 ['label' => 'โครงสร้างการบริหารงานสตรีคริสเตียนสภาฯ', 'url' => ['/thistory/christian_women_struct']],
+                 ['label' => 'พันธกิจของสตรีคริสเตียนสภาฯ', 'url' => ['thistory/christian_women_mission']],
             ],
         ],
         [

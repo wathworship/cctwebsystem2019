@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
-use web_sdsu\models\Tdocument;
+use web_women\models\Tdocument;
 
 $this->title = 'ดาวน์โหลดเอกสาร';
 

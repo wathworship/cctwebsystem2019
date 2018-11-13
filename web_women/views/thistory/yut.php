@@ -27,8 +27,8 @@ $this->title = 'การประสานงานระหว่างหน�
             <div class="thumbnail box-about">
                 
                 <div class="in-box-about" style="padding:1.5vw">
-                <center><b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?>สตรีกับกรรมการดำเนินงานสตรีสภาฯ</p></b></center>
-                <center><iframe name="project" class="responsive" style="width:80vw; height:60vw;" src="document/coordination/<?php echo $model->docs?>" frameborder="0"></iframe></center>
+                    <center><b><p class="h-box-about" ><?php echo $model->dhistory->d_history_th ?>สตรีกับกรรมการดำเนินงานสตรีสภาฯ</p></b></center>
+                    <center><iframe name="project" class="responsive" style="width:80vw; height:60vw;" src="document/coordination/<?php echo $model->docs?>" frameborder="0"></iframe></center>
                 </div>
                 
             </div>

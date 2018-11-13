@@ -11,7 +11,7 @@ $this->title = 'ประวัติความเป็นมา';
 <div class="thistory-history">
 
     <div style="padding-bottom:1vw;">
-        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw">"เราบอกความจริงแก่ท่านทั้งหลายว่า ซึ่งท่านได้กระทำแก่คนใดคนหนึ่งในพวกพี่น้องของเรานี้ ถึงแม้จะต่ำต้อยเพียงไร ก็เหมือนได้กระทำแก่เราด้วย" (มัทธิว 25:40)</marquee>
+        <marquee behavior="alternate" scrollamount="4" style="font-size:1.08vw"></marquee>
     </div>
 
     <ul class="breadcrumb">
@@ -25,7 +25,7 @@ $this->title = 'ประวัติความเป็นมา';
                 
                 <div class="in-box-about" style="padding:1.5vw">
                 <b><p class="h-box-about" ><?php //echo $model->dhistory->d_history_th ?></p></b>-->
-                <center><iframe name="project" class="responsive" style="width:80vw; height:30vw;" src="document/history/<?php echo $model->docs?>" frameborder="0"></iframe></center>
+                <center><iframe name="project" class="responsive" style="width:80vw; height:85vw;" src="document/history/<?php echo $model->docs?>" frameborder="0"></iframe></center>
                 <!--</div>
                 
             </div>

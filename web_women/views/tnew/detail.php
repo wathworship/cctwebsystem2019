@@ -5,8 +5,8 @@ use yii\bootstrap\Carousel;
 use yii\bootstrap\Widget;
 use yii\bootstrap\BootstrapWidgetTrait;
 use yii\helpers\Html;
-use web_sdsu\models\Tnew;
-use web_sdsu\models\Uploads;
+use web_women\models\Tnew;
+use web_women\models\Uploads;
 
 $this->title = 'ข่าวสารหน่วยงานพัฒนาและบริการสังคม';
 //$this->params['breadcrumbs'][] = $this->title;
